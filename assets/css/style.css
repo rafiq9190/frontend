@@ -1,0 +1,203 @@
+/* Deep Purple: #4B0082
+Lavender Purple: #8B7B8B
+Light Grey: #D3D3D3
+Medium Grey: #808080
+Dark Grey: #666666 */
+@font-face {
+    font-family: 'Cabin', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap");
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+}
+
+:root {
+    --border-coloe: $purple
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    color: #000 !important;
+    padding: 0px
+}
+
+.base-color {
+    color: #F10466
+}
+
+.backgroundColor {
+    background-color: #ffeef2;
+}
+
+.border-color {
+    color: #F10466 !important;
+}
+
+.base-background {
+    background-color: #F10466;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.f-links li:hover {
+    color: #F10466
+}
+
+.f-icon {
+    color: #F10466
+}
+
+.f-icon:hover {
+    color: White
+}
+
+
+.border-divider {
+    border: 1px solid #F10466
+}
+
+
+
+.name-generator-container {
+    max-width: 612px;
+    height: 207px;
+    background-color: #FFE3EA;
+    padding: 1rem
+}
+
+.links-color li a {
+    color: #000 !important
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+.tool-name-btn {
+    background-color: #FFE3EA;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+/* .tool-name-btn:hover {
+    background-color: #F10466;
+    color: White;
+
+} */
+
+.generate-delete-div {
+    height: 36px;
+}
+
+.btn:hover {
+    background-color: #F10466;
+    color: #fff;
+
+}
+
+.custom-radio-style {
+    border: 1px solid #F10466
+}
+
+.custom-radio-style:checked {
+    background-color: #F10466;
+    border: 2px solid #F10466 !important;
+}
+
+.fontSize-18 {
+    font-size: 1.25rem;
+}
+
+
+.custom-radio-style[type=radio] {
+    color: #FFE3EA
+}
+
+
+.feature-heading {
+    font-size: calc(1.375rem + 1.5vw);
+
+}
+
+
+.banner-btn button {
+    background-color: #8338ec;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+/* .side-ad {
+    width: 664px;
+    height: 97px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+} */
+
+.banner-btn button:hover {
+    background-color: #8338ec;
+    color: #fff
+}
+
+.side-ad {
+    width: 311px;
+    height: 97px;
+    border-radius: 20px;
+    /* background-color: #d9d9d9; */
+    margin: auto;
+}
+
+.large-screen-ad {
+    width: 300px;
+    height: 97px;
+    border-radius: 20px;
+    /* background-color: #d9d9d9; */
+    margin: auto
+}
+
+
+@media (min-width:768px) {
+    .banner-heading h1 {
+        font-size: 4rem
+    }
+
+
+    .side-ad {
+        width: 664px;
+        height: 97px;
+        border-radius: 20px;
+        /* background-color: #d9d9d9; */
+    }
+
+    .large-screen-ad {
+        width: 662px;
+        height: 97px;
+        border-radius: 20px;
+        /* background-color: #d9d9d9; */
+
+    }
+
+
+}
+
+@media (min-width:992px) {
+    .side-ad {
+        width: 225px;
+        height: 263px;
+        border-radius: 20px;
+        /* background-color: #d9d9d9; */
+    }
+
+    .large-screen-ad {
+        /* background-color: #d9d9d9; */
+        width: 150px;
+        height: 430px;
+
+    }
+}
