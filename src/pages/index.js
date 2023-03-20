@@ -6,16 +6,16 @@ import Seo from "../components/seo";
 import { fetchAPI } from "../../lib/api";
 import Preloader from "../components/preloader";
 import Banner from '../components/homeBanner';
-import RelatedTools from "../components/relatedTools";
+// import RelatedTools from "../components/relatedTools";
 
 // const Banner = dynamic(() => import('../components/homeBanner'), {
 //   ssr: false,
 //   loading: () => <Preloader />
 // });
-// const RelatedTools = dynamic(() => import('../components/relatedTools'));
+const RelatedTools = dynamic(() => import('../components/relatedTools'));
 
 const Home = ({ articles, homepage, global }) => {
-  
+  console.log('global', global)
   const logo = global.attributes.logo
   // const whiteLogo = global.attribute.whiteLogo
 
@@ -26,7 +26,7 @@ const Home = ({ articles, homepage, global }) => {
         <div className="">
           <Banner homepage={homepage} />
           {/* <Articles articles={articles}/> */}
-          {/* <RelatedTools articles={articles} /> */}
+          <RelatedTools articles={articles} />
 
           {/* <FeatureBlog articles={articles} /> */}
           {/* <Articles articles={articles} /> */}
@@ -58,7 +58,7 @@ export async function getServerSideProps() {
     },
     // revalidate: 900,
   };
- 
+
 }
 
 export default Home;

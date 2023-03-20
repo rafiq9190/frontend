@@ -7,7 +7,7 @@ import logo from '../../public/logo.png'
 
 const Nav = ({ logo }) => {
     console.log('logo', logo)
-    const { alternativeText, height, width } = logo.data.attributes
+    // const { alternativeText, height, width } = logo.data.attributes
 
     return (
         <div>
@@ -15,7 +15,7 @@ const Nav = ({ logo }) => {
                 <div className="container">
                     <Link href='/' className="navbar-brand">
                         <div className=" d-md-block d-lg-none">
-                            <NextImage
+                            {/* <NextImage
                                 src={getStrapiMedia(logo)}
                                 className="img-fluid"
                                 // placeholder="blur"
@@ -23,7 +23,7 @@ const Nav = ({ logo }) => {
                                 height={height}
                                 alt={alternativeText}
                                 
-                            />
+                            /> */}
 
                         </div>
 
@@ -50,14 +50,14 @@ const Nav = ({ logo }) => {
                             </li>
                             <li className="nav-item">
                                 <div className=" d-none d-lg-block">
-                                    <NextImage
+                                    {/* <NextImage
                                         src={getStrapiMedia(logo)}
                                         className="img-fluid "
                                         width={100}
                                         height={75}
                                         alt={alternativeText}
                                         
-                                    />
+                                    /> */}
 
                                 </div>
                             </li>

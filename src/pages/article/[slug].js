@@ -13,7 +13,7 @@ import NextImage from 'next/legacy/image'
 const Article = ({ article, categories, allArticles }) => {
   const [feature, setFeature] = useState('')
   const [latest, setLatest] = useState('')
-  console.log('articlesRes', allArticles)
+  
   const imageUrl = getStrapiMedia(article.attributes.image);
 
   let filtered = allArticles.data.filter((article) => {
