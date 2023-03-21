@@ -5,9 +5,11 @@ import NextImage from 'next/legacy/image'
 import { getStrapiMedia } from "../../lib/media";
 import logo from '../../public/logo.png'
 
-const Nav = ({ logo }) => {
-    console.log('logo', logo)
-    // const { alternativeText, height, width } = logo.data.attributes
+const Nav = () => {
+
+
+
+
 
     return (
         <div>
@@ -15,15 +17,16 @@ const Nav = ({ logo }) => {
                 <div className="container">
                     <Link href='/' className="navbar-brand">
                         <div className=" d-md-block d-lg-none">
-                            {/* <NextImage
-                                src={getStrapiMedia(logo)}
+                            <NextImage
+                                src={logo}
                                 className="img-fluid"
                                 // placeholder="blur"
-                                width={width}
-                                height={height}
-                                alt={alternativeText}
-                                
-                            /> */}
+                                width={100}
+                                height={75}
+                                alt="Pet Name generator logo"
+
+
+                            />
 
                         </div>
 
@@ -50,14 +53,14 @@ const Nav = ({ logo }) => {
                             </li>
                             <li className="nav-item">
                                 <div className=" d-none d-lg-block">
-                                    {/* <NextImage
-                                        src={getStrapiMedia(logo)}
+                                    <NextImage
+                                        src={logo}
                                         className="img-fluid "
-                                        width={100}
-                                        height={75}
-                                        alt={alternativeText}
-                                        
-                                    /> */}
+                                        width={75}
+                                        height={50}
+                                        alt="Pet Name Generator logo"
+
+                                    />
 
                                 </div>
                             </li>

@@ -13,7 +13,7 @@ import NextImage from 'next/legacy/image'
 const Article = ({ article, categories, allArticles }) => {
   const [feature, setFeature] = useState('')
   const [latest, setLatest] = useState('')
-  
+
   const imageUrl = getStrapiMedia(article.attributes.image);
 
   let filtered = allArticles.data.filter((article) => {
@@ -73,18 +73,25 @@ const Article = ({ article, categories, allArticles }) => {
                 <h2>Latest Post</h2>
                 <div className='row'>
                   {
-                    latestPosts && latestPosts.map((latestPost,index) => {
+                    latestPosts && latestPosts.map((latestPost, index) => {
 
 
                       const getLatestPostImage = latestPost.attributes.image
-
+                      const { width, height, alternativeText } = getLatestPostImage.data.attributes
                       return (
                         <div className='col-12 col-md-6 col-lg-12 my-2' key={index}>
                           <Link href={`/article/${latestPost.attributes.slug}`}>
                             <div className="card rounded border-0 shadow p-2">
                               <div className="row g-0 align-items-center">
                                 <div className="col-md-4">
-                                  <img src={getStrapiMedia(getLatestPostImage)} className="img-fluid rounded-start" alt="..." />
+                                  <NextImage
+                                    src={getStrapiMedia(getLatestPostImage)}
+                                    className="img-fluid rounded-start"
+                                    alt={alternativeText}
+                                    width={width}
+                                    height={height}
+                                  />
+
                                 </div>
                                 <div className="col-md-8 overflow-hidden">
                                   <div className="card-body">
@@ -107,16 +114,23 @@ const Article = ({ article, categories, allArticles }) => {
 
                   <h2 className='fw-bold'>Feature Posts</h2>
                   {
-                    filtered.map((featureArticle,index) => {
+                    filtered.map((featureArticle, index) => {
                       console.log('featureAtricle', featureArticle)
                       const articleTime = featureArticle.attributes.updatedAt
                       const getFeaturePostImage = featureArticle.attributes.image
+                      const { width, height, alternativeText } = getFeaturePostImage.data.attributes
                       return (
                         <div className='col-12 col-md-6 col-lg-12' key={index}>
                           <Link href={`/article/${featureArticle.attributes.slug}`}>
                             <Card className='rounded border-0 shadow p-2 my-3'>
 
-                              <Card.Img variant="top" className='img-fluid' src={getStrapiMedia(getFeaturePostImage)} />
+                              <NextImage
+                                className='img-fluid'
+                                src={getStrapiMedia(getFeaturePostImage)}
+                                alt={alternativeText}
+                                width={width}
+                                height={height}
+                              />
 
                               <Card.Body>
                                 <Card.Title>{featureArticle.attributes.title}</Card.Title>
@@ -145,10 +159,10 @@ const Article = ({ article, categories, allArticles }) => {
             </div>
             <div className="col-12 col-lg-8 shadow p-2 order-0 order-lg-1">
               <h1 className="text-center text-lg-start my-3 base-color">{article.attributes.title}</h1>
-              <ReactMarkdown >{article.attributes.content}</ReactMarkdown>
+              <ReactMarkdown>{article.attributes.content}</ReactMarkdown>
               <div>
                 {article.attributes.author.data.attributes.picture && (
-                  <img
+                  <NextImage
                     src={getStrapiMedia(
                       article.attributes.author.data.attributes.picture
                     )}
@@ -156,6 +170,8 @@ const Article = ({ article, categories, allArticles }) => {
                       article.attributes.author.data.attributes.picture.data
                         .attributes.alternativeText
                     }
+                    width={100}
+                    height={100}
                     style={{
                       position: "static",
                       borderRadius: "20%",
@@ -225,6 +241,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+
   const articlesRes = await fetchAPI("/articles", {
     filters: {
       slug: params.slug,
@@ -236,7 +253,7 @@ export async function getStaticProps({ params }) {
 
   return {
     props: { article: articlesRes.data[0], categories: categoriesRes, allArticles: allArticles },
-    revalidate: 1,
+    revalidate: 60,
   };
 }
 

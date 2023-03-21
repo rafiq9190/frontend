@@ -6,21 +6,15 @@ import Seo from "../components/seo";
 import { fetchAPI } from "../../lib/api";
 import Preloader from "../components/preloader";
 import Banner from '../components/homeBanner';
-// import RelatedTools from "../components/relatedTools";
+import RelatedTools from "../components/relatedTools";
 
-// const Banner = dynamic(() => import('../components/homeBanner'), {
-//   ssr: false,
-//   loading: () => <Preloader />
-// });
-const RelatedTools = dynamic(() => import('../components/relatedTools'));
+
 
 const Home = ({ articles, homepage, global }) => {
-  console.log('global', global)
-  const logo = global.attributes.logo
-  // const whiteLogo = global.attribute.whiteLogo
-
+  console.log('global-index', global)
+  let logo = global.attributes.logo
   return (
-    <Layout logo={logo} >
+    <Layout logo={logo}>
       <Seo seo={homepage.attributes.seo} />
       <div className="">
         <div className="">
@@ -36,9 +30,12 @@ const Home = ({ articles, homepage, global }) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getServerSideProps({ req, res }) {
   // Run API calls in parallel
-
+  res.setHeader(
+    'Cache-Control',
+    'public, s-maxage=10, stale-while-revalidate=59'
+  )
   const [articlesRes, categoriesRes, homepageRes] = await Promise.all([
     fetchAPI("/articles", { populate: ["image", "category"] }),
     fetchAPI("/categories", { populate: "*" }),
@@ -48,6 +45,7 @@ export async function getServerSideProps() {
         seo: { populate: "*" },
       },
     }),
+  
   ]);
 
   return {
@@ -55,8 +53,9 @@ export async function getServerSideProps() {
       articles: articlesRes.data,
       categories: categoriesRes.data,
       homepage: homepageRes.data,
+      
     },
-    // revalidate: 900,
+    // revalidate: 60,
   };
 
 }
