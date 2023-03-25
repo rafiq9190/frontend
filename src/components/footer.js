@@ -3,7 +3,7 @@
 import React from "react"
 import Link from "next/link";
 import Image from "next/image"
-import logoBlack from "../../public/logo-black.png"
+import logoBlack from "../../public/logo-white.png"
 function footer() {
 
     return (
@@ -19,7 +19,7 @@ function footer() {
                                     src={logoBlack}
                                     className="img-fluid"
                                     width={150}
-                                    height={150}
+                                    height={100}
                                     alt=""
                                 />
                             </Link>

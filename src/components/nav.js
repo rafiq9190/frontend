@@ -55,7 +55,7 @@ const Nav = () => {
                                         src={logo}
                                         className="img-fluid "
                                         width={150}
-                                        height={150}
+                                        height={100}
                                         alt="Pet Name Generator logo"
 
                                     />
