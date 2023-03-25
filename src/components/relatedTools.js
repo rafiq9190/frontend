@@ -6,6 +6,7 @@ import Moment from "react-moment";
 import Image from 'next/image'
 import Link from 'next/link';
 function RelatedTools({ articles }) {
+    console.log('articles ', articles)
     let filtered = articles.filter((article) => {
         if (article.attributes.category.data?.attributes.name == 'feature') {
             return article
@@ -17,6 +18,8 @@ function RelatedTools({ articles }) {
         }
     })
 
+    console.log('filtered', filtered);
+    console.log('latestPosts', latestPosts)
 
 
     return (
@@ -85,8 +88,8 @@ function RelatedTools({ articles }) {
 
                                 <h2 className='fw-bold'>Feature Posts</h2>
                                 {
-                                    filtered.map((featureArticle, index) => {
-                                        // console.log('featureAtricle', featureArticle)
+                                    filtered & filtered.map((featureArticle, index) => {
+                                      
                                         const articleTime = featureArticle.attributes.updatedAt
                                         const getFeaturePostImage = featureArticle.attributes.image
                                         const { alternativeText, width, height } = getFeaturePostImage.data.attributes
@@ -95,7 +98,12 @@ function RelatedTools({ articles }) {
                                                 <Link href={`/article/${featureArticle.attributes.slug}`}>
                                                     <Card className='rounded border-0 shadow p-2 my-3' key={index}>
 
-                                                        <Image className='img-fluid' src={getStrapiMedia(getFeaturePostImage)} width={width} height={height} alt={alternativeText} />
+                                                        <Image className='img-fluid'
+                                                            src={getStrapiMedia(getFeaturePostImage)}
+                                                            width={width}
+                                                            height={height}
+                                                            alt={alternativeText}
+                                                        />
 
                                                         <Card.Body>
                                                             <Card.Title>{featureArticle.attributes.title}</Card.Title>
@@ -134,8 +142,14 @@ function RelatedTools({ articles }) {
                                                     <div className="card rounded border-0 shadow p-2" key={index}>
                                                         <div className="row g-0 align-items-center">
                                                             <div className="col-md-4">
-                                                                <Image src={getStrapiMedia(getLatestPostImage)} width={400} height={200} className="img-fluid rounded-start" alt={getLatestPostImage.data.attributes.alternativeText
-                                                                } />
+                                                                <Image
+                                                                    src={getStrapiMedia(getLatestPostImage)}
+                                                                    width={400}
+                                                                    height={200}
+                                                                    className="img-fluid rounded-start"
+                                                                    alt={getLatestPostImage.data.attributes.alternativeText
+                                                                    }
+                                                                />
                                                             </div>
                                                             <div className="col-md-8 overflow-hidden">
                                                                 <div className="card-body">

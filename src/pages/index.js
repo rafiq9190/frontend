@@ -10,11 +10,11 @@ import RelatedTools from "../components/relatedTools";
 
 
 
-const Home = ({ articles, homepage, global }) => {
-  console.log('global-index', global)
-  let logo = global.attributes.logo
+const Home = ({ articles, homepage, category }) => {
+
+
   return (
-    <Layout logo={logo}>
+    <Layout>
       <Seo seo={homepage.attributes.seo} />
       <div className="">
         <div className="">
@@ -36,24 +36,23 @@ export async function getServerSideProps({ req, res }) {
     'Cache-Control',
     'public, s-maxage=10, stale-while-revalidate=59'
   )
-  const [articlesRes, categoriesRes, homepageRes] = await Promise.all([
+  const [articlesRes, homepageRes, categoryRes] = await Promise.all([
     fetchAPI("/articles", { populate: ["image", "category"] }),
-    fetchAPI("/categories", { populate: "*" }),
+
     fetchAPI("/homepage", {
       populate: {
         hero: "*",
         seo: { populate: "*" },
       },
     }),
-  
   ]);
 
   return {
     props: {
       articles: articlesRes.data,
-      categories: categoriesRes.data,
+
       homepage: homepageRes.data,
-      
+
     },
     // revalidate: 60,
   };

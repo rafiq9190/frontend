@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import NextImage from 'next/legacy/image'
 // import Image from 'next/image'
-import { getStrapiMedia } from "../../lib/media";
+
 import logo from '../../public/logo.png'
 
 const Nav = () => {
@@ -21,11 +21,9 @@ const Nav = () => {
                                 src={logo}
                                 className="img-fluid"
                                 // placeholder="blur"
-                                width={100}
-                                height={75}
+                                width={500}
+                                height={500}
                                 alt="Pet Name generator logo"
-
-
                             />
 
                         </div>
@@ -56,8 +54,8 @@ const Nav = () => {
                                     <NextImage
                                         src={logo}
                                         className="img-fluid "
-                                        width={75}
-                                        height={50}
+                                        width={150}
+                                        height={150}
                                         alt="Pet Name Generator logo"
 
                                     />

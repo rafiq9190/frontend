@@ -147,8 +147,8 @@ function Banner({ homepage }) {
                                             <div class="mb-3">
 
                                                 <select class="form-select form-select-sm" aria-label=".form-select-sm example" onClick={(e) => setGetCharacter(e.target.value)} >
-                                                    <option value="0" className=''>Select Alphabet</option>
-                                                    <option selected value="a">A</option>
+                                                    <option value="0" className=''>No Alphabet</option>
+                                                    <option value="a">A</option>
                                                     <option value="b">B</option>
                                                     <option value="c">C</option>
                                                     <option value="d">D</option>
@@ -186,7 +186,7 @@ function Banner({ homepage }) {
                                         </div>
                                         <div className='my-1'>
 
-                                            <button type='submit' className='btn tool-name-btn base-color font-weight-500 my-2' title='Pet Names Generator'>Generate Pet Name</button>
+                                            <button type='submit' className='btn tool-name-btn base-color font-weight-500 my-2 background-color' title='Pet Names Generator'>Generate Pet Name</button>
                                             {/* <span className='mx-1'><button className='border-0 p-1 rounded text-white font-weight-500 base-background' title=''>Generate Pet Name</button></span> */}
 
 
