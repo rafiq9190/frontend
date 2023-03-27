@@ -43,8 +43,6 @@ function blog({ articles, blog }) {
                                         <div className='col-12 col-md-6 col-lg-4 mb-3' key={index} >
                                             <Link href={`/article/${featureArticle.attributes.slug}`}>
                                                 <Card className='rounded border-0 custom-shadow p-1'>
-
-
                                                     <NextImage
                                                         // loader={myLoader}
                                                         src={getStrapiMedia(getFeaturePostImage)}
@@ -86,9 +84,9 @@ function blog({ articles, blog }) {
                                         const getLatestPostImage = latestPost.attributes.image
 
                                         return (
-                                            <div className='col-12 col-md-6 col-lg-12 my-2'>
+                                            <div className='col-12 col-md-6 col-lg-12 my-2 'key={index}>
                                                 <Link href={`/article/${latestPost.attributes.slug}`}>
-                                                    <div className="card rounded border-0 p-1 custom-shadow" key={index}>
+                                                    <div className="card rounded border-0 p-1 custom-shadow" >
                                                         <div className="row g-0 align-items-center">
                                                             <div className="col-md-4">
                                                                 <NextImage
