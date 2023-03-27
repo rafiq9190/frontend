@@ -21,8 +21,8 @@ const Nav = () => {
                                 src={logo}
                                 className="img-fluid"
                                 // placeholder="blur"
-                                width={500}
-                                height={500}
+                                width={100}
+                                height={75}
                                 alt="Pet Name generator logo"
                             />
 
@@ -44,28 +44,31 @@ const Nav = () => {
                         <ul className="navbar-nav m-auto links-color">
 
                             <li className="nav-item mx-2 my-auto">
-                                <a className="nav-link" href="#">Home</a>
+                                <a className="nav-link" href="/">Home</a>
                             </li>
                             <li className="nav-item mx-2 my-auto">
-                                <a className="nav-link" href="#">Free Tools</a>
+                                <a className="nav-link" href="#" >Pet Status</a>
                             </li>
                             <li className="nav-item">
                                 <div className=" d-none d-lg-block">
                                     <NextImage
                                         src={logo}
                                         className="img-fluid "
-                                        width={150}
-                                        height={100}
+                                        width={100}
+                                        height={75}
                                         alt="Pet Name Generator logo"
 
                                     />
 
                                 </div>
                             </li>
+                            <li className="nav-item mx-2 my-auto">
+                                <a className="nav-link" href="#" title="Pet Age Calculator">Age Calculator</a>
+                            </li>
 
                             <li className="nav-item dropdown mx-2 my-auto">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Login
+                                    Language
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a className="dropdown-item" href="#">Action</a></li>
@@ -74,9 +77,7 @@ const Nav = () => {
                                     <li><a className="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
-                            <li className="nav-item mx-2 my-auto">
-                                <a className="nav-link" href="#">Find us</a>
-                            </li>
+                            
 
                         </ul>
 

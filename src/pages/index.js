@@ -7,23 +7,20 @@ import { fetchAPI } from "../../lib/api";
 import Preloader from "../components/preloader";
 import Banner from '../components/homeBanner';
 import RelatedTools from "../components/relatedTools";
+import FeatureBlog from '../components/featureBlog'
 
 
 
 const Home = ({ articles, homepage, category }) => {
 
-
+console.log('articles home',articles)
   return (
     <Layout>
       <Seo seo={homepage.attributes.seo} />
       <div className="">
         <div className="">
           <Banner homepage={homepage} />
-          {/* <Articles articles={articles}/> */}
           <RelatedTools articles={articles} />
-
-          {/* <FeatureBlog articles={articles} /> */}
-          {/* <Articles articles={articles} /> */}
         </div>
       </div>
     </Layout>
@@ -38,19 +35,19 @@ export async function getServerSideProps({ req, res }) {
   )
   const [articlesRes, homepageRes, categoryRes] = await Promise.all([
     fetchAPI("/articles", { populate: ["image", "category"] }),
-
     fetchAPI("/homepage", {
       populate: {
         hero: "*",
         seo: { populate: "*" },
       },
     }),
+    
+    
   ]);
 
   return {
     props: {
       articles: articlesRes.data,
-
       homepage: homepageRes.data,
 
     },

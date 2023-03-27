@@ -94,9 +94,9 @@ const Article = ({ article, categories, allArticles }) => {
 
                                 </div>
                                 <div className="col-md-8 overflow-hidden">
-                                  <div className="card-body">
+                                  <div className="card-body p-1">
 
-                                    <p className="card-text">{latestPost.attributes.description}</p>
+                                    <p className="card-text text-truncate font-weight-600">{latestPost.attributes.description}</p>
 
                                   </div>
                                 </div>

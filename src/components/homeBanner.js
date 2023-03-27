@@ -3,28 +3,26 @@ import { getStrapiMedia } from "../../lib/media";
 import NextImage from 'next/legacy/image'
 import Form from 'react-bootstrap/Form';
 import petList from '../../assets/petList.json'
+import logo from '../../public/logo.png'
+import { FacebookShareButton, FacebookIcon } from 'next-share'
 
 
 
 function Banner({ homepage }) {
-    // console.log('homepage', homepage)
+
 
     const [checkPetName, setCheckPetName] = useState("");
     const [petGender, setPetGender] = useState('');
     const [getCharacter, setGetCharacter] = useState('');
-
     const [filterData, setFilterData] = useState(petList)
-    const [charaterWise, setCharacterWise] = useState()
     const [data, setData] = useState()
+    console.log('data', data)
 
-    // console.log("getCharacter", getCharacter)
-
-// const filterData = dynamic(() => import('../components/relatedTools'));
 
     const getPetInfo = (e) => {
         e.preventDefault()
         if (getCharacter.length > 0) {
-            // console.log('getCharacter', getCharacter)
+
             if (getCharacter == 0) {
                 const mergeAll = [...filterData.a, ...filterData.b, ...filterData.c, ...filterData.d,
                 ...filterData.e, ...filterData.f, ...filterData.g, ...filterData.h, ...filterData.i,
@@ -33,14 +31,14 @@ function Banner({ homepage }) {
                 ...filterData.u, ...filterData.v, ...filterData.w, ...filterData.x, ...filterData.y, ...filterData.z]
                     .filter((record) => record.gender === petGender)
 
-                const randomData = mergeAll.sort(() => Math.random() - 0.5).slice(0, 18);
+                const randomData = mergeAll.sort(() => Math.random() - 0.5).slice(0, 1);
                 setData(randomData);
             }
             for (let key in filterData) {
 
                 if (key == getCharacter) {
                     let allAlphabetRecords = filterData[key]
-                    const randomDataAlphabet = allAlphabetRecords.sort(() => Math.random() - 0.5).slice(0, 18);
+                    const randomDataAlphabet = allAlphabetRecords.sort(() => Math.random() - 0.5).slice(0, 1);
                     setData(randomDataAlphabet)
 
                 }
@@ -62,35 +60,42 @@ function Banner({ homepage }) {
                         <div className='large-screen-ad'></div>
                     </div>
                     <div className='col-12 col-lg-8'>
-                        <h1 className='text-center my-2 mt-md-5 fw-bold'>Pet Names Generator</h1>
+                        <h1 className='text-center my-2 mt-md-5 fw-bold'>Pet Names <span className='backgroundColor base-color px-2 rounded'>Generator</span></h1>
                         <p className='text-center'>Create a Unique name for love of you!You need to called with Sweet pet name</p>
                         <div>
                             <div className='row'>
                                 <div className='col-12 col-md-9'>
                                     <div className='row'>
-
-                                        <div className='col-12 mx-3 my-2 base-color fw-bold my-auto'><span>Generator Your Favoriot Pet Name</span>  </div>
+                                        <div className='col-12 mx-3 my-2 base-color fw-bold my-auto'>  </div>
                                     </div>
-                                    <div className='name-generator-container  border-divider rounded'>
-                                        <div className='row row-cols-2 row-cols-md-3'>
+                                    <div className='name-generator-container border-divider rounded position-relative'>
+                                        <div className='row align-items-center justify-content-center'>
 
                                             {data && data.map((record, index) => (
-                                                <div className='col' key={index}>
-                                                    <span className='px-2 text-truncate'>{record.name}</span>
+                                                <div className='col-12' key={index}>
+                                                    <span className=' fs-3 fw-bold px-2 text-truncate'>{record.name}</span>
                                                     {/* <p>{record.gender}</p> */}
                                                 </div>
                                             ))}
                                         </div>
 
                                     </div>
+                                    <FacebookShareButton
+                                        url={'https://github.com/next-share'}
+                                        quote={'next-share is a social share buttons for your next React apps.'}
+                                        hashtag={'#nextshare'}
+                                    >
+                                        <FacebookIcon size={32} round />
+                                    </FacebookShareButton>
+
                                 </div>
                                 <div className='col-12 col-md-3 my-auto'>
 
 
-                                    <h5>Select the Options</h5>
+                                    <h5>Options</h5>
 
                                     <Form onSubmit={getPetInfo}>
-                                        <p className='f6 fw-bold mb-1'>Pet Type :</p>
+                                        <p className='f6 mb-1'>Pet Types :</p>
                                         <div className='my-1'>
                                             <div className='d-flex justify-content-between'>
 
@@ -113,7 +118,7 @@ function Banner({ homepage }) {
                                             </div>
 
                                         </div>
-                                        <p className='f6 fw-bold mb-1'>Pet Gender :</p>
+                                        <p className='f6 mb-1'>Pet Gender :</p>
                                         <div className='my-1'>
                                             <div className='d-flex justify-content-between'>
 
@@ -143,59 +148,50 @@ function Banner({ homepage }) {
                                             </div>
 
                                         </div>
-                                        <div className='mt-2 mb-3'>
-                                            <div class="mb-3">
+                                        <div className='my-3'>
 
-                                                <select class="form-select form-select-sm" aria-label=".form-select-sm example" onClick={(e) => setGetCharacter(e.target.value)} >
-                                                    <option value="0" className=''>No Alphabet</option>
-                                                    <option value="a">A</option>
-                                                    <option value="b">B</option>
-                                                    <option value="c">C</option>
-                                                    <option value="d">D</option>
-                                                    <option value="e">E</option>
-                                                    <option value="f">F</option>
-                                                    <option value="g">G</option>
-                                                    <option value="h">H</option>
+                                            <select class="form-select form-select-sm" aria-label=".form-select-sm example" onClick={(e) => setGetCharacter(e.target.value)} >
+                                                <option value="0" className=''>No Alphabet</option>
+                                                <option value="a">A</option>
+                                                <option value="b">B</option>
+                                                <option value="c">C</option>
+                                                <option value="d">D</option>
+                                                <option value="e">E</option>
+                                                <option value="f">F</option>
+                                                <option value="g">G</option>
+                                                <option value="h">H</option>
 
-                                                    <option value="i">I</option>
-                                                    <option value="j">J</option>
-                                                    <option value="k">K</option>
-                                                    <option value="l">L</option>
-                                                    <option value="m">M</option>
-                                                    <option value="n">N</option>
-                                                    <option value="o">O</option>
-                                                    <option value="p">P</option>
-                                                    <option value="q">Q</option>
-                                                    <option value="r">R</option>
-                                                    <option value="s">S</option>
-                                                    <option value="t">T</option>
-                                                    <option value="u">U</option>
-                                                    <option value="v">V</option>
-                                                    <option value="W">W</option>
-                                                    <option value="x">X</option>
-                                                    <option value="y">Y</option>
-                                                    <option value="z">Z</option>
-
-
-
-                                                </select>
-                                            </div>
+                                                <option value="i">I</option>
+                                                <option value="j">J</option>
+                                                <option value="k">K</option>
+                                                <option value="l">L</option>
+                                                <option value="m">M</option>
+                                                <option value="n">N</option>
+                                                <option value="o">O</option>
+                                                <option value="p">P</option>
+                                                <option value="q">Q</option>
+                                                <option value="r">R</option>
+                                                <option value="s">S</option>
+                                                <option value="t">T</option>
+                                                <option value="u">U</option>
+                                                <option value="v">V</option>
+                                                <option value="W">W</option>
+                                                <option value="x">X</option>
+                                                <option value="y">Y</option>
+                                                <option value="z">Z</option>
 
 
 
-                                        </div>
-                                        <div className='my-1'>
-
-                                            <button type='submit' className='btn tool-name-btn base-color font-weight-500 my-2 background-color' title='Pet Names Generator'>Generate Pet Name</button>
-                                            {/* <span className='mx-1'><button className='border-0 p-1 rounded text-white font-weight-500 base-background' title=''>Generate Pet Name</button></span> */}
-
+                                            </select>
 
                                         </div>
 
+                                        <button type='submit' className='tool-name-btn base-color font-weight-500 my-2 background-color' title='Pet Names Generator'>Generate Pet Name</button>
 
                                     </Form>
 
                                 </div>
+
                             </div>
                         </div>
                     </div>

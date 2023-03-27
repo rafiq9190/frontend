@@ -3,13 +3,6 @@ Lavender Purple: #8B7B8B
 Light Grey: #D3D3D3
 Medium Grey: #808080
 Dark Grey: #666666 */
-@font-face {
-    font-family: 'Cabin', sans-serif;
-    src: url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap");
-    font-weight: 400;
-    font-style: normal;
-    font-display: auto;
-}
 
 :root {
     --border-coloe: $purple
@@ -25,7 +18,10 @@ body {
 .base-color {
     color: #F10466
 }
-
+ 
+.font-weight-600{
+    font-weight: 600;
+}
 .backgroundColor {
     background-color: #ffeef2;
 }
@@ -72,9 +68,17 @@ body {
     color: #000 !important
 }
 
+
+
 a {
-    text-decoration: none;
-    color: #000
+    text-decoration: none !important;
+    color: #000 !important
+}
+
+.link-color li a:hover {
+    background-color: #FFE3EA;
+    color: #F10466;
+    font-weight: 500;
 }
 
 .tool-name-btn {
@@ -84,11 +88,11 @@ a {
     border-radius: 10px;
 }
 
-/* .tool-name-btn:hover {
+.tool-name-btn:hover {
     background-color: #F10466;
     color: White;
 
-} */
+}
 
 .generate-delete-div {
     height: 36px;
@@ -105,8 +109,19 @@ a {
 }
 
 .custom-radio-style:checked {
-    background-color: #F10466;
+    background-color: #F10466 !important;
     border: 2px solid #F10466 !important;
+}
+
+.gradient-bg {
+    background-image: linear-gradient(115deg,
+            hsl(335deg 97% 48%) 0%,
+            hsl(339deg 94% 49%) 26%,
+            hsl(343deg 93% 50%) 39%,
+            hsl(347deg 94% 51%) 50%,
+            hsl(351deg 95% 52%) 61%,
+            hsl(355deg 96% 53%) 74%,
+            hsl(0deg 97% 54%) 100%);
 }
 
 .fontSize-18 {
@@ -132,6 +147,9 @@ a {
     font-weight: 500;
 }
 
+.custom-shadow {
+    box-shadow: 1px 0 7px rgba(0, 0, 0, 0.25)
+}
 
 /* .side-ad {
     width: 664px;
@@ -146,10 +164,10 @@ a {
 }
 
 .side-ad {
-    width: 311px;
+    max-width: 311px;
     height: 97px;
     border-radius: 20px;
-    /* background-color: #d9d9d9; */
+    background-color: #d9d9d9;
     margin: auto;
 }
 
@@ -157,7 +175,7 @@ a {
     width: 300px;
     height: 97px;
     border-radius: 20px;
-    /* background-color: #d9d9d9; */
+    background-color: #d9d9d9;
     margin: auto
 }
 
@@ -172,14 +190,14 @@ a {
         width: 664px;
         height: 97px;
         border-radius: 20px;
-        /* background-color: #d9d9d9; */
+        background-color: #d9d9d9;
     }
 
     .large-screen-ad {
         width: 662px;
         height: 97px;
         border-radius: 20px;
-        /* background-color: #d9d9d9; */
+        background-color: #d9d9d9;
 
     }
 
@@ -191,11 +209,11 @@ a {
         width: 225px;
         height: 263px;
         border-radius: 20px;
-        /* background-color: #d9d9d9; */
+        background-color: #d9d9d9;
     }
 
     .large-screen-ad {
-        /* background-color: #d9d9d9; */
+        background-color: #d9d9d9;
         width: 150px;
         height: 430px;
 

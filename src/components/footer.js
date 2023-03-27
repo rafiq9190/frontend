@@ -18,7 +18,7 @@ function footer() {
                                 <Image
                                     src={logoBlack}
                                     className="img-fluid"
-                                    width={150}
+                                    width={100}
                                     height={100}
                                     alt=""
                                 />
@@ -30,7 +30,7 @@ function footer() {
                                 <div className="col-12 col-md-6">
                                     {/* <h1 className="text-white fw-bold mb-4 text-lg-start d-none d-lg-block">Links</h1> */}
                                     <ul className="list-unstyled fs-5 f-links text-md-start">
-                                        <li><Link href="" className="text-white">Blog</Link></li>
+                                        <li><Link href="/blog" className="text-white">Blog</Link></li>
                                         <li><Link href="" className="text-white">Account</Link></li>
                                         <li><Link href="" className="text-white">Privacy</Link></li>
                                         <li><Link href="" className="text-white">Contact Us</Link></li>
