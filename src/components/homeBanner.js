@@ -3,8 +3,6 @@ import { getStrapiMedia } from "../../lib/media";
 import NextImage from 'next/legacy/image'
 import Form from 'react-bootstrap/Form';
 import petList from '../../assets/petList.json'
-import logo from '../../public/logo.png'
-import { FacebookShareButton, FacebookIcon } from 'next-share'
 
 
 
@@ -80,13 +78,7 @@ function Banner({ homepage }) {
                                         </div>
 
                                     </div>
-                                    <FacebookShareButton
-                                        url={'https://github.com/next-share'}
-                                        quote={'next-share is a social share buttons for your next React apps.'}
-                                        hashtag={'#nextshare'}
-                                    >
-                                        <FacebookIcon size={32} round />
-                                    </FacebookShareButton>
+                                   
 
                                 </div>
                                 <div className='col-12 col-md-3 my-auto'>
