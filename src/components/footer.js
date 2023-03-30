@@ -18,46 +18,35 @@ function footer() {
                                 <Image
                                     src={logoBlack}
                                     className="img-fluid"
-                                    width={100}
-                                    height={100}
+                                    width={300}
+                                    height={150}
                                     alt=""
                                 />
                             </Link>
+                            <p></p>
 
                         </div>
                         <div className="col-12  col-lg-4 text-white my-auto text-center">
-                            <div className="row">
-                                <div className="col-12 col-md-6">
-                                    {/* <h1 className="text-white fw-bold mb-4 text-lg-start d-none d-lg-block">Links</h1> */}
-                                    <ul className="list-unstyled fs-5 f-links text-md-start">
-                                        <li><Link href="/blog" className="text-white">Blog</Link></li>
-                                        <li><Link href="" className="text-white">Account</Link></li>
-                                        <li><Link href="" className="text-white">Privacy</Link></li>
-                                        <li><Link href="" className="text-white">Contact Us</Link></li>
-                                    </ul>
-                                </div>
-                                <div className="col-12 col-md-6">
-                                    {/* <h1 className="text-white fw-bold mb-4 tex d-none d-lg-block">Social</h1> */}
-                                    <ul className="list-unstyled fs-5 f-links">
-                                        <li><Link href="" className="text-white">Facebook</Link></li>
-                                        <li><Link href="" className="text-white">Pintrust</Link></li>
-                                        <li><Link href="" className="text-white">Twitter</Link></li>
-                                        <li><Link href="" className="text-white">Instagram</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <h4 className="fw-bold text-white">Links</h4>
+                            <ul className="list-unstyled fs-5 f-links">
+                                <li><Link href="/blog" className="text-white">Blog</Link></li>
+                                <li><Link href="" className="text-white">Privacy</Link></li>
+
+                            </ul>
+
 
                         </div>
                         <div className="col-12 col-lg-4 my-auto py-5 py-lg-0">
-                            <h1 className="fw-bold text-white">Pet Name Generator</h1>
+                            <h4 className="fw-bold text-white">Pet Name Generator</h4>
                             <p className="py-3 text-white fontWeight-500">Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
                             </p>
                         </div>
                         <hr className="border-color opcaity-50" />
                         <div className="row text-center text-lg-start">
-                            <div className="col-12">
+                            <div className="col-12 col-md-6">
                                 <p className="text-white">Developed by Coderix Technologies </p>
                             </div>
+                           
                         </div>
                     </div>
                 </div>

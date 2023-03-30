@@ -54,66 +54,17 @@ function RelatedTools({ articles }) {
                     <div className='col-12 col-lg-3'>
                         <div className='my-5'>
                             <div className='side-ad'></div>
+                            <div className='side-ad my-5'></div>
                         </div>
 
                         {/* <div className='side-ad my-3'></div> */}
-                        <div className='latest-post'>
-                            <h2>Latest Post</h2>
-                            <div className='row'>
-                                {
-                                    latestPosts && latestPosts.map((latestPost, index) => {
-
-
-                                        const getLatestPostImage = latestPost.attributes.image
-
-                                        return (
-                                            <div className='col-12 col-md-6 col-lg-12 my-2'>
-                                                <Link href={`/article/${latestPost.attributes.slug}`}>
-                                                    <div className="card rounded border-0 p-1 custom-shadow" key={index}>
-                                                        <div className="row g-0 align-items-center">
-                                                            <div className="col-md-4">
-                                                                <Image
-                                                                    src={getStrapiMedia(getLatestPostImage)}
-                                                                    width={400}
-                                                                    height={200}
-                                                                    className="img-fluid rounded-start"
-                                                                    alt={getLatestPostImage.data.attributes.alternativeText
-                                                                    }
-                                                                />
-                                                            </div>
-                                                            <div className="col-md-8 overflow-hidden">
-                                                                <div className="card-body p-1">
-
-                                                                    <p className="card-text text-truncate">{latestPost.attributes.description}</p>
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </Link>
-                                            </div>
-                                        )
-                                    })
-                                }
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
-            </div>
-            <div className='my-3 base-background'>
-                <div className='container'>
-                    <div className='row p-5'>
-                        <div className='col-12'>
-                            <h3 className='text-white text-center my-2'>Do You Know Your Pet Age?</h3>
-                            <p className='text-white my-4 text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing. Cras dictum tempus nunc non aliquam. Duis faucibus pellentesque elit, ac viverra massa sollicitudin a. Pellentesque enim odio, bibendum et tempor a, ornare lobortis lorem. Integer vulputate ex non venenatis imperdiet.</p>
-                        </div>
-                        <div className='col-12 text-center text-white my-2'><button className='bg-white base-color rounded border-0 p-2 fw-bold fs-3' title='Pet Age Calculator'>Try Free</button></div>
-                    </div>
 
-                </div>
-            </div>
-            <div className='container'>
-                <div className='row my-5'>
+
+
+                <div className='row my-3'>
                     <div className='col-12 col-lg-9'>
                         <h1 className='my-3'>Frequently Asked <span className='base-color'>Questions</span></h1>
                         <div className='about-container fontSize-18 container custom-shadow p-3 mb-5 rounded'>
@@ -139,9 +90,7 @@ function RelatedTools({ articles }) {
 
                     </div>
                     <div className='col-12 col-lg-3'>
-                        <div className='my-5'>
-                            <div className='side-ad'></div>
-                        </div>
+                       
 
                         {/* <div className='side-ad my-3'></div> */}
                         <div className='latest-post'>
@@ -190,14 +139,11 @@ function RelatedTools({ articles }) {
             <div className='base-background'>
                 <div className='container'>
                     <div className='row p-5'>
-                        <div className='col-12 col-md-7'>
-                            <h3 className='text-white my-2'>Subscribe for Diet Plans for your lovely Pet</h3>
-
+                        <div className='col-12'>
+                            <h3 className='text-white text-center my-2'>Do You Know Your Pet Age?</h3>
+                            <p className='text-white my-4 text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing. Cras dictum tempus nunc non aliquam. Duis faucibus pellentesque elit, ac viverra massa sollicitudin a. Pellentesque enim odio, bibendum et tempor a, ornare lobortis lorem. Integer vulputate ex non venenatis imperdiet.</p>
                         </div>
-                        <div className='col-12 col-md-5 text-white my-2'><form class="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Subscribe" aria-label="Search"/>
-                                <button className="btn border-white text-white" type="submit">Subscribe</button>
-                        </form></div>
+                        <div className='col-12 text-center text-white my-2'><button className='bg-white base-color rounded border-0 p-2 fw-bold fs-3' title='Pet Age Calculator'>Try Free</button></div>
                     </div>
 
                 </div>
