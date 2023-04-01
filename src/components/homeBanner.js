@@ -87,7 +87,7 @@ function Banner({ homepage }) {
                                         <div className='col-12 mx-3 my-2 base-color fw-bold my-auto'>  </div>
                                     </div>
                                     <div className='name-generator-container border-divider rounded position-relative overflow-auto'>
-                                        <div className='row row-cols-1 row-cols-md-3 align-items-center justify-content-center'>
+                                        <div className='row row-cols-2 row-cols-md-3 align-items-center justify-content-center'>
 
                                             {data && data.map((record, index) => (
                                                 <div className='col' key={index}>
