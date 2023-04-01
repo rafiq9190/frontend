@@ -21,7 +21,6 @@ function Banner({ homepage }) {
     const getPetInfo = (e) => {
         e.preventDefault()
 
-        console.log('getCharacter', getCharacter)
 
         if (!getCharacter) {
             const mergeAll = [...filterData.a, ...filterData.b, ...filterData.c, ...filterData.d,
@@ -61,7 +60,7 @@ function Banner({ homepage }) {
 
         }
         setDownloadData([newName, ...downloadData])
-        console.log('donwloadData', downloadData)
+       
     }
 
     return (

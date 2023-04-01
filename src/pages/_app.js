@@ -17,6 +17,7 @@ export const GlobalContext = createContext({});
 
 const MyApp = ({ Component, pageProps }) => {
   const { global } = pageProps;
+  console.log('global',global)
   const [showChild, setShowChild] = useState(false);
   const [loading, setLoading] = useState(false);
  
@@ -39,7 +40,7 @@ const MyApp = ({ Component, pageProps }) => {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link
             rel="shortcut icon"
-            href={getStrapiMedia(global.attributes.favicon)}
+            href={getStrapiMedia(global?.attributes.favicon)}
           />
         </Head>
 

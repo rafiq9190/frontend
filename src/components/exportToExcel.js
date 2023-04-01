@@ -8,7 +8,7 @@ export const ExportToExcel = ({ apiData, fileName }) => {
     const fileExtension = ".xlsx";
 
     const exportToCSV = (apiData, fileName) => {
-        console.log('apiData', apiData)
+       
         const ws = XLSX.utils.json_to_sheet(apiData);
         const wb = { Sheets: { data: ws }, SheetNames: ["data"] };
         const excelBuffer = XLSX.write(wb, { bookType: "xlsx", type: "array" });

@@ -140,7 +140,7 @@ const Article = ({ article, categories, allArticles }) => {
                   <h2 className='fw-bold'>Feature Posts</h2>
                   {
                     filtered.map((featureArticle, index) => {
-                      console.log('featureAtricle', featureArticle)
+
                       const articleTime = featureArticle.attributes.updatedAt
                       const getFeaturePostImage = featureArticle.attributes.image
                       const { width, height, alternativeText } = getFeaturePostImage.data.attributes
@@ -229,7 +229,7 @@ const Article = ({ article, categories, allArticles }) => {
 
 export async function getStaticPaths() {
   const articlesRes = await fetchAPI("/articles", { fields: ["slug"] });
-  console.log('articlesRes', articlesRes)
+  
   return {
     paths: articlesRes.data.map((article) => ({
       params: {

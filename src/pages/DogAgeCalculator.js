@@ -6,7 +6,7 @@ import Link from 'next/link';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
 function dogAge({ dogAgePage }) {
-  console.log('dogAgePage', dogAgePage)
+  
 
   const getCalculate = (e) => {
     e.preventDefault()

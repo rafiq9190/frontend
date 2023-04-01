@@ -6,7 +6,7 @@ import Moment from "react-moment";
 import Image from 'next/image'
 import Link from 'next/link';
 function RelatedTools({ articles }) {
-    // console.log('articles ', articles)
+    
     let filtered = articles.filter((article) => {
         if (article.attributes.category.data?.attributes.name == 'feature') {
             return article
@@ -18,8 +18,8 @@ function RelatedTools({ articles }) {
         }
     })
 
-    // console.log('filtered', filtered);
-    // console.log('latestPosts', latestPosts)
+  
+   
 
 
     return (

@@ -13,7 +13,7 @@ import FeatureBlog from '../components/featureBlog'
 
 const Home = ({ articles, homepage, category }) => {
 
-  console.log('homepage ', homepage)
+  
   return (
     <Layout>
       <Seo seo={homepage.attributes.seo} />

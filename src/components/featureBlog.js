@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 
 function blog({ articles, blog }) {
-    console.log('articles blog',articles)
+   
     let filtered = articles.filter((article, index) => {
         if (article.attributes.category.data?.attributes.name == 'feature') {
             return article
