@@ -44,15 +44,17 @@ const Nav = () => {
                         
                             <ul className="navbar-nav ms-auto links-color">
 
-                                <li className="nav-item mx-2 my-auto">
-                                    <Link className="nav-link" href="/">Home</Link>
-                                </li>
-
-                                <li className="nav-item mx-2 my-auto">
-                                    <Link className="nav-link" href="#" title="Pet Age Calculator">Age Calculator</Link>
+                                <li className="nav-item mx-2 my-auto font-weight-600">
+                                    <Link className="nav-link base-color" href="/">Home</Link>
                                 </li>
                                 <li className="nav-item mx-2 my-auto">
-                                    <Link className="nav-link" href="#" title="Pet Age Calculator">Give Away</Link>
+                                    <Link className="nav-link" href="/blog" title="">Expolor</Link>
+                                </li>
+                                <li className="nav-item mx-2 my-auto">
+                                    <Link className="nav-link" href="/DogAgeCalculator" title="Dog Age Calculator">Dog Age Calculator</Link>
+                                </li>
+                                <li className="nav-item mx-2 my-auto">
+                                    <Link className="nav-link" href="#" title="Pet Age Calculator">Win 100$</Link>
                                 </li>
 
                             </ul>

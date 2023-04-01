@@ -68,7 +68,32 @@ const Article = ({ article, categories, allArticles }) => {
         </div>
         <div className="my-5">
           <div className="row">
-            <div className="col-12 col-lg-4 order-1 order-lg-0">
+
+            <div className="col-12 col-lg-8 shadow p-2">
+              <h1 className="text-center text-lg-start my-3 base-color">{article.attributes.title}</h1>
+              <ReactMarkdown>{article.attributes.content}</ReactMarkdown>
+              <div>
+                {article.attributes.author.data.attributes.picture && (
+                  <NextImage
+                    src={getStrapiMedia(
+                      article.attributes.author.data.attributes.picture
+                    )}
+                    alt={
+                      article.attributes.author.data.attributes.picture.data
+                        .attributes.alternativeText
+                    }
+                    width={100}
+                    height={100}
+                    style={{
+                      position: "static",
+                      borderRadius: "20%",
+                      height: 60,
+                    }}
+                  />
+                )}
+              </div>
+            </div>
+            <div className="col-12 col-lg-4">
               <div className='latest-post my-4'>
                 <h2>Latest Post</h2>
                 <div className='row'>
@@ -157,31 +182,6 @@ const Article = ({ article, categories, allArticles }) => {
 
 
             </div>
-            <div className="col-12 col-lg-8 shadow p-2 order-0 order-lg-1">
-              <h1 className="text-center text-lg-start my-3 base-color">{article.attributes.title}</h1>
-              <ReactMarkdown>{article.attributes.content}</ReactMarkdown>
-              <div>
-                {article.attributes.author.data.attributes.picture && (
-                  <NextImage
-                    src={getStrapiMedia(
-                      article.attributes.author.data.attributes.picture
-                    )}
-                    alt={
-                      article.attributes.author.data.attributes.picture.data
-                        .attributes.alternativeText
-                    }
-                    width={100}
-                    height={100}
-                    style={{
-                      position: "static",
-                      borderRadius: "20%",
-                      height: 60,
-                    }}
-                  />
-                )}
-              </div>
-            </div>
-
 
           </div>
         </div>

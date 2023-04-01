@@ -11,9 +11,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Store Strapi Global object in context
 export const GlobalContext = createContext({});
-export function reportWebVitals(metric) {
-  console.log("metric", metric)
-}
+// export function reportWebVitals(metric) {
+//   console.log("metric", metric)
+// }
 
 const MyApp = ({ Component, pageProps }) => {
   const { global } = pageProps;

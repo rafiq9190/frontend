@@ -4,42 +4,45 @@ import NextImage from 'next/legacy/image'
 import Form from 'react-bootstrap/Form';
 import petList from '../../assets/petList.json'
 import copyIcon from '../../public/copy-icon.svg'
-
+import { ExportToExcel } from './exportToExcel';
 
 
 function Banner({ homepage }) {
 
-
+    const fileName = "myfile"
     const [checkPetName, setCheckPetName] = useState("");
     const [petGender, setPetGender] = useState('');
     const [getCharacter, setGetCharacter] = useState('');
     const [filterData, setFilterData] = useState(petList)
     const [data, setData] = useState()
-
-
+    const [downloadData, setDownloadData] = useState([])
+    const [textGen, setTextGen] = useState()
 
     const getPetInfo = (e) => {
         e.preventDefault()
-        if (getCharacter.length > 0) {
 
-            if (getCharacter == 0) {
-                const mergeAll = [...filterData.a, ...filterData.b, ...filterData.c, ...filterData.d,
-                ...filterData.e, ...filterData.f, ...filterData.g, ...filterData.h, ...filterData.i,
-                ...filterData.j, ...filterData.k, ...filterData.l, ...filterData.m, ...filterData.n,
-                ...filterData.o, ...filterData.p, ...filterData.q, ...filterData.r, ...filterData.s, ...filterData.t,
-                ...filterData.u, ...filterData.v, ...filterData.w, ...filterData.x, ...filterData.y, ...filterData.z]
-                    .filter((record) => record.gender === petGender)
+        console.log('getCharacter', getCharacter)
 
-                const randomData = mergeAll.sort(() => Math.random() - 0.5).slice(0, 18);
-                setData(randomData);
-            }
+        if (!getCharacter) {
+            const mergeAll = [...filterData.a, ...filterData.b, ...filterData.c, ...filterData.d,
+            ...filterData.e, ...filterData.f, ...filterData.g, ...filterData.h, ...filterData.i,
+            ...filterData.j, ...filterData.k, ...filterData.l, ...filterData.m, ...filterData.n,
+            ...filterData.o, ...filterData.p, ...filterData.q, ...filterData.r, ...filterData.s, ...filterData.t,
+            ...filterData.u, ...filterData.v, ...filterData.w, ...filterData.x, ...filterData.y, ...filterData.z]
+                .filter((record) => record.gender === petGender)
+
+            const randomData = mergeAll.sort(() => Math.random() - 0.5).slice(0, 18);
+            setData(randomData);
+            setTextGen(true)
+
+        } else {
             for (let key in filterData) {
 
                 if (key == getCharacter) {
                     let allAlphabetRecords = filterData[key]
                     const randomDataAlphabet = allAlphabetRecords.sort(() => Math.random() - 0.5).slice(0, 18);
                     setData(randomDataAlphabet)
-
+                    setTextGen(true)
                 }
             }
 
@@ -47,8 +50,19 @@ function Banner({ homepage }) {
             // setData(randomDataAlphabet);
         }
 
-    }
 
+
+
+
+    }
+    const getvalue = (e) => {
+        let newName = {
+            name: e.target.innerText
+
+        }
+        setDownloadData([newName, ...downloadData])
+        console.log('donwloadData', downloadData)
+    }
 
     return (
         <>
@@ -65,43 +79,36 @@ function Banner({ homepage }) {
                             <div className='row'>
                                 <div className='row'>
                                     <div className='col-8'></div>
-                                    <div className='col-4'>
-                                        <button type="button" className="btn backgroundColor btn-large position-relative pb-0">
-                                        <i className="fa fa-cloud-download base-color fs-3"></i>
-                                            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill base-background">
-                                                99+
-                                                <span className="visually-hidden">unread messages</span>
-                                            </span>
-                                        </button>
-                                   
+                                    <div className='col-4 text-end text-md-start'>
+                                        <ExportToExcel apiData={downloadData} fileName={fileName} />
                                     </div>
                                 </div>
                                 <div className='col-12 col-md-9'>
                                     <div className='row'>
                                         <div className='col-12 mx-3 my-2 base-color fw-bold my-auto'>  </div>
                                     </div>
-                                    <div className='name-generator-container border-divider rounded position-relative'>
-                                        <div className='row row-cols-2 row-cols-md-3  align-items-center justify-content-center'>
+                                    <div className='name-generator-container border-divider rounded position-relative overflow-auto'>
+                                        <div className='row row-cols-1 row-cols-md-3 align-items-center justify-content-center'>
 
                                             {data && data.map((record, index) => (
-                                                <div className='col-12' key={index}>
-                                                    <div className='fw-bold text-truncate'><span>{record.name}</span><i className="fa fa-files-o base-color mx-2" aria-hidden="true"></i></div>
-                                                    {/* <p>{record.gender}</p> */}
+                                                <div className='col' key={index}>
+                                                    <div className='fw-bold text-truncate cursor user-select-none'><span onClick={(e) => getvalue(e)}>{record.name}<i className="fa fa-files-o base-color mx-2" aria-hidden="true"></i></span></div>
+
                                                 </div>
                                             ))}
                                         </div>
                                     </div>
-                                    <button type='submit' className='tool-name-btn base-color font-weight-500 my-2 background-color' title='Pet Age Generator'>Pet Age Calculator</button>
+                                    {/* <button type='submit' className='tool-name-btn base-color font-weight-500 my-2 background-color' title='Pet Age Generator'>Pet Age Calculator</button> */}
 
 
                                 </div>
-                                <div className='col-12 col-md-3 my-auto'>
+                                <div className='col-12 col-md-3 my-3 my-md-auto'>
 
 
                                     <h5>Options</h5>
 
                                     <Form onSubmit={getPetInfo}>
-                                        <p className='f6 mb-1'>Pet Types :</p>
+                                        <p className='f6 mb-1 fs-bold'>Pet Types :</p>
                                         <div className='my-1'>
                                             <div className='d-flex justify-content-between'>
 
@@ -124,7 +131,7 @@ function Banner({ homepage }) {
                                             </div>
 
                                         </div>
-                                        <p className='f6 mb-1'>Pet Gender :</p>
+                                        <p className='f6 mb-1 fw-bold'>Pet Gender :</p>
                                         <div className='my-1'>
                                             <div className='d-flex justify-content-between'>
 
@@ -154,11 +161,11 @@ function Banner({ homepage }) {
                                             </div>
 
                                         </div>
-                                        <div className='my-3'>
-
-                                            <select class="form-select form-select-sm" aria-label=".form-select-sm example" onClick={(e) => setGetCharacter(e.target.value)} >
-                                                <option value="0" selected className=''>No Alphabet</option>
-                                                <option value="a" >A</option>
+                                        <div className='my-3 position-relative'>
+                                            {/* <label for="validationTooltip04" class="form-label">Select Alphabet</label> */}
+                                            <select class="form-select form-select-sm" aria-label=".form-select-sm example" onClick={(e) => setGetCharacter(e.target.value)} required>
+                                                <option selected className=''>No Alphabet</option>
+                                                <option value="a">A</option>
                                                 <option value="b">B</option>
                                                 <option value="c">C</option>
                                                 <option value="d">D</option>
@@ -191,15 +198,16 @@ function Banner({ homepage }) {
                                             </select>
 
                                         </div>
-
-                                        <button type='submit' className='tool-name-btn base-color font-weight-500 my-2 background-color' title='Pet Names Generator'>Generate Pet Name</button>
-
+                                        <div className='text-center'>
+                                            <button type='submit' className='tool-name-btn base-color font-weight-500 my-2 background-color text-truncate m-auto' title='Pet Names Generator'>{textGen ? "Regenerate Pet Names" : "Generate Pet Name"}</button>
+                                        </div>
                                     </Form>
 
                                 </div>
 
                             </div>
                         </div>
+
                     </div>
                     <div className='col-2 d-none d-lg-block'>
                         <div className="large-screen-ad"></div>

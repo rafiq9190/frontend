@@ -13,7 +13,7 @@ import FeatureBlog from '../components/featureBlog'
 
 const Home = ({ articles, homepage, category }) => {
 
-console.log('articles home',articles)
+  console.log('homepage ', homepage)
   return (
     <Layout>
       <Seo seo={homepage.attributes.seo} />
@@ -41,8 +41,8 @@ export async function getServerSideProps({ req, res }) {
         seo: { populate: "*" },
       },
     }),
-    
-    
+
+
   ]);
 
   return {

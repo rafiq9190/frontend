@@ -30,7 +30,7 @@ function footer() {
                             <h4 className="fw-bold text-white">Links</h4>
                             <ul className="list-unstyled fs-5 f-links">
                                 <li><Link href="/blog" className="text-white">Blog</Link></li>
-                                <li><Link href="" className="text-white">Privacy</Link></li>
+                                <li><Link href="/Privacy" className="text-white">Privacy</Link></li>
 
                             </ul>
 
