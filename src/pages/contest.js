@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 import InstructionModal from '../components/instructionModal'
 import { getStrapiMedia } from "../../lib/media";
 function contest() {
-    const [show, setShow] = useState(false);
+    
 
 
 
