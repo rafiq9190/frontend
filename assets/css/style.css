@@ -24,7 +24,7 @@ body {
 }
 
 .backgroundColor {
-    background-color: #ffeef2;
+    background-color: #ffeef2!important;
 }
 
 .border-color {
@@ -53,7 +53,7 @@ body {
 
 
 .border-divider {
-    border: 1px solid #F10466
+    border: 1px solid #F10466!important
 }
 
 

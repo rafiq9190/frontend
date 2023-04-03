@@ -51,10 +51,10 @@ const Nav = () => {
                                     <Link className="nav-link" href="/blog" title="">Expolor</Link>
                                 </li>
                                 <li className="nav-item mx-2 my-auto">
-                                    <Link className="nav-link" href="/DogAgeCalculator" title="Dog Age Calculator">Dog Age Calculator</Link>
+                                    <Link className="nav-link" href="/DogAgeCalculator" >Dog Age Calculator</Link>
                                 </li>
                                 <li className="nav-item mx-2 my-auto">
-                                    <Link className="nav-link" href="#" title="Pet Age Calculator">Win 100$</Link>
+                                    <Link className="nav-link" href="/contest" title="Chance To Win 100$">Pet Contest</Link>
                                 </li>
 
                             </ul>
