@@ -5,7 +5,7 @@ import Seo from '../components/seo'
 import Card from 'react-bootstrap/Card';
 import NextImage from 'next/legacy/image'
 import Button from 'react-bootstrap/Button';
-import InstructionModal from '../components/instructionModal'
+
 import { getStrapiMedia } from "../../lib/media";
 function contest() {
     
@@ -106,10 +106,7 @@ function contest() {
                                         </button>
                                     </Link>
                                 </div>
-                                {/* <InstructionModal
-                                    open={handleShow}
-
-                                /> */}
+                              
 
 
 
