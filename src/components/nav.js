@@ -40,28 +40,27 @@ const Nav = () => {
                     >
                         <span className="navbar-toggler-icon" />
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                        
-                            <ul className="navbar-nav ms-auto links-color">
+                    <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                        <ul className="navbar-nav links-color">
 
-                                <li className="nav-item mx-2 my-auto font-weight-600">
-                                    <Link className="nav-link base-color" href="/">Home</Link>
-                                </li>
-                                <li className="nav-item mx-2 my-auto">
-                                    <Link className="nav-link" href="/blog" title="">Expolor</Link>
-                                </li>
-                                <li className="nav-item mx-2 my-auto">
-                                    <Link className="nav-link" href="/DogAgeCalculator" >Dog Age Calculator</Link>
-                                </li>
-                                <li className="nav-item mx-2 my-auto">
-                                    <Link className="nav-link" href="/contest" title="Chance To Win 100$">Pet Contest</Link>
-                                </li>
+                            <li className="nav-item mx-2 my-auto font-weight-600">
+                                <Link className="nav-link base-color" href="/">Home</Link>
+                            </li>
+                            <li className="nav-item mx-2 my-auto">
+                                <Link className="nav-link" href="/blog" title="">Articles</Link>
+                            </li>
+                            <li className="nav-item mx-2 my-auto">
+                                <Link className="nav-link" href="/DogAgeCalculator" >Generators</Link>
+                            </li>
+                            {/* <div className="float-end d-block d-lg-none">
+                                <button className=" btn fw-bold border-warning bg-warning text-white">Buy me a Coffee</button>
+                            </div> */}
 
-                            </ul>
-                        
-
-
+                        </ul>
                     </div>
+                    {/* <div className="float-end d-none d-lg-block">
+                        <button className=" tool-name-btn base-color font-weight-500 my-2 background-color text-truncate m-auto">Buy me a Coffee</button>
+                    </div> */}
                 </div>
             </nav >
             <div className="border-divider"></div>

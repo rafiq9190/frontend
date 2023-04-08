@@ -18,7 +18,7 @@ export const ExportToExcel = ({ apiData, fileName }) => {
 
     return (
 
-        <button type="button" className={`btn backgroundColor btn-large position-relative pb-0`} onClick={(e) => exportToCSV(apiData, fileName)}>
+        <button type="button" className={`btn btn-large position-relative pb-0`} onClick={(e) => exportToCSV(apiData, fileName)}>
             <i className="fa fa-cloud-download base-color fs-3"></i>
             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill base-background">
                 {apiData.length}

@@ -68,54 +68,7 @@ function blog({ articles, blog }) {
                                 })
                             }
                         </div>
-                    </div>
-                    <div className='col-2'><div className='large-screen-ad'></div></div>
-                </div>
-                <h1 className='text-center my-5'>Related <span className='backgroundColor base-color rounded px-2'>Atricles</span></h1>
-                <div className='row'>
-                    <div className='col-12 col-lg-3 order-1 order-lg-0 my-3'>
-                        <div className='latest-post'>
-                            <h2>Latest Post</h2>
-                            <div className='row'>
-                                {
-                                    latestPosts && latestPosts.map((latestPost, index) => {
-
-
-                                        const getLatestPostImage = latestPost.attributes.image
-
-                                        return (
-                                            <div className='col-12 col-md-6 col-lg-12 my-2 'key={index}>
-                                                <Link href={`/article/${latestPost.attributes.slug}`}>
-                                                    <div className="card rounded border-0 p-1 custom-shadow" >
-                                                        <div className="row g-0 align-items-center">
-                                                            <div className="col-md-4">
-                                                                <NextImage
-                                                                    src={getStrapiMedia(getLatestPostImage)}
-                                                                    width={400}
-                                                                    height={200}
-                                                                    className="img-fluid rounded-start"
-                                                                    alt={getLatestPostImage.data.attributes.alternativeText
-                                                                    }
-                                                                />
-                                                            </div>
-                                                            <div className="col-md-8 overflow-hidden">
-                                                                <div className="card-body p-1">
-
-                                                                    <p className="card-text text-truncate font-weight-600">{latestPost.attributes.description}</p>
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </Link>
-                                            </div>
-                                        )
-                                    })
-                                }
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-12 col-lg-9 order-0 order-lg-1 my-3'>
+                        <h1 className='text-center my-5'>Related <span className='backgroundColor base-color rounded px-2'>Atricles</span></h1>
                         <div className='row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3'>
                             {
                                 articles.map((article, index) => {
@@ -152,10 +105,10 @@ function blog({ articles, blog }) {
                             }
                         </div>
                     </div>
-
-
-
+                    <div className='col-2'><div className='large-screen-ad'></div></div>
                 </div>
+                
+
             </div>
 
         </Layout>
