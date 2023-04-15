@@ -1,0 +1,5466 @@
+{
+    "a": [
+        {
+            "name": "Akemi - 明美"
+        },
+        {
+            "name": "Akihiko - 明彦"
+        },
+        {
+            "name": "Akina - 秋菜"
+        },
+        {
+            "name": "Akio - 昭夫"
+        },
+        {
+            "name": "Amaya - 天谷"
+        },
+        {
+            "name": "Ami - 亜美"
+        },
+        {
+            "name": "Anzu - 杏子"
+        },
+        {
+            "name": "Aoi - 葵"
+        },
+        {
+            "name": "Arata - 新"
+        },
+        {
+            "name": "Asahi - 旭"
+        },
+        {
+            "name": "Asami - 麻美"
+        },
+        {
+            "name": "Asuka - 明日香"
+        },
+        {
+            "name": "Atsuko - 敦子"
+        },
+        {
+            "name": "Ayaka - 彩夏"
+        },
+        {
+            "name": "Ayame - 菖蒲"
+        },
+        {
+            "name": "Ayano - 彩乃"
+        },
+        {
+            "name": "Ayumi - 歩美"
+        },
+        {
+            "name": "Azumi - 梓"
+        },
+        {
+            "name": "Aina - 愛菜"
+        },
+        {
+            "name": "Aiko - 愛子"
+        },
+        {
+            "name": "Aimi - 愛美"
+        },
+        {
+            "name": "Airi - 愛莉"
+        },
+        {
+            "name": "Akari - あかり"
+        },
+        {
+            "name": "Aki - 秋"
+        },
+        {
+            "name": "Akihiro - 昭博"
+        },
+        {
+            "name": "Akinori - 明則"
+        },
+        {
+            "name": "Akira - 明"
+        },
+        {
+            "name": "Amaterasu - 天照"
+        },
+        {
+            "name": "Anri - 杏里"
+        },
+        {
+            "name": "Ao - 青"
+        },
+        {
+            "name": "Arashi - 嵐"
+        },
+        {
+            "name": "Aria - ありあ"
+        },
+        {
+            "name": "Asa - 朝"
+        },
+        {
+            "name": "Asahi - 朝日"
+        },
+        {
+            "name": "Asuka - 飛鳥"
+        },
+        {
+            "name": "Ayaka - 綾香"
+        },
+        {
+            "name": "Ayako - 綾子"
+        },
+        {
+            "name": "Ayame - 綾女"
+        },
+        {
+            "name": "Ayane - 彩音"
+        },
+        {
+            "name": "Ayano - 綾乃"
+        },
+        {
+            "name": "Ayumi - あゆみ"
+        },
+        {
+            "name": "Azami - 薊"
+        },
+        {
+            "name": "Azumi - 梓美"
+        },
+        {
+            "name": "Aoba - 青葉"
+        },
+        {
+            "name": "Aoi - 蒼井"
+        },
+        {
+            "name": "Akane - 茜"
+        },
+        {
+            "name": "Akiho - 秋穂"
+        },
+        {
+            "name": "Akiko - 明子"
+        },
+        {
+            "name": "Akira - 亮"
+        },
+        {
+            "name": "Akito - 暁人"
+        },
+        {
+            "name": "Amaya - 雨谷"
+        },
+        {
+            "name": "Ameri - 杏梨"
+        },
+        {
+            "name": "An - 杏"
+        },
+        {
+            "name": "Anri - 杏莉"
+        },
+        {
+            "name": "Anzu - 杏鶴"
+        },
+        {
+            "name": "Aoi - 葵依"
+        },
+        {
+            "name": "Arisu - 亜梨子"
+        },
+        {
+            "name": "Asa - 旦"
+        },
+        {
+            "name": "Asami - 麻実"
+        },
+        {
+            "name": "Asana - 麻菜"
+        },
+        {
+            "name": "Asato - 朝斗"
+        },
+        {
+            "name": "Asuka - 飛鳥佳"
+        },
+        {
+            "name": "Atsushi - 敦士"
+        },
+        {
+            "name": "Ayaka - 彩加"
+        },
+        {
+            "name": "Ayako - 絢子"
+        },
+        {
+            "name": "Ayame - 彩芽"
+        },
+        {
+            "name": "Ayane - 絢音"
+        },
+        {
+            "name": "Ayano - 彩乃羽"
+        },
+        {
+            "name": "Ayasa - 彩紗"
+        },
+        {
+            "name": "Ayu - 歩"
+        },
+        {
+            "name": "Ayuka - 絢香"
+        },
+        {
+            "name": "Ayumi - 歩美"
+        },
+        {
+            "name": "Azuki - 小豆"
+        },
+        {
+            "name": "Azuma - 東"
+        },
+        {
+            "name": "Azumi - 杏澄"
+        },
+        {
+            "name": "Aya - 綾"
+        },
+        {
+            "name": "Ayami - 彩海"
+        },
+        {
+            "name": "Ayana - 彩夏菜"
+        },
+        {
+            "name": "Ayano - 彩野"
+        },
+        {
+            "name": "Ayari - 彩梨"
+        },
+        {
+            "name": "Ayelet - アイレット"
+        },
+        {
+            "name": "Ayumu - 歩夢"
+        },
+        {
+            "name": "Aza - 亜沙"
+        },
+        {
+            "name": "Azami - あざみ"
+        },
+        {
+            "name": "Azuki - あずき"
+        },
+        {
+            "name": "Amane - 天音"
+        },
+        {
+            "name": "Arata - 新太"
+        },
+        {
+            "name": "Asami - 麻美子"
+        },
+        {
+            "name": "Asuka - 明日華"
+        },
+        {
+            "name": "Ayana - 彩奈"
+        },
+        {
+            "name": "Azusa - 梓沙"
+        }
+    ],
+    "b": [
+        {
+            "name": "Beni - 紅"
+        },
+        {
+            "name": "Bito - 人"
+        },
+        {
+            "name": "Bora - 穂良"
+        },
+        {
+            "name": "Bunko - 文子"
+        },
+        {
+            "name": "Buru - 武留"
+        },
+        {
+            "name": "Bunta - 文太"
+        },
+        {
+            "name": "Buri - 武里"
+        },
+        {
+            "name": "Buu - 武宇"
+        },
+        {
+            "name": "Bao - 宝"
+        },
+        {
+            "name": "Baika - 梅香"
+        },
+        {
+            "name": "Baiya - 梅夜"
+        },
+        {
+            "name": "Baku - 爆"
+        },
+        {
+            "name": "Bara - 薔薇"
+        },
+        {
+            "name": "Batan - バタン"
+        },
+        {
+            "name": "Bemi - 紅海"
+        },
+        {
+            "name": "Beniko - 紅子"
+        },
+        {
+            "name": "Benio - 紅緒"
+        },
+        {
+            "name": "Beru - ベル"
+        },
+        {
+            "name": "Betto - 別人"
+        },
+        {
+            "name": "Biei - 美江"
+        },
+        {
+            "name": "Biwako - 琵琶湖"
+        },
+        {
+            "name": "Bokuto - 木兎"
+        },
+        {
+            "name": "Bomi - 寶美"
+        },
+        {
+            "name": "Bon - 凡"
+        },
+        {
+            "name": "Bonita - ボニータ"
+        },
+        {
+            "name": "Boru - 坊流"
+        },
+        {
+            "name": "Bosco - ボスコ"
+        },
+        {
+            "name": "Botan - 牡丹"
+        },
+        {
+            "name": "Budo - 武藤"
+        },
+        {
+            "name": "Buichi - 武一"
+        },
+        {
+            "name": "Bunkichi - 文吉"
+        },
+        {
+            "name": "Busuke - 武助"
+        },
+        {
+            "name": "Buzen - 武善"
+        },
+        {
+            "name": "Byakko - 白虎"
+        },
+        {
+            "name": "Byakuya - 白夜"
+        },
+        {
+            "name": "Baito - バイト"
+        },
+        {
+            "name": "Bakka - 爆火"
+        },
+        {
+            "name": "Banri - 万里"
+        },
+        {
+            "name": "Barusu - バルス"
+        },
+        {
+            "name": "Bazuru - バズル"
+        },
+        {
+            "name": "Ben - 弁"
+        },
+        {
+            "name": "Bengo - 弁吾"
+        },
+        {
+            "name": "Benten - 弁天"
+        },
+        {
+            "name": "Beppu - 別府"
+        },
+        {
+            "name": "Bibi - 美々"
+        },
+        {
+            "name": "Biko - 美子"
+        },
+        {
+            "name": "Birei - 美鈴"
+        },
+        {
+            "name": "Bisuko - 美鈴子"
+        },
+        {
+            "name": "Boke - 望景"
+        },
+        {
+            "name": "Baku - 北斗"
+        },
+        {
+            "name": "Ban - 万"
+        },
+        {
+            "name": "Baro - バロ"
+        },
+        {
+            "name": "Bato - バト"
+        },
+        {
+            "name": "Beika - 米香"
+        },
+        {
+            "name": "Benkei - 弁慶"
+        },
+        {
+            "name": "Benno - 弁之"
+        },
+        {
+            "name": "Bentaro - 弁太郎"
+        },
+        {
+            "name": "Bento - 弁当"
+        },
+        {
+            "name": "Beruto - ベルト"
+        },
+        {
+            "name": "Betto - 別斗"
+        },
+        {
+            "name": "Bishin - 美心"
+        },
+        {
+            "name": "Bisho - 美翔"
+        },
+        {
+            "name": "Bishu - 美珠"
+        },
+        {
+            "name": "Bitoku - 美徳"
+        },
+        {
+            "name": "Bokka - 坊火"
+        },
+        {
+            "name": "Bonten - 梵天"
+        },
+        {
+            "name": "Bonzo - 凡蔵"
+        },
+        {
+            "name": "Boro - 暮良"
+        },
+        {
+            "name": "Boshi - 暮子"
+        },
+        {
+            "name": "Budo - 葡萄"
+        },
+        {
+            "name": "Bunta - 文多"
+        },
+        {
+            "name": "Buso - 武曽"
+        },
+        {
+            "name": "Buson - 武尊"
+        },
+        {
+            "name": "Butsu - 仏"
+        },
+        {
+            "name": "Buzan - 武山"
+        },
+        {
+            "name": "Byaku - 白"
+        },
+        {
+            "name": "Byakkou - 白光"
+        },
+        {
+            "name": "Byakuren - 白蓮"
+        },
+        {
+            "name": "Byou - 病"
+        },
+        {
+            "name": "Byouki - 病気"
+        },
+        {
+            "name": "Byouma - 病魔"
+        },
+        {
+            "name": "Byousuke - 病助"
+        },
+        {
+            "name": "Byouta - 病太"
+        },
+        {
+            "name": "Byun - ビュン"
+        },
+        {
+            "name": "Byunta - 明太"
+        },
+        {
+            "name": "Byuu - ビュウ"
+        },
+        {
+            "name": "Byuuko - 百合子"
+        },
+        {
+            "name": "Byuuji - 美雨児"
+        },
+        {
+            "name": "Byuuryuu - 美雨流"
+        },
+        {
+            "name": "Byuuza - 美雨座"
+        },
+        {
+            "name": "Byuuzen - 美雨善"
+        },
+        {
+            "name": "Byuuzu - 美雨図"
+        },
+        {
+            "name": "Byuuzuki - 美雨月"
+        },
+        {
+            "name": "Byuuzou - 美雨蔵"
+        },
+        {
+            "name": "Byuurin - 美雨鈴"
+        },
+        {
+            "name": "Byuusan - 美雨三"
+        },
+        {
+            "name": "Byuushin - 美雨心"
+        }
+    ],
+    "c": [
+        {
+            "name": "Canna - カンナ"
+        },
+        {
+            "name": "Ceresu - セレス"
+        },
+        {
+            "name": "Chacha - 茶々"
+        },
+        {
+            "name": "Chie - 千恵"
+        },
+        {
+            "name": "Chieri - 智絵里"
+        },
+        {
+            "name": "Chiharu - 千春"
+        },
+        {
+            "name": "Chihiro - 千尋"
+        },
+        {
+            "name": "Chiho - 千穂"
+        },
+        {
+            "name": "Chika - 千佳"
+        },
+        {
+            "name": "Chikako - 千賀子"
+        },
+        {
+            "name": "Chikara - 力"
+        },
+        {
+            "name": "Chiko - 知子"
+        },
+        {
+            "name": "Chimu - 千夢"
+        },
+        {
+            "name": "Chiori - 千織"
+        },
+        {
+            "name": "Chisato - 千里"
+        },
+        {
+            "name": "Chitose - 千歳"
+        },
+        {
+            "name": "Chiyako - 千夜子"
+        },
+        {
+            "name": "Chiyoko - 千代子"
+        },
+        {
+            "name": "Chizu - 千鶴"
+        },
+        {
+            "name": "Chizuko - 千鶴子"
+        },
+        {
+            "name": "Choco - チョコ"
+        },
+        {
+            "name": "Coco - ココ"
+        },
+        {
+            "name": "Cocona - ココナ"
+        },
+        {
+            "name": "Cocoa - ココア"
+        },
+        {
+            "name": "Crea - クレア"
+        },
+        {
+            "name": "Crescent - クレセント"
+        },
+        {
+            "name": "Crescendo - クレッシェンド"
+        },
+        {
+            "name": "Crystal - クリスタル"
+        },
+        {
+            "name": "Cyu - チュウ"
+        },
+        {
+            "name": "Cyuuko - 中子"
+        },
+        {
+            "name": "Cyuuji - 忠治"
+        },
+        {
+            "name": "Cyuhei - 忠平"
+        },
+        {
+            "name": "Cyuuri - 忠理"
+        },
+        {
+            "name": "Cyuuto - 忠人"
+        },
+        {
+            "name": "Cyuuzi - 忠児"
+        },
+        {
+            "name": "Cyuuya - 忠弥"
+        },
+        {
+            "name": "Cyuumei - 忠明"
+        },
+        {
+            "name": "Cyuumi - 忠美"
+        },
+        {
+            "name": "Cyuumon - 忠門"
+        },
+        {
+            "name": "Cyuuichi - 忠一"
+        },
+        {
+            "name": "Cyuuhei - 忠平"
+        },
+        {
+            "name": "Cyuujiro - 忠次郎"
+        },
+        {
+            "name": "Cao - 漕"
+        },
+        {
+            "name": "Caramel - キャラメル"
+        },
+        {
+            "name": "Carl - カール"
+        },
+        {
+            "name": "Carol - キャロル"
+        },
+        {
+            "name": "Carry - キャリー"
+        },
+        {
+            "name": "Cassis - カシス"
+        },
+        {
+            "name": "Castor - カストル"
+        },
+        {
+            "name": "Cat - キャット"
+        },
+        {
+            "name": "Cattleya - カトレア"
+        },
+        {
+            "name": "Cecile - セシル"
+        },
+        {
+            "name": "Celeste - セレステ"
+        },
+        {
+            "name": "Celine - セリーヌ"
+        },
+        {
+            "name": "Cera - セラ"
+        },
+        {
+            "name": "Chaco - 茶子"
+        },
+        {
+            "name": "Chai - チャイ"
+        },
+        {
+            "name": "Chaimu - チャイム"
+        },
+        {
+            "name": "Chamo - 茶茂"
+        },
+        {
+            "name": "Chami - 茶美"
+        },
+        {
+            "name": "Chamomile - カモミール"
+        },
+        {
+            "name": "Chan - チャン"
+        },
+        {
+            "name": "Chappy - チャッピー"
+        },
+        {
+            "name": "Charisma - カリスマ"
+        },
+        {
+            "name": "Charlotte - シャーロット"
+        },
+        {
+            "name": "Cheena - チーナ"
+        },
+        {
+            "name": "Chelsea - チェルシー"
+        },
+        {
+            "name": "Cherry - チェリー"
+        },
+        {
+            "name": "Chibi - ちび"
+        },
+        {
+            "name": "Chidori - 千鳥"
+        },
+        {
+            "name": "Chieko - 千恵子"
+        },
+        {
+            "name": "Chiffon - シフォン"
+        },
+        {
+            "name": "Chikaaki - 千秋"
+        },
+        {
+            "name": "Chikage - 千影"
+        },
+        {
+            "name": "Chikako - 千加子"
+        },
+        {
+            "name": "Chikara - 力"
+        },
+        {
+            "name": "Chiko - 智子"
+        },
+        {
+            "name": "Chikuma - 千曲"
+        },
+        {
+            "name": "Chikusa - 千草"
+        },
+        {
+            "name": "Chimaki - 千巻"
+        },
+        {
+            "name": "Chimu - 智夢"
+        },
+        {
+            "name": "Chirori - 千路"
+        },
+        {
+            "name": "Chitato - 千太"
+        },
+        {
+            "name": "Chitoge - 千棘"
+        }
+    ],
+    "d": [
+        {
+            "name": "Dai - 大"
+        },
+        {
+            "name": "Daichi - 大地"
+        },
+        {
+            "name": "Daigo - 大吾"
+        },
+        {
+            "name": "Daiki - 大輝"
+        },
+        {
+            "name": "Daisuke - 大輔"
+        },
+        {
+            "name": "Daizu - 大豆"
+        },
+        {
+            "name": "Dakko - 抱子"
+        },
+        {
+            "name": "Danna - 主"
+        },
+        {
+            "name": "Danzo - 団蔵"
+        },
+        {
+            "name": "Daruma - 達磨"
+        },
+        {
+            "name": "Dasuke - 太助"
+        },
+        {
+            "name": "Date - 伊達"
+        },
+        {
+            "name": "Datsu - 脱"
+        },
+        {
+            "name": "Dayo - 大世"
+        },
+        {
+            "name": "Deiji - 泥寺"
+        },
+        {
+            "name": "Deko - 凸子"
+        },
+        {
+            "name": "Demi - 出水"
+        },
+        {
+            "name": "Denji - 電児"
+        },
+        {
+            "name": "Denko - 田子"
+        },
+        {
+            "name": "Denjiro - 田次郎"
+        },
+        {
+            "name": "Denshi - 電子"
+        },
+        {
+            "name": "Deru - 出る"
+        },
+        {
+            "name": "Doki - 度岐"
+        },
+        {
+            "name": "Doko - 度古"
+        },
+        {
+            "name": "Domu - 土武"
+        },
+        {
+            "name": "Don - 鈍"
+        },
+        {
+            "name": "Donko - 敦子"
+        },
+        {
+            "name": "Dora - ドラ"
+        },
+        {
+            "name": "Doragon - ドラゴン"
+        },
+        {
+            "name": "Dorei - 奴隷"
+        },
+        {
+            "name": "Doro - 泥"
+        },
+        {
+            "name": "Doushi - 導師"
+        },
+        {
+            "name": "Douya - 動弥"
+        },
+        {
+            "name": "Dozo - どぞう"
+        },
+        {
+            "name": "Drakon - ドラコン"
+        },
+        {
+            "name": "Duko - 洞子"
+        },
+        {
+            "name": "Duma - 沙磨"
+        },
+        {
+            "name": "Dune - ドゥネ"
+        },
+        {
+            "name": "Dushi - 洞士"
+        },
+        {
+            "name": "Duton - 鈍運"
+        },
+        {
+            "name": "Dym - ダイム"
+        },
+        {
+            "name": "Dyusha - デュシャ"
+        },
+        {
+            "name": "Daita - 大太"
+        },
+        {
+            "name": "Danran - 旦那"
+        },
+        {
+            "name": "Danten - 団天"
+        },
+        {
+            "name": "Dansei - 男性"
+        },
+        {
+            "name": "Danka - 檀家"
+        },
+        {
+            "name": "Danzetsu - 断絶"
+        },
+        {
+            "name": "Darui - preoccupied - 怠い"
+        },
+        {
+            "name": "Datsumo - 脱毛"
+        },
+        {
+            "name": "Deppa - 出っ歯"
+        },
+        {
+            "name": "Deshi - 弟子"
+        },
+        {
+            "name": "Detarame - 出鱈目"
+        },
+        {
+            "name": "Dezaato - デザート"
+        },
+        {
+            "name": "Dingo - ディンゴ"
+        },
+        {
+            "name": "Dirakkusu - ディラックス"
+        },
+        {
+            "name": "Dochira - どちら"
+        },
+        {
+            "name": "Dodai - 土台"
+        },
+        {
+            "name": "Dojikko - ドジっ子"
+        },
+        {
+            "name": "Dokan - 土管"
+        },
+        {
+            "name": "Dokudami - 毒蔦"
+        },
+        {
+            "name": "Dokuganryu - 独眼竜"
+        },
+        {
+            "name": "Domannaka - ど真ん中"
+        },
+        {
+            "name": "Donarudo - ドナルド"
+        },
+        {
+            "name": "Donden - どんでん"
+        },
+        {
+            "name": "Donguri - どんぐり"
+        },
+        {
+            "name": "Donkan - 鈍感"
+        },
+        {
+            "name": "Donpisha - 鈍肉脈"
+        },
+        {
+            "name": "Donto - ドント"
+        },
+        {
+            "name": "Doraibu - ドライブ"
+        },
+        {
+            "name": "Dorakku - ドラック"
+        },
+        {
+            "name": "Doriru - ドリル"
+        },
+        {
+            "name": "Dosei - 土星"
+        },
+        {
+            "name": "Doseiyoku - 土星欲"
+        },
+        {
+            "name": "Doshin - 同心"
+        },
+        {
+            "name": "Dosokai - 同窓会"
+        },
+        {
+            "name": "Dotou - 怒涛"
+        },
+        {
+            "name": "Doutoku - 道徳"
+        },
+        {
+            "name": "Doyagao - 戯画面"
+        },
+        {
+            "name": "Drakula - ドラキュラ"
+        },
+        {
+            "name": "Dramu - ドラム"
+        },
+        {
+            "name": "Dreifu - ドライフ"
+        },
+        {
+            "name": "Drip - ドリップ"
+        },
+        {
+            "name": "Dron - ドロン"
+        },
+        {
+            "name": "Duster - ダスター"
+        },
+        {
+            "name": "Dutonbori - 道頓堀"
+        },
+        {
+            "name": "Dyingu - ダイング"
+        },
+        {
+            "name": "Dyuaru - デュアル"
+        },
+        {
+            "name": "Dyufa - デューファ"
+        },
+        {
+            "name": "Dyujo - 女将"
+        },
+        {
+            "name": "Dyuman - デューマン"
+        },
+        {
+            "name": "Dyusen - デューセン"
+        },
+        {
+            "name": "Dyuzo - デュウゾ"
+        }
+    ],
+    "e": [
+        {
+            "name": "Emi (恵美)"
+        },
+        {
+            "name": "Eiji (英二)"
+        },
+        {
+            "name": "Eiko (栄子)"
+        },
+        {
+            "name": "Eri (恵理)"
+        },
+        {
+            "name": "Eita (英太)"
+        },
+        {
+            "name": "Etsuko (悦子)"
+        },
+        {
+            "name": "Eikichi (英吉)"
+        },
+        {
+            "name": "Eriko (恵理子)"
+        },
+        {
+            "name": "Eijiro (英二郎)"
+        },
+        {
+            "name": "Emiko (笑子)"
+        },
+        {
+            "name": "Eishin (英真)"
+        },
+        {
+            "name": "Ena (恵那)"
+        },
+        {
+            "name": "Eizo (英蔵)"
+        },
+        {
+            "name": "Eimi (栄美)"
+        },
+        {
+            "name": "Einosuke (英之助)"
+        },
+        {
+            "name": "Emiri (恵美梨)"
+        },
+        {
+            "name": "Eitoku (永徳)"
+        },
+        {
+            "name": "Eriya (絵里也)"
+        },
+        {
+            "name": "Eisuke (英介)"
+        },
+        {
+            "name": "Erina (恵里菜)"
+        },
+        {
+            "name": "Erihiko (絵理彦)"
+        },
+        {
+            "name": "Etsujiro (悦次郎)"
+        },
+        {
+            "name": "Eijiya (英治也)"
+        },
+        {
+            "name": "Erisa (恵理沙)"
+        },
+        {
+            "name": "Eishiro (英四郎)"
+        },
+        {
+            "name": "Eriya (恵利也)"
+        },
+        {
+            "name": "Eikoh (英広)"
+        },
+        {
+            "name": "Emiko (江美子)"
+        },
+        {
+            "name": "Eru (絵留)"
+        },
+        {
+            "name": "Eishun (英俊)"
+        },
+        {
+            "name": "Erika (江里香)"
+        },
+        {
+            "name": "Eijiro (英次郎)"
+        },
+        {
+            "name": "Emiya (笑也)"
+        },
+        {
+            "name": "Eisaku (英作)"
+        },
+        {
+            "name": "Erena (絵玲奈)"
+        },
+        {
+            "name": "Einosuke (栄之助)"
+        },
+        {
+            "name": "Emiho (恵美穂)"
+        },
+        {
+            "name": "Emie (恵美恵)"
+        },
+        {
+            "name": "Eruna (絵留菜)"
+        },
+        {
+            "name": "Eiji (栄治)"
+        },
+        {
+            "name": "Eiji (栄次)"
+        },
+        {
+            "name": "Eiji (栄司)"
+        },
+        {
+            "name": "Eiko (栄子)"
+        },
+        {
+            "name": "Etsuko (悦子)"
+        },
+        {
+            "name": "Eriko (恵利子)"
+        },
+        {
+            "name": "Erihime (恵理姫)"
+        },
+        {
+            "name": "Eito (英斗)"
+        },
+        {
+            "name": "Etsuo (悦夫)"
+        },
+        {
+            "name": "Eimiyo (英美代)"
+        },
+        {
+            "name": "Enami (江南)"
+        },
+        {
+            "name": "Erihisa (恵理久)"
+        },
+        {
+            "name": "Eita (永太)"
+        },
+        {
+            "name": "Echika (絵千花)"
+        },
+        {
+            "name": "Eshiro (英史郎)"
+        },
+        {
+            "name": "Erihana (恵莉花)"
+        },
+        {
+            "name": "Ebato (絵馬斗)"
+        },
+        {
+            "name": "Eriyoshi (恵利良)"
+        },
+        {
+            "name": "Enji (園児)"
+        },
+        {
+            "name": "Erika (英里香)"
+        },
+        {
+            "name": "Eiki (永紀)"
+        },
+        {
+            "name": "Eichi (英智)"
+        },
+        {
+            "name": "Eima (英麻)"
+        },
+        {
+            "name": "Eikyo (永享)"
+        },
+        {
+            "name": "Eirin (栄倫)"
+        },
+        {
+            "name": "Eiryo (英亮)"
+        },
+        {
+            "name": "Eisho (栄翔)"
+        },
+        {
+            "name": "Eirika (栄里香)"
+        },
+        {
+            "name": "Eiko (永子)"
+        },
+        {
+            "name": "Eikichi (栄吉)"
+        },
+        {
+            "name": "Emina (恵美菜)"
+        },
+        {
+            "name": "Eiji (永治)"
+        },
+        {
+            "name": "Eriharu (恵里春)"
+        },
+        {
+            "name": "Eriya (絵里弥)"
+        },
+        {
+            "name": "Eikoku (英国)"
+        },
+        {
+            "name": "Eriyu (恵理由)"
+        },
+        {
+            "name": "Etsuro (悦郎)"
+        },
+        {
+            "name": "Emaru (江丸)"
+        },
+        {
+            "name": "Emona (江茂菜)"
+        },
+        {
+            "name": "Etsushi (悦司)"
+        },
+        {
+            "name": "Eito (瑛斗)"
+        },
+        {
+            "name": "Emina (江南)"
+        },
+        {
+            "name": "Erimi (恵利美)"
+        },
+        {
+            "name": "Eiyu (英勇)"
+        },
+        {
+            "name": "Ema (衛真)"
+        },
+        {
+            "name": "Eriyo (衛輝)"
+        },
+        {
+            "name": "Eito (栄斗)"
+        },
+        {
+            "name": "Eiko (江古田)"
+        },
+        {
+            "name": "Etsuro (悦朗)"
+        }
+    ],
+    "f": [
+        {
+            "name": "Fumio (文夫)"
+        },
+        {
+            "name": "Fuyumi (冬美)"
+        },
+        {
+            "name": "Fumika (史香)"
+        },
+        {
+            "name": "Fuminori (文憲)"
+        },
+        {
+            "name": "Fuka (風花)"
+        },
+        {
+            "name": "Fubuki (吹雪)"
+        },
+        {
+            "name": "Futoshi (太)"
+        },
+        {
+            "name": "Fujio (藤雄)"
+        },
+        {
+            "name": "Fumito (文人)"
+        },
+        {
+            "name": "Fumiyuki (文之)"
+        },
+        {
+            "name": "Fuyuhiko (冬彦)"
+        },
+        {
+            "name": "Fueko (富恵子)"
+        },
+        {
+            "name": "Fumiko (文子)"
+        },
+        {
+            "name": "Fujika (藤香)"
+        },
+        {
+            "name": "Fujita (藤田)"
+        },
+        {
+            "name": "Fumika (文香)"
+        },
+        {
+            "name": "Fudo (不動)"
+        },
+        {
+            "name": "Futaba (双葉)"
+        },
+        {
+            "name": "Fumina (文菜)"
+        },
+        {
+            "name": "Fumiko (富美子)"
+        },
+        {
+            "name": "Fuminori (文紀)"
+        },
+        {
+            "name": "Futari (二人)"
+        },
+        {
+            "name": "Fujiko (富士子)"
+        },
+        {
+            "name": "Fumie (文江)"
+        },
+        {
+            "name": "Fukiko (吹子)"
+        },
+        {
+            "name": "Fujin (富士人)"
+        },
+        {
+            "name": "Fujishige (藤重)"
+        },
+        {
+            "name": "Fuku (福)"
+        },
+        {
+            "name": "Fujiko (富治子)"
+        },
+        {
+            "name": "Fuminao (文直)"
+        },
+        {
+            "name": "Fumiaki (文明)"
+        },
+        {
+            "name": "Fumiko (文宏)"
+        },
+        {
+            "name": "Fubito (夫人)"
+        },
+        {
+            "name": "Fuyuko (冬子)"
+        },
+        {
+            "name": "Fumiyoshi (文良)"
+        },
+        {
+            "name": "Fuyuki (冬樹)"
+        },
+        {
+            "name": "Fukuda (福田)"
+        },
+        {
+            "name": "Fumie (文恵)"
+        },
+        {
+            "name": "Fushimi (伏見)"
+        },
+        {
+            "name": "Fumi (文)"
+        },
+        {
+            "name": "Fumiyasu (文康)"
+        },
+        {
+            "name": "Fugaku (富嶽)"
+        },
+        {
+            "name": "Fujiki (藤木)"
+        },
+        {
+            "name": "Fuka (風佳)"
+        },
+        {
+            "name": "Fuminari (文成)"
+        },
+        {
+            "name": "Fumiko (冬子)"
+        },
+        {
+            "name": "Fuka (富香)"
+        },
+        {
+            "name": "Fujihiro (藤博)"
+        },
+        {
+            "name": "Fumihiko (文彦)"
+        },
+        {
+            "name": "Fumino (文乃)"
+        },
+        {
+            "name": "Fujimi (富士美)"
+        },
+        {
+            "name": "Fumikazu (文一)"
+        },
+        {
+            "name": "Fuyuha (冬羽)"
+        },
+        {
+            "name": "Fumihito (文仁)"
+        },
+        {
+            "name": "Fujiko (藤子)"
+        },
+        {
+            "name": "Fuyuho (冬歩)"
+        },
+        {
+            "name": "Fumiyoshi (文義)"
+        },
+        {
+            "name": "Fujita (富士田)"
+        },
+        {
+            "name": "Fumitsugu (文嗣)"
+        },
+        {
+            "name": "Futayo (二代)"
+        },
+        {
+            "name": "Fumiyuki (文幸)"
+        },
+        {
+            "name": "Fumiki (文樹)"
+        },
+        {
+            "name": "Fujiko (藤虎)"
+        },
+        {
+            "name": "Fumikiyo (文清)"
+        },
+        {
+            "name": "Fujisaki (藤崎)"
+        },
+        {
+            "name": "Fumiharu (文治)"
+        },
+        {
+            "name": "Fumino (富乃)"
+        },
+        {
+            "name": "Fuyuhiko (冬彦)"
+        },
+        {
+            "name": "Fumitake (文剛)"
+        },
+        {
+            "name": "Futoshi (太志)"
+        },
+        {
+            "name": "Fumina (文奈)"
+        },
+        {
+            "name": "Fujinami (藤波)"
+        },
+        {
+            "name": "Fumio (富男)"
+        },
+        {
+            "name": "Fubito (夫斗)"
+        },
+        {
+            "name": "Fugaku (富岳)"
+        },
+        {
+            "name": "Fumiyasu (文康)"
+        },
+        {
+            "name": "Fumitaka (文隆)"
+        },
+        {
+            "name": "Fujimaru (藤丸)"
+        },
+        {
+            "name": "Fumiyuki (富之)"
+        },
+        {
+            "name": "Fuminobu (文信)"
+        },
+        {
+            "name": "Fukuhei (福平)"
+        },
+        {
+            "name": "Fumio (富雄)"
+        },
+        {
+            "name": "Fumiaki (文昭)"
+        },
+        {
+            "name": "Fujishiro (藤城)"
+        },
+        {
+            "name": "Fumikage (文蔭)"
+        },
+        {
+            "name": "Fujio (藤男)"
+        },
+        {
+            "name": "Fumika (文花)"
+        },
+        {
+            "name": "Fumiyasu (富安)"
+        },
+        {
+            "name": "Fuyuko (冬子)"
+        },
+        {
+            "name": "Fuminao (文直夫)"
+        },
+        {
+            "name": "Fumihiro (文宏)"
+        }
+    ],
+    "g": [
+        {
+            "name": "Guka (風佳)"
+        },
+        {
+            "name": "Gaku (岳)"
+        },
+        {
+            "name": "Gen (玄)"
+        },
+        {
+            "name": "Goro (五郎)"
+        },
+        {
+            "name": "Gin (銀)"
+        },
+        {
+            "name": "Gakuhei (岳平)"
+        },
+        {
+            "name": "Gensuke (源助)"
+        },
+        {
+            "name": "Go (豪)"
+        },
+        {
+            "name": "Ginko (銀子)"
+        },
+        {
+            "name": "Gouki (剛毅)"
+        },
+        {
+            "name": "Genta (源太)"
+        },
+        {
+            "name": "Gakuho (岳穂)"
+        },
+        {
+            "name": "Genshiro (源四郎)"
+        },
+        {
+            "name": "Genta (玄太)"
+        },
+        {
+            "name": "Ginkaku (銀閣)"
+        },
+        {
+            "name": "Gorou (吾郎)"
+        },
+        {
+            "name": "Gakuto (岳人)"
+        },
+        {
+            "name": "Gentaro (源太郎)"
+        },
+        {
+            "name": "Ginko (吟子)"
+        },
+        {
+            "name": "Gou (豪)"
+        },
+        {
+            "name": "Genzo (源蔵)"
+        },
+        {
+            "name": "Gakuji (岳二)"
+        },
+        {
+            "name": "Genjiro (源次郎)"
+        },
+        {
+            "name": "Ginta (銀太)"
+        },
+        {
+            "name": "Goto (後藤)"
+        },
+        {
+            "name": "Gakuya (岳也)"
+        },
+        {
+            "name": "Gentetsu (源哲)"
+        },
+        {
+            "name": "Gintaro (銀太郎)"
+        },
+        {
+            "name": "Gouda (合田)"
+        },
+        {
+            "name": "Genichi (源一)"
+        },
+        {
+            "name": "Gakuza (岳佐)"
+        },
+        {
+            "name": "Genshi (元志)"
+        },
+        {
+            "name": "Ginya (銀也)"
+        },
+        {
+            "name": "Gotoh (後藤)"
+        },
+        {
+            "name": "Genichiro (源一郎)"
+        },
+        {
+            "name": "Gakusai (岳彩)"
+        },
+        {
+            "name": "Genzo (玄蔵)"
+        },
+        {
+            "name": "Ginkan (銀冠)"
+        },
+        {
+            "name": "Gouichi (剛一)"
+        },
+        {
+            "name": "Gakuto (岳斗)"
+        },
+        {
+            "name": "Genki (元気)"
+        },
+        {
+            "name": "Gintetsu (銀哲)"
+        },
+        {
+            "name": "Gouzou (豪蔵)"
+        },
+        {
+            "name": "Gakushin"
+        },
+        {
+            "name": "Gouji (剛二)"
+        },
+        {
+            "name": "Gabi (ガビ)"
+        },
+        {
+            "name": "Gakujiro (岳次郎)"
+        },
+        {
+            "name": "Gami (ガミ)"
+        },
+        {
+            "name": "Gaijin (外人)"
+        },
+        {
+            "name": "Gamon (雅文)"
+        },
+        {
+            "name": "Gajin (画人)"
+        },
+        {
+            "name": "Gantaro (岩太郎)"
+        },
+        {
+            "name": "Gamiko (峨美子)"
+        },
+        {
+            "name": "Ganryu (巌流)"
+        },
+        {
+            "name": "Genta (元太)"
+        },
+        {
+            "name": "Garin (我麟)"
+        },
+        {
+            "name": "Gannosuke (岩之助)"
+        },
+        {
+            "name": "Gembu (玄武)"
+        },
+        {
+            "name": "Gika (戯画)"
+        },
+        {
+            "name": "Genshukei (玄守啓)"
+        },
+        {
+            "name": "Gintaika (銀太華)"
+        },
+        {
+            "name": "Ginzuisho (銀髪紫)"
+        },
+        {
+            "name": "Gohin (五秦)"
+        },
+        {
+            "name": "Goyah (ゴーヤ)"
+        },
+        {
+            "name": "Gaisuke (凱助)"
+        },
+        {
+            "name": "Gakumei (岳明)"
+        },
+        {
+            "name": "Garuko (我留子)"
+        },
+        {
+            "name": "Gennin (源人)"
+        },
+        {
+            "name": "Gokan (五感)"
+        },
+        {
+            "name": "Gonpei (権平)"
+        },
+        {
+            "name": "Goyuki (豪雪)"
+        },
+        {
+            "name": "Gashu (雅秀)"
+        },
+        {
+            "name": "Gansuke (岩助)"
+        },
+        {
+            "name": "Gachirin (雅琴)"
+        },
+        {
+            "name": "Giko (義子)"
+        },
+        {
+            "name": "Gombei (五兵衛)"
+        },
+        {
+            "name": "Gokudo (極道)"
+        },
+        {
+            "name": "Goryu (剛龍)"
+        },
+        {
+            "name": "Gogoro (豪五郎)"
+        },
+        {
+            "name": "Gurei (グレイ)"
+        },
+        {
+            "name": "Genbaku (原爆)"
+        },
+        {
+            "name": "Ganki (巌騎)"
+        },
+        {
+            "name": "Gohachi (五八)"
+        },
+        {
+            "name": "Ginten (銀天)"
+        },
+        {
+            "name": "Gensan (源三)"
+        },
+        {
+            "name": "Gozo (五蔵)"
+        }
+    ],
+    "h": [
+        {
+            "name": "Hana (花)"
+        },
+        {
+            "name": "Haru (春)"
+        },
+        {
+            "name": "Hiro (浩)"
+        },
+        {
+            "name": "Hina (陽菜)"
+        },
+        {
+            "name": "Hikaru (光)"
+        },
+        {
+            "name": "Hoshi (星)"
+        },
+        {
+            "name": "Hayato (隼人)"
+        },
+        {
+            "name": "Hatsune (初音)"
+        },
+        {
+            "name": "Hinata (陽向)"
+        },
+        {
+            "name": "Hitomi (瞳)"
+        },
+        {
+            "name": "Hanae (花江)"
+        },
+        {
+            "name": "Haruka (遥)"
+        },
+        {
+            "name": "Hisoka (密)"
+        },
+        {
+            "name": "Hanako (花子)"
+        },
+        {
+            "name": "Hideo (英雄)"
+        },
+        {
+            "name": "Honoka (帆乃佳)"
+        },
+        {
+            "name": "Hazuki (葉月)"
+        },
+        {
+            "name": "Hikari (輝)"
+        },
+        {
+            "name": "Hayato (勇人)"
+        },
+        {
+            "name": "Hatsuho (初穂)"
+        },
+        {
+            "name": "Haruhi (晴日)"
+        },
+        {
+            "name": "Hinako (陽子)"
+        },
+        {
+            "name": "Haruo (春雄)"
+        },
+        {
+            "name": "Hinae (日苗)"
+        },
+        {
+            "name": "Hiroko (寛子)"
+        },
+        {
+            "name": "Hitoshi (均)"
+        },
+        {
+            "name": "Hazumu (葉摘)"
+        },
+        {
+            "name": "Himari (陽葵)"
+        },
+        {
+            "name": "Hiyori (日和)"
+        },
+        {
+            "name": "Harue (春江)"
+        },
+        {
+            "name": "Hiromi (浩美)"
+        },
+        {
+            "name": "Hisayo (久代)"
+        },
+        {
+            "name": "Hachiko (ハチ子)"
+        },
+        {
+            "name": "Hanami (花見)"
+        },
+        {
+            "name": "Haruo (晴男)"
+        },
+        {
+            "name": "Hatsuko (初子)"
+        },
+        {
+            "name": "Hazumi (葉澄)"
+        },
+        {
+            "name": "Hikage (陽影)"
+        },
+        {
+            "name": "Hikaru (ひかる)"
+        },
+        {
+            "name": "Hiroaki (弘明)"
+        },
+        {
+            "name": "Hirotaka (広隆)"
+        },
+        {
+            "name": "Hiyoko (ひよこ)"
+        },
+        {
+            "name": "Hoshiko (星子)"
+        },
+        {
+            "name": "Hotaru (蛍)"
+        },
+        {
+            "name": "Harumi (春美)"
+        },
+        {
+            "name": "Haruto (陽翔)"
+        },
+        {
+            "name": "Hikone (彦根)"
+        },
+        {
+            "name": "Hiori (陽織)"
+        },
+        {
+            "name": "Hisanori (久紀)"
+        },
+        {
+            "name": "Hitomi (仁美)"
+        },
+        {
+            "name": "Hikashi (光司)"
+        },
+        {
+            "name": "Harumiya (晴美弥)"
+        },
+        {
+            "name": "Hatsushimo (初霜)"
+        },
+        {
+            "name": "Hanata (花多)"
+        },
+        {
+            "name": "Hironori (博紀)"
+        },
+        {
+            "name": "Hiyama (冷山)"
+        },
+        {
+            "name": "Himeko (姫子)"
+        },
+        {
+            "name": "Hinano (陽乃)"
+        },
+        {
+            "name": "Hikage (日影)"
+        },
+        {
+            "name": "Haruma (春真)"
+        },
+        {
+            "name": "Hikaze (陽風)"
+        },
+        {
+            "name": "Hayabusa (隼)"
+        },
+        {
+            "name": "Hazama (間橋)"
+        },
+        {
+            "name": "Hikone (彦音)"
+        },
+        {
+            "name": "Harukiyo (春清)"
+        },
+        {
+            "name": "Hoshina (星菜)"
+        },
+        {
+            "name": "Hikoma (彦馬)"
+        },
+        {
+            "name": "Haneul (はねうる)"
+        },
+        {
+            "name": "Himeka (姫香)"
+        },
+        {
+            "name": "Haneda (羽根田)"
+        },
+        {
+            "name": "Hizuru (葉鶴)"
+        },
+        {
+            "name": "Hikoya (彦矢)"
+        },
+        {
+            "name": "Hatsuyume (初夢)"
+        },
+        {
+            "name": "Hoshiko (星湖)"
+        },
+        {
+            "name": "Hibiki (響)"
+        },
+        {
+            "name": "Haruhisa (春久)"
+        },
+        {
+            "name": "Hitoyo (瞳世)"
+        },
+        {
+            "name": "Hachirou (八郎)"
+        },
+        {
+            "name": "Hatsuyo (初代)"
+        },
+        {
+            "name": "Hazukiyo (葉月代)"
+        },
+        {
+            "name": "Hinase (日鳥)"
+        },
+        {
+            "name": "Hikita (瞳北)"
+        },
+        {
+            "name": "Hikoma (彦真)"
+        },
+        {
+            "name": "Hanamiya (花実屋)"
+        },
+        {
+            "name": "Haruhiko (春彦)"
+        },
+        {
+            "name": "Hoshiko (星巨)"
+        },
+        {
+            "name": "Hitomiko (瞳美子)"
+        },
+        {
+            "name": "Hagumi (葉組)"
+        },
+        {
+            "name": "Hikaru (陽流)"
+        },
+        {
+            "name": "Hayate (疾風)"
+        },
+        {
+            "name": "Hoshikage (星影)"
+        },
+        {
+            "name": "Haruka (陽香)"
+        }
+    ],
+    "i": [
+        {
+            "name": "Ichi (一)"
+        },
+        {
+            "name": "Iku (郁)"
+        },
+        {
+            "name": "Iori (伊織)"
+        },
+        {
+            "name": "Ima (今)"
+        },
+        {
+            "name": "Iwa (岩)"
+        },
+        {
+            "name": "Itsuki (樹)"
+        },
+        {
+            "name": "Ito (糸)"
+        },
+        {
+            "name": "Inari (稲荷)"
+        },
+        {
+            "name": "Isao (功)"
+        },
+        {
+            "name": "Iyo (伊代)"
+        },
+        {
+            "name": "Ichigo (苺)"
+        },
+        {
+            "name": "Izumi (泉)"
+        },
+        {
+            "name": "Issei (一成)"
+        },
+        {
+            "name": "Ibuki (伊吹)"
+        },
+        {
+            "name": "Ikuo (郁夫)"
+        },
+        {
+            "name": "Iriya (入谷)"
+        },
+        {
+            "name": "Isami (勇)"
+        },
+        {
+            "name": "Iwan (岩)"
+        },
+        {
+            "name": "Ichirou (一郎)"
+        },
+        {
+            "name": "Iwao (巌)"
+        },
+        {
+            "name": "Iyojima (伊豫島)"
+        },
+        {
+            "name": "Ichitarou (市太郎)"
+        },
+        {
+            "name": "Iwata (岩田)"
+        },
+        {
+            "name": "Izanagi (伊邪那岐)"
+        },
+        {
+            "name": "Ikki (一輝)"
+        },
+        {
+            "name": "Itaru (至)"
+        },
+        {
+            "name": "Ichikawa (市川)"
+        },
+        {
+            "name": "Izanami (伊邪那美)"
+        },
+        {
+            "name": "Isao (功雄)"
+        },
+        {
+            "name": "Iyori (いより)"
+        },
+        {
+            "name": "Ikehara (池原)"
+        },
+        {
+            "name": "Isanagi (伊佐那岐)"
+        },
+        {
+            "name": "Izumida (泉田)"
+        },
+        {
+            "name": "Itsuo (逸夫)"
+        },
+        {
+            "name": "Iwai (祝)"
+        },
+        {
+            "name": "Iwamoto (岩本)"
+        },
+        {
+            "name": "Isaku (勲)"
+        },
+        {
+            "name": "Isono (磯野)"
+        },
+        {
+            "name": "Iwase (岩瀬)"
+        },
+        {
+            "name": "Izuka (泉佳)"
+        },
+        {
+            "name": "Ichinohe (一戸)"
+        },
+        {
+            "name": "Iwamura (岩村)"
+        },
+        {
+            "name": "Izanuma (伊佐沼)"
+        },
+        {
+            "name": "Isamu (勇)"
+        },
+        {
+            "name": "Iwaoi (岩井)"
+        },
+        {
+            "name": "Ioriyama (伊織山)"
+        },
+        {
+            "name": "Ikeda (池田)"
+        },
+        {
+            "name": "Isayama (諫山)"
+        },
+        {
+            "name": "Iwasaki (岩崎)"
+        },
+        {
+            "name": "Isamuji (勇二)"
+        },
+        {
+            "name": "Ioriya (伊織谷)"
+        },
+        {
+            "name": "Ibukiyo (伊吹代)"
+        },
+        {
+            "name": "Itsuya (逸也)"
+        },
+        {
+            "name": "Imane (今音)"
+        },
+        {
+            "name": "Isonaga (磯永)"
+        },
+        {
+            "name": "Iwashimizu (岩清水)"
+        },
+        {
+            "name": "Izumiko (泉子)"
+        },
+        {
+            "name": "Ichiza (一座)"
+        },
+        {
+            "name": "Iroha (いろは)"
+        },
+        {
+            "name": "Isamiya (勇宮)"
+        },
+        {
+            "name": "Iwaida (岩井田)"
+        },
+        {
+            "name": "Izanara (伊邪那良)"
+        },
+        {
+            "name": "Irohito (いろひと)"
+        },
+        {
+            "name": "Iwasana (岩佐奈)"
+        },
+        {
+            "name": "Ikuko (郁子)"
+        },
+        {
+            "name": "Izusa (泉沙)"
+        },
+        {
+            "name": "Isana (伊佐奈)"
+        },
+        {
+            "name": "Itsunori (逸則)"
+        },
+        {
+            "name": "Iyoshi (伊吉)"
+        },
+        {
+            "name": "Inanami (稲南)"
+        },
+        {
+            "name": "Iruma (入間)"
+        },
+        {
+            "name": "Izuru (いずる)"
+        },
+        {
+            "name": "Irikura (入倉)"
+        },
+        {
+            "name": "Isuke (勇気)"
+        },
+        {
+            "name": "Iwaoka (岩岡)"
+        },
+        {
+            "name": "Izusaki (泉崎)"
+        },
+        {
+            "name": "Iseya (伊勢谷)"
+        },
+        {
+            "name": "Iwagami (岩上)"
+        },
+        {
+            "name": "Iyomoto (伊代本)"
+        },
+        {
+            "name": "Isaoi (功井)"
+        },
+        {
+            "name": "Izumibashi (泉橋)"
+        },
+        {
+            "name": "Ichimura (市村)"
+        },
+        {
+            "name": "Iroshita (色下)"
+        },
+        {
+            "name": "Izumitani (泉谷)"
+        },
+        {
+            "name": "Iwaji (岩地)"
+        },
+        {
+            "name": "Isaki (勇輝)"
+        },
+        {
+            "name": "Itonami (糸波)"
+        },
+        {
+            "name": "Izusora (泉空)"
+        },
+        {
+            "name": "Inamura (稲村)"
+        },
+        {
+            "name": "Isahaya (諫早)"
+        },
+        {
+            "name": "Iwabuchi (岩渕)"
+        },
+        {
+            "name": "Ikiyama (伊吉山)"
+        },
+        {
+            "name": "Izushio (泉汐)"
+        },
+        {
+            "name": "Inawashiro (猪苗代)"
+        },
+        {
+            "name": "Itsukiya (樹家)"
+        },
+        {
+            "name": "Iwaido (岩井戸)"
+        },
+        {
+            "name": "Izumimoto (泉本)"
+        },
+        {
+            "name": "Iriomote (西表)"
+        },
+        {
+            "name": "Isami (いさみ)"
+        }
+    ],
+    "j": [
+        {
+            "name": "Jirou (二郎)"
+        },
+        {
+            "name": "Junichi (淳一)"
+        },
+        {
+            "name": "Jiroh (次郎)"
+        },
+        {
+            "name": "Juri (珠理)"
+        },
+        {
+            "name": "Jinta (仁太)"
+        },
+        {
+            "name": "Junko (淳子)"
+        },
+        {
+            "name": "Jubei (十兵衛)"
+        },
+        {
+            "name": "Jyunko (順子)"
+        },
+        {
+            "name": "Jyunpei (潤平)"
+        },
+        {
+            "name": "Jin (仁)"
+        },
+        {
+            "name": "Jyunya (純也)"
+        },
+        {
+            "name": "Jyun (淳)"
+        },
+        {
+            "name": "Jyuto (樹斗)"
+        },
+        {
+            "name": "Jyunka (純華)"
+        },
+        {
+            "name": "Jyuzo (十蔵)"
+        },
+        {
+            "name": "Junna (純菜)"
+        },
+        {
+            "name": "Jyudai (十大)"
+        },
+        {
+            "name": "Jyunshin (潤心)"
+        },
+        {
+            "name": "Jyunzo (順三)"
+        },
+        {
+            "name": "Jyuga (樹雅)"
+        },
+        {
+            "name": "Jyuriya (珠里弥)"
+        },
+        {
+            "name": "Jyosuke (譲助)"
+        },
+        {
+            "name": "Jyuka (樹佳)"
+        },
+        {
+            "name": "Jyunpei (潤平)"
+        },
+        {
+            "name": "Jyunki (純輝)"
+        },
+        {
+            "name": "Jyusei (柔聖)"
+        },
+        {
+            "name": "Jyunkichi (順吉)"
+        },
+        {
+            "name": "Jyuriya (珠里弥)"
+        },
+        {
+            "name": "Jyuka (樹花)"
+        },
+        {
+            "name": "Jyuri (樹莉)"
+        },
+        {
+            "name": "Jyunji (順治)"
+        },
+        {
+            "name": "Jyuto (樹人)"
+        },
+        {
+            "name": "Jyunichi (淳一)"
+        },
+        {
+            "name": "Jyurou (樹郎)"
+        },
+        {
+            "name": "Jyunnosuke (淳之介)"
+        },
+        {
+            "name": "Jinsuke (甚助)"
+        },
+        {
+            "name": "Jinko (仁子)"
+        },
+        {
+            "name": "Jinto (神斗)"
+        },
+        {
+            "name": "Jiko (慈子)"
+        },
+        {
+            "name": "Jintaika (仁太華)"
+        },
+        {
+            "name": "Jumpei (潤兵衛)"
+        },
+        {
+            "name": "Juyou (寿陽)"
+        },
+        {
+            "name": "Jusuke (寿助)"
+        },
+        {
+            "name": "Juka (樹華)"
+        },
+        {
+            "name": "Jutaro (寿太郎)"
+        },
+        {
+            "name": "Jumei (寿明)"
+        },
+        {
+            "name": "Jishin (慈心)"
+        },
+        {
+            "name": "Junichiyo (淳一代)"
+        },
+        {
+            "name": "Juroku (十六)"
+        },
+        {
+            "name": "Jushin (寿心)"
+        },
+        {
+            "name": "Joryu (丈流)"
+        },
+        {
+            "name": "Jishu (慈周)"
+        },
+        {
+            "name": "Juto (樹斗)"
+        },
+        {
+            "name": "Jikai (慈海)"
+        },
+        {
+            "name": "Jugetsu (樹月)"
+        },
+        {
+            "name": "Jokichi (城吉)"
+        },
+        {
+            "name": "Juro (十郎)"
+        },
+        {
+            "name": "Jukichi (寿吉)"
+        },
+        {
+            "name": "Jutaka (寿嶽)"
+        },
+        {
+            "name": "Jubeiyo (十兵衛代)"
+        },
+        {
+            "name": "Jitsu (実)"
+        },
+        {
+            "name": "Jintaro (仁太郎)"
+        },
+        {
+            "name": "Junsho (順昌)"
+        },
+        {
+            "name": "Juyu (寿友)"
+        },
+        {
+            "name": "Jikou (慈光)"
+        },
+        {
+            "name": "Jitsuo (実雄)"
+        },
+        {
+            "name": "Junmei (順明)"
+        },
+        {
+            "name": "Jiroku (次六)"
+        },
+        {
+            "name": "Juhachi (十八)"
+        },
+        {
+            "name": "Jushiro (寿司郎)"
+        },
+        {
+            "name": "Jisho (慈照)"
+        },
+        {
+            "name": "Jotaro (丈太郎)"
+        },
+        {
+            "name": "Jusaku (寿作)"
+        },
+        {
+            "name": "Juichiro (十一郎)"
+        },
+        {
+            "name": "Juyo (寿葉)"
+        },
+        {
+            "name": "Jisuke (寿助)"
+        }
+    ],
+    "k": [
+        {
+            "name": "Kaito (海斗)"
+        },
+        {
+            "name": "Kanade (奏)"
+        },
+        {
+            "name": "Kanna (神奈)"
+        },
+        {
+            "name": "Kaoru (薫)"
+        },
+        {
+            "name": "Katsuo (勝夫)"
+        },
+        {
+            "name": "Kazuki (一輝)"
+        },
+        {
+            "name": "Keiichi (圭一)"
+        },
+        {
+            "name": "Keiko (恵子)"
+        },
+        {
+            "name": "Kenji (健二)"
+        },
+        {
+            "name": "Kento (健斗)"
+        },
+        {
+            "name": "Kiku (菊)"
+        },
+        {
+            "name": "Kimi (君)"
+        },
+        {
+            "name": "Kira (吉良)"
+        },
+        {
+            "name": "Kiri (桐)"
+        },
+        {
+            "name": "Kisho (輝翔)"
+        },
+        {
+            "name": "Kiyomi (清美)"
+        },
+        {
+            "name": "Kojiro (小次郎)"
+        },
+        {
+            "name": "Kokoro (心)"
+        },
+        {
+            "name": "Komaki (小牧)"
+        },
+        {
+            "name": "Konomi (このみ)"
+        },
+        {
+            "name": "Kotaro (虎太郎)"
+        },
+        {
+            "name": "Kotoha (琴葉)"
+        },
+        {
+            "name": "Kouki (光輝)"
+        },
+        {
+            "name": "Kousei (康成)"
+        },
+        {
+            "name": "Kozue (梢)"
+        },
+        {
+            "name": "Kumiko (久美子)"
+        },
+        {
+            "name": "Kunio (邦夫)"
+        },
+        {
+            "name": "Kurumi (胡桃)"
+        },
+        {
+            "name": "Kyoko (恭子)"
+        },
+        {
+            "name": "Kyouka (鏡花)"
+        },
+        {
+            "name": "Kyouki (狂気)"
+        },
+        {
+            "name": "Kyouma (驚磨)"
+        },
+        {
+            "name": "Kyousuke (京介)"
+        },
+        {
+            "name": "Kaede (楓)"
+        },
+        {
+            "name": "Kafuu (香風)"
+        },
+        {
+            "name": "Kagami (鏡)"
+        },
+        {
+            "name": "Kaguya (かぐや)"
+        },
+        {
+            "name": "Kai (戒)"
+        },
+        {
+            "name": "Kaiko (海幸)"
+        },
+        {
+            "name": "Kaimu (海夢)"
+        },
+        {
+            "name": "Kairi (海里)"
+        },
+        {
+            "name": "Kakou (過光)"
+        },
+        {
+            "name": "Kamenosuke (亀之助)"
+        },
+        {
+            "name": "Kanata (彼方)"
+        },
+        {
+            "name": "Kage (海斗)"
+        },
+        {
+            "name": "Kage - 影"
+        },
+        {
+            "name": "Kagetora - 影虎"
+        },
+        {
+            "name": "Kaiya - 海矢"
+        },
+        {
+            "name": "Kaita - 海太"
+        },
+        {
+            "name": "Kaji - 梶"
+        },
+        {
+            "name": "Kakeru - 翔"
+        },
+        {
+            "name": "Kakumi - 隠"
+        },
+        {
+            "name": "Kaminari - 雷"
+        },
+        {
+            "name": "Kaname - 要"
+        },
+        {
+            "name": "Kanaye - 金恵"
+        },
+        {
+            "name": "Kanna - 神奈"
+        },
+        {
+            "name": "Kanon - 花音"
+        },
+        {
+            "name": "Kanori - 叶里"
+        },
+        {
+            "name": "Kanta - 勘太"
+        },
+        {
+            "name": "Kantaro - 勘太郎"
+        },
+        {
+            "name": "Karasu - 鴉"
+        },
+        {
+            "name": "Kari - 雁"
+        },
+        {
+            "name": "Kasumi - 霞"
+        },
+        {
+            "name": "Katana - 刀"
+        },
+        {
+            "name": "Katara - 片羽"
+        },
+        {
+            "name": "Katsuki - 勝貴"
+        },
+        {
+            "name": "Katsuo - 勝雄"
+        },
+        {
+            "name": "Katsuragi - 葛城"
+        },
+        {
+            "name": "Katsuto - 勝人"
+        },
+        {
+            "name": "Kazami - 風見"
+        },
+        {
+            "name": "Kazane - 風音"
+        },
+        {
+            "name": "Kazehaya - 風早"
+        },
+        {
+            "name": "Kazuha - 一葉"
+        },
+        {
+            "name": "Kazuma - 一真"
+        },
+        {
+            "name": "Kazumi - 和泉"
+        },
+        {
+            "name": "Keiji - 圭司"
+        },
+        {
+            "name": "Keiko - 慶子"
+        },
+        {
+            "name": "Keitaro - 圭太郎"
+        },
+        {
+            "name": "Kenichi - 健一"
+        },
+        {
+            "name": "Kenjiro - 健二郎"
+        },
+        {
+            "name": "Kenshin - 謙信"
+        },
+        {
+            "name": "Kenta - 健太"
+        },
+        {
+            "name": "Kento - 健斗"
+        },
+        {
+            "name": "Kichiro - 吉郎"
+        },
+        {
+            "name": "Kikuko - 菊子"
+        },
+        {
+            "name": "Kimiyo - 君代"
+        },
+        {
+            "name": "Kin - 金"
+        },
+        {
+            "name": "Kinji - 金次"
+        },
+        {
+            "name": "Kinuyo - 絹代"
+        },
+        {
+            "name": "Kirin - 麒麟"
+        },
+        {
+            "name": "Kisa - 木佐"
+        },
+        {
+            "name": "Kishin - 輝真"
+        },
+        {
+            "name": "Kiyoka - 清香"
+        },
+        {
+            "name": "Kiyoko - 清子"
+        },
+        {
+            "name": "Kiyomizu - 清水"
+        }
+    ],
+    "m": [
+        {
+            "name": "Maki (真紀)"
+        },
+        {
+            "name": "Mamoru (守)"
+        },
+        {
+            "name": "Mana (真菜)"
+        },
+        {
+            "name": "Manami (愛美)"
+        },
+        {
+            "name": "Masa (正)"
+        },
+        {
+            "name": "Masaki (正樹)"
+        },
+        {
+            "name": "Masako (正子)"
+        },
+        {
+            "name": "Masami (雅美)"
+        },
+        {
+            "name": "Masao (正夫)"
+        },
+        {
+            "name": "Matsu (松)"
+        },
+        {
+            "name": "Mayu (真由)"
+        },
+        {
+            "name": "Mayumi (真弓)"
+        },
+        {
+            "name": "Megumi (恵)"
+        },
+        {
+            "name": "Meiko (芽衣子)"
+        },
+        {
+            "name": "Michi (道)"
+        },
+        {
+            "name": "Michiko (美智子)"
+        },
+        {
+            "name": "Midori (緑)"
+        },
+        {
+            "name": "Mieko (美恵子)"
+        },
+        {
+            "name": "Mika (美香)"
+        },
+        {
+            "name": "Mikio (幹夫)"
+        },
+        {
+            "name": "Mikiya (幹也)"
+        },
+        {
+            "name": "Miko (美子)"
+        },
+        {
+            "name": "Mikoto (神)"
+        },
+        {
+            "name": "Minako (美奈子)"
+        },
+        {
+            "name": "Mineko (峰子)"
+        },
+        {
+            "name": "Minori (空)"
+        },
+        {
+            "name": "Mirai (未来)"
+        },
+        {
+            "name": "Misaki (美咲)"
+        },
+        {
+            "name": "Misako (美佐子)"
+        },
+        {
+            "name": "Mitsu (光)"
+        },
+        {
+            "name": "Mitsuko (光子)"
+        },
+        {
+            "name": "Mitsuo (光雄)"
+        },
+        {
+            "name": "Miwako (美和子)"
+        },
+        {
+            "name": "Miyako (都)"
+        },
+        {
+            "name": "Miyu (美優)"
+        },
+        {
+            "name": "Miyuki (美幸)"
+        },
+        {
+            "name": "Momiji (紅葉)"
+        },
+        {
+            "name": "Momoka (百香)"
+        },
+        {
+            "name": "Momoko (桃子)"
+        },
+        {
+            "name": "Morio (守夫)"
+        },
+        {
+            "name": "Moto (元)"
+        },
+        {
+            "name": "Motoko (素子)"
+        },
+        {
+            "name": "Mutsuko (睦子)"
+        },
+        {
+            "name": "Myra (マイラ)"
+        },
+        {
+            "name": "Momo (桃)"
+        },
+        {
+            "name": "Mochi (餅)"
+        },
+        {
+            "name": "Monji (文字)"
+        },
+        {
+            "name": "Miharu (美春)"
+        },
+        {
+            "name": "Mikage (御影)"
+        },
+        {
+            "name": "Mitsuki (光希)"
+        },
+        {
+            "name": "Mahiro - 真尋"
+        },
+        {
+            "name": "Mai - 舞"
+        },
+        {
+            "name": "Maika - 舞花"
+        },
+        {
+            "name": "Maiko - 舞子"
+        },
+        {
+            "name": "Makiyo - 真希代"
+        },
+        {
+            "name": "Makoto - 誠"
+        },
+        {
+            "name": "Mami - 真美"
+        },
+        {
+            "name": "Manaka - 愛花"
+        },
+        {
+            "name": "Manatsu - 真夏"
+        },
+        {
+            "name": "Manta - 万太"
+        },
+        {
+            "name": "Mao - 真央"
+        },
+        {
+            "name": "Mare - 真礼"
+        },
+        {
+            "name": "Mari - 真理"
+        },
+        {
+            "name": "Marina - 真理菜"
+        },
+        {
+            "name": "Mariko - 真理子"
+        },
+        {
+            "name": "Maru - 丸"
+        },
+        {
+            "name": "Masami - 真沙美"
+        },
+        {
+            "name": "Masato - 雅人"
+        },
+        {
+            "name": "Masumi - 真澄"
+        },
+        {
+            "name": "Matsumi - 松美"
+        },
+        {
+            "name": "Mayuka - 真由香"
+        },
+        {
+            "name": "Mayumi - 真由美"
+        },
+        {
+            "name": "Meari - 芽亜里"
+        },
+        {
+            "name": "Mei - 芽衣"
+        },
+        {
+            "name": "Meisa - 芽生"
+        },
+        {
+            "name": "Meito - 明人"
+        },
+        {
+            "name": "Meme - 芽々"
+        },
+        {
+            "name": "Menma - 麺麻"
+        },
+        {
+            "name": "Mero - 芽郎"
+        },
+        {
+            "name": "Mew - 芽吾"
+        },
+        {
+            "name": "Mihoko - 美穂子"
+        },
+        {
+            "name": "Miina - 美伊奈"
+        },
+        {
+            "name": "Mikaella - 美香愛"
+        },
+        {
+            "name": "Mikami - 美神"
+        },
+        {
+            "name": "Mikina - 美紀奈"
+        },
+        {
+            "name": "Miku - 美空"
+        },
+        {
+            "name": "Mikusa - 美草"
+        },
+        {
+            "name": "Mimori - 美森"
+        },
+        {
+            "name": "Minami - 南"
+        },
+        {
+            "name": "Mine - 美音"
+        },
+        {
+            "name": "Minori - 穂"
+        },
+        {
+            "name": "Mio - 澪"
+        }
+    ],
+    "n": [
+        {
+            "name": "Nana (菜々)"
+        },
+        {
+            "name": "Nao (直)"
+        },
+        {
+            "name": "Naomi (直美)"
+        },
+        {
+            "name": "Naru (成)"
+        },
+        {
+            "name": "Natsumi (夏美)"
+        },
+        {
+            "name": "Nene (寧々)"
+        },
+        {
+            "name": "Nishi (西)"
+        },
+        {
+            "name": "Natsu (夏)"
+        },
+        {
+            "name": "Natsuki (夏希)"
+        },
+        {
+            "name": "Nayumi (奈由美)"
+        },
+        {
+            "name": "Neiko (寧子)"
+        },
+        {
+            "name": "Neko (猫)"
+        },
+        {
+            "name": "Neneko (寧々子)"
+        },
+        {
+            "name": "Nichika (日香)"
+        },
+        {
+            "name": "Niji (虹)"
+        },
+        {
+            "name": "Nijiko (虹子)"
+        },
+        {
+            "name": "Nika (仁香)"
+        },
+        {
+            "name": "Niko (仁子)"
+        },
+        {
+            "name": "Nino (二乃)"
+        },
+        {
+            "name": "Nio (匂宮)"
+        },
+        {
+            "name": "Nishi (錦糸)"
+        },
+        {
+            "name": "Nishiya (西谷)"
+        },
+        {
+            "name": "Noa (乃亜)"
+        },
+        {
+            "name": "Nobu (信)"
+        },
+        {
+            "name": "Noe (乃絵)"
+        },
+        {
+            "name": "Noemi (乃愛美)"
+        },
+        {
+            "name": "Nojiko (野路子)"
+        },
+        {
+            "name": "Noko (野子)"
+        },
+        {
+            "name": "Nona (ノナ)"
+        },
+        {
+            "name": "Nori (典里)"
+        },
+        {
+            "name": "Noriko (紀子)"
+        },
+        {
+            "name": "Noyuri (野百合)"
+        },
+        {
+            "name": "Nui (縫い)"
+        },
+        {
+            "name": "Nuka (糠)"
+        },
+        {
+            "name": "Numi (沼)"
+        },
+        {
+            "name": "Nunoe (布江)"
+        },
+        {
+            "name": "Nura (沼羅)"
+        },
+        {
+            "name": "Nya (ニャー)"
+        },
+        {
+            "name": "Nyako (にゃこ)"
+        },
+        {
+            "name": "Nyami (にゃみ)"
+        },
+        {
+            "name": "Nyanko (にゃんこ)"
+        },
+        {
+            "name": "Nyo (女)"
+        },
+        {
+            "name": "Nyoiti (女一)"
+        },
+        {
+            "name": "Nyoko (如子)"
+        },
+        {
+            "name": "Nyomi (にょみ)"
+        },
+        {
+            "name": "Nyoriko (にょり子)"
+        },
+        {
+            "name": "Nyota (にょた)"
+        },
+        {
+            "name": "Nyozo (如三)"
+        },
+        {
+            "name": "Nyu (乳)"
+        },
+        {
+            "name": "Nyuta (にゅた)"
+        },
+        {
+            "name": "Nachi  (菜智)"
+        },
+        {
+            "name": "Nagi - 凪"
+        },
+        {
+            "name": "Nagisa - 渚"
+        },
+        {
+            "name": "Naishi - 乃石"
+        },
+        {
+            "name": "Nami - 波"
+        },
+        {
+            "name": "Namie - 奈美恵"
+        },
+        {
+            "name": "Nanaka - 七華"
+        },
+        {
+            "name": "Nanami - 七海"
+        },
+        {
+            "name": "Nanao - 七緒"
+        },
+        {
+            "name": "Nanase - 七瀬"
+        },
+        {
+            "name": "Nanatsu - 七つ"
+        },
+        {
+            "name": "Nane - 菜音"
+        },
+        {
+            "name": "Naoe - 直江"
+        },
+        {
+            "name": "Naoji - 直二"
+        },
+        {
+            "name": "Natsue - 夏恵"
+        },
+        {
+            "name": "Natsumiyo - 夏美代"
+        },
+        {
+            "name": "Natsuneko - 夏猫"
+        },
+        {
+            "name": "Natsuo - 夏夫"
+        },
+        {
+            "name": "Nayumi - なゆみ"
+        },
+        {
+            "name": "Nazuna - 薺"
+        },
+        {
+            "name": "Nei - 寧"
+        },
+        {
+            "name": "Neiro - 音色"
+        },
+        {
+            "name": "Neneo - 寧江"
+        },
+        {
+            "name": "Nerine - ネリネ"
+        },
+        {
+            "name": "Netta - 熱太"
+        },
+        {
+            "name": "Nibei - 日米"
+        },
+        {
+            "name": "Nika - 新花"
+        },
+        {
+            "name": "Niki - 新木"
+        },
+        {
+            "name": "Nikka - 日華"
+        },
+        {
+            "name": "Nioh - 仁王"
+        },
+        {
+            "name": "Nira - 韮"
+        },
+        {
+            "name": "Nisshin - 日新"
+        },
+        {
+            "name": "Nitto - 日東"
+        },
+        {
+            "name": "Niyako - 新耶子"
+        },
+        {
+            "name": "Noami - 野網"
+        },
+        {
+            "name": "Nobue - 信恵"
+        },
+        {
+            "name": "Nobuko - 信子"
+        },
+        {
+            "name": "Noemi - 乃恵美"
+        },
+        {
+            "name": "Noha - 野葉"
+        },
+        {
+            "name": "Nohana - 野菜花"
+        },
+        {
+            "name": "Noka - 農家"
+        },
+        {
+            "name": "Nokoito - 野々梅"
+        }
+    ],
+    "o": [
+        {
+            "name": "Oki (沖)"
+        },
+        {
+            "name": "Oto (音)"
+        },
+        {
+            "name": "Osamu (修)"
+        },
+        {
+            "name": "Osuke (お助け)"
+        },
+        {
+            "name": "Oka (丘)"
+        },
+        {
+            "name": "Okiyo (興代)"
+        },
+        {
+            "name": "Odori (踊り)"
+        },
+        {
+            "name": "Oshin (おしん)"
+        },
+        {
+            "name": "Otoha (音羽)"
+        },
+        {
+            "name": "Otohiko (音彦)"
+        },
+        {
+            "name": "Odessa (オデッサ)"
+        },
+        {
+            "name": "Ochako (お茶子)"
+        },
+        {
+            "name": "Oyuki (お雪)"
+        },
+        {
+            "name": "Oshiro (大城)"
+        },
+        {
+            "name": "Ojima (大島)"
+        },
+        {
+            "name": "Oshika (鹿)"
+        },
+        {
+            "name": "Oyama (小山)"
+        },
+        {
+            "name": "Oshima (大島)"
+        },
+        {
+            "name": "Ojisan (おじさん)"
+        },
+        {
+            "name": "Okasan (お母さん)"
+        },
+        {
+            "name": "Otona (大人)"
+        },
+        {
+            "name": "Otsuka (大塚)"
+        },
+        {
+            "name": "Otome (乙女)"
+        },
+        {
+            "name": "Osamu (統)"
+        },
+        {
+            "name": "Okane (お金)"
+        },
+        {
+            "name": "Omoi (想い)"
+        },
+        {
+            "name": "Ookami (狼)"
+        },
+        {
+            "name": "Ojima (小島)"
+        },
+        {
+            "name": "Ono (小野)"
+        },
+        {
+            "name": "Ogura (小倉)"
+        },
+        {
+            "name": "Okita (沖田)"
+        },
+        {
+            "name": "Oyaji (親父)"
+        },
+        {
+            "name": "Omi (近江)"
+        },
+        {
+            "name": "Ochiba (落葉)"
+        },
+        {
+            "name": "Odera (お寺)"
+        },
+        {
+            "name": "Omote (表)"
+        },
+        {
+            "name": "Otake (大竹)"
+        },
+        {
+            "name": "Oya (親)"
+        },
+        {
+            "name": "Orikasa (折笠)"
+        },
+        {
+            "name": "Omura (大村)"
+        },
+        {
+            "name": "Onoda (小野田)"
+        },
+        {
+            "name": "Obara (小原)"
+        },
+        {
+            "name": "Obata (小畑)"
+        },
+        {
+            "name": "Ogasawara (小笠原)"
+        },
+        {
+            "name": "Okuda (奥田)"
+        },
+        {
+            "name": "Okumura (奥村)"
+        },
+        {
+            "name": "Ojiro - 王路"
+        },
+        {
+            "name": "Oda - 小田"
+        },
+        {
+            "name": "Osanai - 小さい"
+        },
+        {
+            "name": "Otoe - 音江"
+        },
+        {
+            "name": "Otogi - お伽"
+        },
+        {
+            "name": "Oshio - 潮"
+        },
+        {
+            "name": "Okei - 桜桂"
+        },
+        {
+            "name": "Oshizu - お静"
+        },
+        {
+            "name": "Otoji - 音路"
+        },
+        {
+            "name": "Omasa - おまさ"
+        },
+        {
+            "name": "Omei - お明"
+        },
+        {
+            "name": "Otsuru - お鶴"
+        },
+        {
+            "name": "Obi - 帯"
+        },
+        {
+            "name": "Osora - 大空"
+        },
+        {
+            "name": "Okuma - 奥間"
+        },
+        {
+            "name": "Ojika - 小鹿"
+        },
+        {
+            "name": "Oyodo - 尾張戸"
+        },
+        {
+            "name": "Oshun - お春"
+        },
+        {
+            "name": "Oiai - 於哀"
+        },
+        {
+            "name": "Oyone - 小米"
+        },
+        {
+            "name": "Onpu - 音符"
+        },
+        {
+            "name": "Otoyo - 音代"
+        },
+        {
+            "name": "Otomeko - 乙女子"
+        },
+        {
+            "name": "Otsuki - お月"
+        },
+        {
+            "name": "Onoda - 小野田"
+        },
+        {
+            "name": "Odaiba - お台場"
+        },
+        {
+            "name": "Odawara - 小田原"
+        },
+        {
+            "name": "Osaki - 大崎"
+        },
+        {
+            "name": "Ozu - 大津"
+        },
+        {
+            "name": "Okabe - 岡部"
+        },
+        {
+            "name": "Okihiko - 興彦"
+        },
+        {
+            "name": "Omame - お豆"
+        },
+        {
+            "name": "Okiharu - 興治"
+        },
+        {
+            "name": "Oshio - 雄潮"
+        },
+        {
+            "name": "Omina - 臣奈"
+        },
+        {
+            "name": "Okazaki - 岡崎"
+        },
+        {
+            "name": "Otoki - 音器"
+        },
+        {
+            "name": "Otsuji - 大辻"
+        },
+        {
+            "name": "Oshina - お品"
+        },
+        {
+            "name": "Otaki - 大滝"
+        },
+        {
+            "name": "Okinu - 翁"
+        },
+        {
+            "name": "Oshika - お鹿"
+        }
+    ],
+    "r": [
+        {
+            "name": "Raku (楽)"
+        },
+        {
+            "name": "Rara (楽々)"
+        },
+        {
+            "name": "Riki (力)"
+        },
+        {
+            "name": "Rina (莉菜)"
+        },
+        {
+            "name": "Rio (理央)"
+        },
+        {
+            "name": "Riku (陸)"
+        },
+        {
+            "name": "Riko (莉子)"
+        },
+        {
+            "name": "Rin (凛)"
+        },
+        {
+            "name": "Risa (理紗)"
+        },
+        {
+            "name": "Ryo (涼)"
+        },
+        {
+            "name": "Rei (玲)"
+        },
+        {
+            "name": "Rika (里香)"
+        },
+        {
+            "name": "Reiko (玲子)"
+        },
+        {
+            "name": "Rie (理恵)"
+        },
+        {
+            "name": "Rumi (留美)"
+        },
+        {
+            "name": "Reina (玲奈)"
+        },
+        {
+            "name": "Ryohei (良平)"
+        },
+        {
+            "name": "Ryoichi (亮一)"
+        },
+        {
+            "name": "Ryoji (良二)"
+        },
+        {
+            "name": "Ryoichi (良市)"
+        },
+        {
+            "name": "Ryojiro (良次郎)"
+        },
+        {
+            "name": "Ryohei (龍平)"
+        },
+        {
+            "name": "Ryojiro (亮次郎)"
+        },
+        {
+            "name": "Rintaro (臨太郎)"
+        },
+        {
+            "name": "Rikuo (陸夫)"
+        },
+        {
+            "name": "Ritsuko (律子)"
+        },
+        {
+            "name": "Ruriko (留理子)"
+        },
+        {
+            "name": "Ryouko (良子)"
+        },
+        {
+            "name": "Ritsuka (律佳)"
+        },
+        {
+            "name": "Rikako (里香子)"
+        },
+        {
+            "name": "Rinae (理苗)"
+        },
+        {
+            "name": "Rion (莉音)"
+        },
+        {
+            "name": "Rihito (里人)"
+        },
+        {
+            "name": "Ririko (理梨子)"
+        },
+        {
+            "name": "Risho (理昇)"
+        },
+        {
+            "name": "Ritsuka (立夏)"
+        },
+        {
+            "name": "Rima (理真)"
+        },
+        {
+            "name": "Rikka (六花)"
+        },
+        {
+            "name": "Ryoichi (稜一)"
+        },
+        {
+            "name": "Ryouma (亮馬)"
+        },
+        {
+            "name": "Rui (瑠依)"
+        },
+        {
+            "name": "Ruka (瑠佳)"
+        },
+        {
+            "name": "Reiji (零次)"
+        },
+        {
+            "name": "Rieko - 理恵子"
+        },
+        {
+            "name": "Rumiho - 留美穂"
+        },
+        {
+            "name": "Ryosuke - 良介"
+        },
+        {
+            "name": "Ryoichi - 良一"
+        },
+        {
+            "name": "Rinko - 凛子"
+        },
+        {
+            "name": "Ritsuki - 律輝"
+        },
+        {
+            "name": "Rieka - 理江香"
+        },
+        {
+            "name": "Rinta - 倫太"
+        },
+        {
+            "name": "Ryoji - 良二"
+        },
+        {
+            "name": "Ritsu - 律"
+        },
+        {
+            "name": "Rikuhei - 陸平"
+        },
+        {
+            "name": "Ritsumi - 立澄"
+        },
+        {
+            "name": "Rinako - 梨菜子"
+        },
+        {
+            "name": "Rokuro - 六郎"
+        },
+        {
+            "name": "Ruka - 流花"
+        },
+        {
+            "name": "Ryouhei - 涼平"
+        },
+        {
+            "name": "Rinae - 梨苗"
+        },
+        {
+            "name": "Rui - 留衣"
+        },
+        {
+            "name": "Rira - 里羅"
+        },
+        {
+            "name": "Rikuto - 陸斗"
+        },
+        {
+            "name": "Ritsuha - 律羽"
+        },
+        {
+            "name": "Rika - 理香"
+        },
+        {
+            "name": "Ririka - 莉梨香"
+        },
+        {
+            "name": "Rina - 莉奈"
+        },
+        {
+            "name": "Ryoichi - 良市"
+        },
+        {
+            "name": "Riku - 陸空"
+        },
+        {
+            "name": "Riona - 理緒菜"
+        },
+        {
+            "name": "Rikiya - 力也"
+        },
+        {
+            "name": "Rintaro - 臨太郎"
+        },
+        {
+            "name": "Ritsuna - 律奈"
+        },
+        {
+            "name": "Ryouko - 亮子"
+        },
+        {
+            "name": "Riona - 璃苑菜"
+        },
+        {
+            "name": "Ryohei - 竜平"
+        },
+        {
+            "name": "Rumi - 留美"
+        },
+        {
+            "name": "Ruka - 流歌"
+        },
+        {
+            "name": "Ryojiro - 良次郎"
+        },
+        {
+            "name": "Ritsuho - 律穂"
+        },
+        {
+            "name": "Rino - 梨乃"
+        },
+        {
+            "name": "Riki - 璃希"
+        },
+        {
+            "name": "Ryohei - 諒平"
+        },
+        {
+            "name": "Ritsuki - 立月"
+        },
+        {
+            "name": "Riku - 陸空"
+        },
+        {
+            "name": "Rina - 莉那"
+        },
+        {
+            "name": "Rintarou - 麟太郎"
+        },
+        {
+            "name": "Riko - 理虎"
+        },
+        {
+            "name": "Ryohei - 亮平"
+        },
+        {
+            "name": "Rikio - 力夫"
+        },
+        {
+            "name": "Ritsuo - 律夫"
+        }
+    ],
+    "s": [
+        {
+            "name": "Saki - 咲"
+        },
+        {
+            "name": "Sora - 空"
+        },
+        {
+            "name": "Subaru - 昴"
+        },
+        {
+            "name": "Sakura - 桜"
+        },
+        {
+            "name": "Shiro - 白"
+        },
+        {
+            "name": "Satoshi - 智"
+        },
+        {
+            "name": "Suzu - 鈴"
+        },
+        {
+            "name": "Setsuna - 刹那"
+        },
+        {
+            "name": "Shinji - 真二"
+        },
+        {
+            "name": "Seiya - 星夜"
+        },
+        {
+            "name": "Satsuki - 皐月"
+        },
+        {
+            "name": "Souta - 颯太"
+        },
+        {
+            "name": "Shizuka - 静"
+        },
+        {
+            "name": "Shun - 駿"
+        },
+        {
+            "name": "Shion - 紫苑"
+        },
+        {
+            "name": "Shoko - 翔子"
+        },
+        {
+            "name": "Saori - 沙織"
+        },
+        {
+            "name": "Sayaka - 沙耶香"
+        },
+        {
+            "name": "Sou - 蒼"
+        },
+        {
+            "name": "Sena - 瀬名"
+        },
+        {
+            "name": "Sango - 珊瑚"
+        },
+        {
+            "name": "Sumire - 菫"
+        },
+        {
+            "name": "Sakiho - 咲帆"
+        },
+        {
+            "name": "Sachi - 幸"
+        },
+        {
+            "name": "Saya - 沙耶"
+        },
+        {
+            "name": "Shigure - 時雨"
+        },
+        {
+            "name": "Shigemi - 重美"
+        },
+        {
+            "name": "Shihori - 志保里"
+        },
+        {
+            "name": "Shino - 紫乃"
+        },
+        {
+            "name": "Shion - 紫音"
+        },
+        {
+            "name": "Shiori - 栞"
+        },
+        {
+            "name": "Shizuku - 雫"
+        },
+        {
+            "name": "Soko - 宗子"
+        },
+        {
+            "name": "Sonomi - 園美"
+        },
+        {
+            "name": "Sosuke - 蒼介"
+        },
+        {
+            "name": "Suguru - 優"
+        },
+        {
+            "name": "Sumika - 澄香"
+        },
+        {
+            "name": "Suzuka - 鈴鹿"
+        },
+        {
+            "name": "Syunichi - 俊一"
+        },
+        {
+            "name": "Sayuri - 小百合"
+        },
+        {
+            "name": "Shouhei - 正平"
+        },
+        {
+            "name": "Shouta - 翔太"
+        },
+        {
+            "name": "Shunichi - 俊一"
+        },
+        {
+            "name": "Shusuke - 修介"
+        },
+        {
+            "name": "Soichiro - 宗一郎"
+        },
+        {
+            "name": "Sotaro - 宗太郎"
+        },
+        {
+            "name": "Suzume - 雀"
+        },
+        {
+            "name": "Sae - 紗絵"
+        },
+        {
+            "name": "Seina - 聖奈"
+        },
+        {
+            "name": "Seri - 芹"
+        },
+        {
+            "name": "Seiko - 聖子"
+        },
+        {
+            "name": "Sayo - 小夜"
+        },
+        {
+            "name": "Shizu - 志津"
+        },
+        {
+            "name": "Shigeko - 重子"
+        },
+        {
+            "name": "Shiho - 志穂"
+        },
+        {
+            "name": "Shiori - 栞"
+        },
+        {
+            "name": "Suzuho - 鈴穂"
+        },
+        {
+            "name": "Sayaeko - 沙耶江子"
+        },
+        {
+            "name": "Saezuki - 冴月"
+        },
+        {
+            "name": "Shionari - 汐音"
+        },
+        {
+            "name": "Sachiyo - 幸代"
+        },
+        {
+            "name": "Seishiro - 清志郎"
+        },
+        {
+            "name": "Shinsuke - 信介"
+        },
+        {
+            "name": "Shoya - 将夜"
+        },
+        {
+            "name": "Soma - 颯真"
+        },
+        {
+            "name": "Sanae - 早苗"
+        },
+        {
+            "name": "Satsuko - さつ子"
+        },
+        {
+            "name": "Seina - 星菜"
+        },
+        {
+            "name": "Shigeto - 重人"
+        },
+        {
+            "name": "Shinichi - 真一"
+        },
+        {
+            "name": "Shinozaki - 篠崎"
+        },
+        {
+            "name": "Shota - 翔太"
+        },
+        {
+            "name": "Sotetsu - 聡哲"
+        },
+        {
+            "name": "Suzume - 雀花"
+        },
+        {
+            "name": "Sachi - 早智"
+        },
+        {
+            "name": "Saeji - 冴士"
+        },
+        {
+            "name": "Sai - 彩"
+        },
+        {
+            "name": "Saika - 彩香"
+        },
+        {
+            "name": "Sakiyo - 沙紀代"
+        },
+        {
+            "name": "Sakurako - さくら子"
+        },
+        {
+            "name": "Samuru - 侍"
+        },
+        {
+            "name": "Sarasa - 更紗"
+        },
+        {
+            "name": "Seijun - 青純"
+        },
+        {
+            "name": "Seiya - 聖也"
+        },
+        {
+            "name": "Senri - 仙里"
+        },
+        {
+            "name": "Setsu - 雪"
+        },
+        {
+            "name": "Shichiro - 七郎"
+        },
+        {
+            "name": "Shiki - 四季"
+        },
+        {
+            "name": "Shimon - 志門"
+        },
+        {
+            "name": "Shinobu - 忍"
+        },
+        {
+            "name": "Shinya - 晋也"
+        },
+        {
+            "name": "Shizue - 静江"
+        },
+        {
+            "name": "Shouko - 翔子"
+        },
+        {
+            "name": "Shunichi - 俊一"
+        },
+        {
+            "name": "Sorato - 空人"
+        },
+        {
+            "name": "Sotoka - 十香"
+        },
+        {
+            "name": "Sumi - 澄"
+        }
+    ],
+    "t": [
+        {
+            "name": "Tadashi - 正"
+        },
+        {
+            "name": "Taichi - 太一"
+        },
+        {
+            "name": "Taiga - 大河"
+        },
+        {
+            "name": "Takahiro - 貴大"
+        },
+        {
+            "name": "Takashi - 孝"
+        },
+        {
+            "name": "Takato - 隆人"
+        },
+        {
+            "name": "Takumi - 巧"
+        },
+        {
+            "name": "Tama - 珠"
+        },
+        {
+            "name": "Tamaki - 環"
+        },
+        {
+            "name": "Tamiko - 多美子"
+        },
+        {
+            "name": "Taro - 太郎"
+        },
+        {
+            "name": "Tatsuya - 達也"
+        },
+        {
+            "name": "Tsubasa - 翼"
+        },
+        {
+            "name": "Tetsuya - 哲也"
+        },
+        {
+            "name": "Toki - 時"
+        },
+        {
+            "name": "Tomiko - 富子"
+        },
+        {
+            "name": "Tomomi - 友美"
+        },
+        {
+            "name": "Tomoya - 智也"
+        },
+        {
+            "name": "Tomoyo - 友葉"
+        },
+        {
+            "name": "Tora - 虎"
+        },
+        {
+            "name": "Toru - 徹"
+        },
+        {
+            "name": "Toshi - 俊"
+        },
+        {
+            "name": "Toshiaki - 敏明"
+        },
+        {
+            "name": "Toshiko - 敏子"
+        },
+        {
+            "name": "Toshiro - 俊郎"
+        },
+        {
+            "name": "Tsukasa - 司"
+        },
+        {
+            "name": "Tsukiko - 月子"
+        },
+        {
+            "name": "Tsuyoshi - 剛"
+        },
+        {
+            "name": "Tsumugi - 紬"
+        },
+        {
+            "name": "Tsuru - 鶴"
+        },
+        {
+            "name": "Tsubaki - 椿"
+        },
+        {
+            "name": "Tsutomu - 勉"
+        },
+        {
+            "name": "Taka - 隆"
+        },
+        {
+            "name": "Takao - 孝夫"
+        },
+        {
+            "name": "Takayuki - 隆之"
+        },
+        {
+            "name": "Tamotsu - 保"
+        },
+        {
+            "name": "Tanaka - 田中"
+        },
+        {
+            "name": "Taroichi - 太郎一"
+        },
+        {
+            "name": "Tatsuhiko - 龍彦"
+        },
+        {
+            "name": "Tatsuki - 達輝"
+        },
+        {
+            "name": "Tatsuhiro - 龍弘"
+        },
+        {
+            "name": "Tatsuro - 達郎"
+        },
+        {
+            "name": "Tetsu - 鉄"
+        },
+        {
+            "name": "Tetsuo - 哲男"
+        },
+        {
+            "name": "Tetta - 鉄太"
+        },
+        {
+            "name": "Tohru - 徹"
+        },
+        {
+            "name": "Tomio - 富夫"
+        },
+        {
+            "name": "Tomoki - 智樹"
+        },
+        {
+            "name": "Tsuneo - 常雄"
+        },
+        {
+            "name": "Taemi (妙美)"
+        },
+        {
+            "name": "Takae (高江)"
+        },
+        {
+            "name": "Takaki (高樹)"
+        },
+        {
+            "name": "Takako (貴子)"
+        },
+        {
+            "name": "Takao (隆夫)"
+        },
+        {
+            "name": "Takeru (武)"
+        },
+        {
+            "name": "Takumi (巧巳)"
+        },
+        {
+            "name": "Tamae (珠恵)"
+        },
+        {
+            "name": "Tamami (珠美)"
+        },
+        {
+            "name": "Tamayo (珠代)"
+        },
+        {
+            "name": "Tamotsu (保勝)"
+        },
+        {
+            "name": "Taroichi (太郎一)"
+        },
+        {
+            "name": "Tatsuhiko (龍彦)"
+        },
+        {
+            "name": "Tatsuki (達輝)"
+        },
+        {
+            "name": "Tatsuhiro (龍弘)"
+        },
+        {
+            "name": "Tatsuro (達郎)"
+        },
+        {
+            "name": "Tetsu (鉄男)"
+        },
+        {
+            "name": "Tetsuo (哲夫)"
+        },
+        {
+            "name": "Tetta (鉄太郎)"
+        },
+        {
+            "name": "Tetsuya (哲也)"
+        },
+        {
+            "name": "Toki (朱希)"
+        },
+        {
+            "name": "Tokiko (朱子)"
+        },
+        {
+            "name": "Tomi (富美)"
+        },
+        {
+            "name": "Tomio (富男)"
+        },
+        {
+            "name": "Tomoka (友香)"
+        },
+        {
+            "name": "Tomoko (知子)"
+        },
+        {
+            "name": "Tomomi (友美)"
+        },
+        {
+            "name": "Tomonori (友紀)"
+        },
+        {
+            "name": "Tomoyasu (友泰)"
+        },
+        {
+            "name": "Tomoyo (友代)"
+        },
+        {
+            "name": "Torao (寅夫)"
+        },
+        {
+            "name": "Toru (徹男)"
+        },
+        {
+            "name": "Toshiaki (敏明)"
+        },
+        {
+            "name": "Toshie (敏江)"
+        },
+        {
+            "name": "Toshifumi (敏文)"
+        },
+        {
+            "name": "Toshiko (俊子)"
+        },
+        {
+            "name": "Toshimitsu (俊光)"
+        },
+        {
+            "name": "Toshinori (俊典)"
+        },
+        {
+            "name": "Toshio (俊夫)"
+        },
+        {
+            "name": "Toshiyuki (俊之)"
+        },
+        {
+            "name": "Towa (永遠)"
+        },
+        {
+            "name": "Toyoko (豊子)"
+        },
+        {
+            "name": "Tsugumi (つぐみ)"
+        },
+        {
+            "name": "Tsukasa (司真)"
+        }
+    ],
+    "u": [
+        {
+            "name": "Umi (海)"
+        },
+        {
+            "name": "Uta (歌)"
+        },
+        {
+            "name": "Ume (梅)"
+        },
+        {
+            "name": "Umiho (海帆)"
+        },
+        {
+            "name": "Uruha (瑠葉)"
+        },
+        {
+            "name": "Udon (饂飩)"
+        },
+        {
+            "name": "Uika (氏香)"
+        },
+        {
+            "name": "Uiko (氏子)"
+        },
+        {
+            "name": "Ushio (潮)"
+        },
+        {
+            "name": "Umiya (海矢)"
+        },
+        {
+            "name": "Ureshi (嬉し)"
+        },
+        {
+            "name": "Urumi (うるみ)"
+        },
+        {
+            "name": "Uka (有香)"
+        },
+        {
+            "name": "Uzuki (卯月)"
+        },
+        {
+            "name": "Utako (詩子)"
+        },
+        {
+            "name": "Utsuho (空穂)"
+        },
+        {
+            "name": "Umeko (梅子)"
+        },
+        {
+            "name": "Ujiko (氏子)"
+        },
+        {
+            "name": "Ujio (氏男)"
+        },
+        {
+            "name": "Uchika (内香)"
+        },
+        {
+            "name": "Uchiko (内子)"
+        },
+        {
+            "name": "Ushika (牛香)"
+        },
+        {
+            "name": "Ushio (うしお)"
+        },
+        {
+            "name": "Uzumaki (渦巻)"
+        },
+        {
+            "name": "Urara (麗)"
+        },
+        {
+            "name": "Uruna (麗奈)"
+        },
+        {
+            "name": "Usuba (薄葉)"
+        },
+        {
+            "name": "Umami (旨味)"
+        },
+        {
+            "name": "Unagi (鰻)"
+        },
+        {
+            "name": "Uji (宇治)"
+        },
+        {
+            "name": "Umeji (梅次)"
+        },
+        {
+            "name": "Umehiko (梅彦)"
+        },
+        {
+            "name": "Umeda (梅田)"
+        },
+        {
+            "name": "Umihei (海平)"
+        },
+        {
+            "name": "Uminoko (海乃子)"
+        },
+        {
+            "name": "Umio (海緒)"
+        },
+        {
+            "name": "Ura (宇良)"
+        },
+        {
+            "name": "Urato (浦戸)"
+        },
+        {
+            "name": "Urushibara (漆原)"
+        },
+        {
+            "name": "Ushijima (牛島)"
+        },
+        {
+            "name": "Utao (歌緒)"
+        },
+        {
+            "name": "Utaru (歌留多)"
+        },
+        {
+            "name": "Utsugi (空木)"
+        },
+        {
+            "name": "Umino (海野)"
+        },
+        {
+            "name": "Ukyo (右京)"
+        },
+        {
+            "name": "Uraha (浦葉)"
+        },
+        {
+            "name": "Uraki (浦木)"
+        },
+        {
+            "name": "Urara (麗羅)"
+        },
+        {
+            "name": "Urei (憂麗)"
+        },
+        {
+            "name": "Ureshiko (嬉子)"
+        },
+        {
+            "name": "Uruga (羽良)"
+        },
+        {
+            "name": "Uruka (麗香)"
+        },
+        {
+            "name": "Urumi (羽留美)"
+        },
+        {
+            "name": "Usa (宇佐)"
+        },
+        {
+            "name": "Usagi (兎)"
+        },
+        {
+            "name": "Ushinohama (牛ノ浜)"
+        },
+        {
+            "name": "Ushioha (潮羽)"
+        },
+        {
+            "name": "Usui (薄井)"
+        },
+        {
+            "name": "Utako (歌子)"
+        },
+        {
+            "name": "Utao (歌緒)"
+        },
+        {
+            "name": "Utara (歌多良)"
+        },
+        {
+            "name": "Utsugi (空木)"
+        },
+        {
+            "name": "Utsumi (内海)"
+        },
+        {
+            "name": "Utsuna (空菜)"
+        },
+        {
+            "name": "Utsuru (映)"
+        },
+        {
+            "name": "Utsusemi (空蝉)"
+        },
+        {
+            "name": "Utsuto (空都)"
+        },
+        {
+            "name": "Uwabe (上部)"
+        },
+        {
+            "name": "Uzai (宇財)"
+        },
+        {
+            "name": "Uzuki (卯月)"
+        },
+        {
+            "name": "Uzumasa (渦正)"
+        },
+        {
+            "name": "Uzume (宇宙女)"
+        },
+        {
+            "name": "Uzuna (渦菜)"
+        },
+        {
+            "name": "Uzuri (渦理)"
+        },
+        {
+            "name": "Uzuru (渦流)"
+        },
+        {
+            "name": "Uzuyu (渦夕)"
+        },
+        {
+            "name": "Uzuho (渦帆)"
+        },
+        {
+            "name": "Uko (鵜子)"
+        },
+        {
+            "name": "Ukari (鵜狩)"
+        },
+        {
+            "name": "Ushio (潮生)"
+        },
+        {
+            "name": "Ushitora (牛寅)"
+        },
+        {
+            "name": "Uta (唄)"
+        },
+        {
+            "name": "Utaka (詠香)"
+        },
+        {
+            "name": "Utame (詠芽)"
+        },
+        {
+            "name": "Utsuru (映る)"
+        },
+        {
+            "name": "Uzume (太川鼓)"
+        },
+        {
+            "name": "Uzumaki (渦巻)"
+        }
+    ],
+    "y": [
+        {
+            "name": "Yori ( 頼)"
+        },
+        {
+            "name": "Yuki - 雪"
+        },
+        {
+            "name": "Yuka - 由佳"
+        },
+        {
+            "name": "Yuma - 由真"
+        },
+        {
+            "name": "Yui - 結衣"
+        },
+        {
+            "name": "Yuito - 優斗"
+        },
+        {
+            "name": "Yudai - 優大"
+        },
+        {
+            "name": "Yuka - 佑香"
+        },
+        {
+            "name": "Yumi - 由美"
+        },
+        {
+            "name": "Yuriko - 百合子"
+        },
+        {
+            "name": "Yoko - 陽子"
+        },
+        {
+            "name": "Yosuke - 洋介"
+        },
+        {
+            "name": "Yasuhiro - 康博"
+        },
+        {
+            "name": "Yoshio - 良夫"
+        },
+        {
+            "name": "Yoji - 洋二"
+        },
+        {
+            "name": "Yoriaki - 依明"
+        },
+        {
+            "name": "Yoriko - 頼子"
+        },
+        {
+            "name": "Yorimitsu - 頼光"
+        },
+        {
+            "name": "Yoshiaki - 良明"
+        },
+        {
+            "name": "Yoshihiro - 良弘"
+        },
+        {
+            "name": "Yoshihisa - 良久"
+        },
+        {
+            "name": "Yoshikazu - 義一"
+        },
+        {
+            "name": "Yoshimasa - 良正"
+        },
+        {
+            "name": "Yoshimitsu - 義光"
+        },
+        {
+            "name": "Yoshinobu - 良信"
+        },
+        {
+            "name": "Yoshio - 嘉夫"
+        },
+        {
+            "name": "Yoshirou - 芳郎"
+        },
+        {
+            "name": "Yoshito - 義人"
+        },
+        {
+            "name": "Yoshitsugu - 義嗣"
+        },
+        {
+            "name": "Yoshitaka - 義孝"
+        },
+        {
+            "name": "Yotaro - 与太郎"
+        },
+        {
+            "name": "Yua - 優愛"
+        },
+        {
+            "name": "Yudzuru - 弓鶴"
+        },
+        {
+            "name": "Yugo - 佑吾"
+        },
+        {
+            "name": "Yuhiko - 雄彦"
+        },
+        {
+            "name": "Yuhina - 優陽菜"
+        },
+        {
+            "name": "Yuhito - 祐人"
+        },
+        {
+            "name": "Yuika - 結花"
+        },
+        {
+            "name": "Yuiko - 優子"
+        },
+        {
+            "name": "Yuka - 祐香"
+        },
+        {
+            "name": "Yume - 夢"
+        },
+        {
+            "name": "Yumeka - 夢香"
+        },
+        {
+            "name": "Yuna - 優菜"
+        },
+        {
+            "name": "Yuno - 優乃"
+        },
+        {
+            "name": "Yurina - 百合奈"
+        },
+        {
+            "name": "Yutaka - 豊"
+        },
+        {
+            "name": "Yuzu - 柚"
+        },
+        {
+            "name": "Yachi (弥知)"
+        },
+        {
+            "name": "Yae (八重)"
+        },
+        {
+            "name": "Yahiro (弥広)"
+        },
+        {
+            "name": "Yakumo (八雲)"
+        },
+        {
+            "name": "Yamabuki (山吹)"
+        },
+        {
+            "name": "Yamako (山子)"
+        },
+        {
+            "name": "Yamaneko (山猫)"
+        },
+        {
+            "name": "Yamato (大和)"
+        },
+        {
+            "name": "Yamei (野芽依)"
+        },
+        {
+            "name": "Yanagi (柳)"
+        },
+        {
+            "name": "Yanai (梁井)"
+        },
+        {
+            "name": "Yanezawa (屋根沢)"
+        },
+        {
+            "name": "Yano (矢野)"
+        },
+        {
+            "name": "Yaeko (弥江子)"
+        },
+        {
+            "name": "Yasuko (康子)"
+        },
+        {
+            "name": "Yasumi (休実)"
+        },
+        {
+            "name": "Yasunori (康則)"
+        },
+        {
+            "name": "Yayoi (弥生)"
+        },
+        {
+            "name": "Yazu (弥津)"
+        },
+        {
+            "name": "Yobu (呼)"
+        },
+        {
+            "name": "Yohei (洋平)"
+        },
+        {
+            "name": "Yoichi (洋一)"
+        },
+        {
+            "name": "Yoju (余寿)"
+        },
+        {
+            "name": "Yoka (陽華)"
+        },
+        {
+            "name": "Yokaze (夜風)"
+        },
+        {
+            "name": "Yokio (洋基夫)"
+        },
+        {
+            "name": "Yoko (耀子)"
+        },
+        {
+            "name": "Yokuto (洋斗)"
+        },
+        {
+            "name": "Yomei (与芽依)"
+        },
+        {
+            "name": "Yoneda (米田)"
+        },
+        {
+            "name": "Yonezawa (米沢)"
+        },
+        {
+            "name": "Yorie (依怜)"
+        },
+        {
+            "name": "Yorina (夜梨菜)"
+        },
+        {
+            "name": "Yorito (頼斗)"
+        },
+        {
+            "name": "Yoru (夜)"
+        },
+        {
+            "name": "Yoruichi (夜一)"
+        },
+        {
+            "name": "Yoruko (萬子)"
+        },
+        {
+            "name": "Yosan (与三)"
+        },
+        {
+            "name": "Yosora (夜空)"
+        },
+        {
+            "name": "Yota (洋太)"
+        },
+        {
+            "name": "You (陽羽)"
+        },
+        {
+            "name": "Youka (陽香)"
+        },
+        {
+            "name": "Youko (洋子)"
+        }
+    ],
+    "z": [
+        {
+            "name": "Zai - 材"
+        },
+        {
+            "name": "Zan - 斬"
+        },
+        {
+            "name": "Zato - 座頭"
+        },
+        {
+            "name": "Zen - 禅"
+        },
+        {
+            "name": "Zero - 零"
+        },
+        {
+            "name": "Zetsu - 絶"
+        },
+        {
+            "name": "Zhen - 珍"
+        },
+        {
+            "name": "Zia - 梓亜"
+        },
+        {
+            "name": "Zikara - 耳"
+        },
+        {
+            "name": "Zima - 澄麻"
+        },
+        {
+            "name": "Zin - 神"
+        },
+        {
+            "name": "Zio - 潮"
+        },
+        {
+            "name": "Ziro - 次郎"
+        },
+        {
+            "name": "Zoi - 息"
+        },
+        {
+            "name": "Zokkou - 俗光"
+        },
+        {
+            "name": "Zon - 存"
+        },
+        {
+            "name": "Zou - 像"
+        },
+        {
+            "name": "Zuka - 頭華"
+        },
+        {
+            "name": "Zukai - 図解"
+        },
+        {
+            "name": "Zuki - 月"
+        },
+        {
+            "name": "Zuma - 妻"
+        },
+        {
+            "name": "Zumi - 積"
+        },
+        {
+            "name": "Zuna - 頭菜"
+        },
+        {
+            "name": "Zuo - 三男"
+        },
+        {
+            "name": "Zushi - 図志"
+        },
+        {
+            "name": "Zuto - 頭人"
+        },
+        {
+            "name": "Zutsu - 筒"
+        },
+        {
+            "name": "Zuya - 頭弥"
+        },
+        {
+            "name": "Zaiden - 在田"
+        },
+        {
+            "name": "Zaito - 耐斗"
+        },
+        {
+            "name": "Zakuro - 柘榴"
+        },
+        {
+            "name": "Zangetsu - 残月"
+        },
+        {
+            "name": "Zankuro - 斬九郎"
+        },
+        {
+            "name": "Zanshi - 残志"
+        },
+        {
+            "name": "Zantei - 残庭"
+        },
+        {
+            "name": "Zatou - 座藤"
+        },
+        {
+            "name": "Zekku - 絶空"
+        },
+        {
+            "name": "Zell - ゼル"
+        },
+        {
+            "name": "Zenon - ゼノン"
+        },
+        {
+            "name": "Zephyr - ゼフィール"
+        },
+        {
+            "name": "Zeus - ゼウス"
+        },
+        {
+            "name": "Zex - ゼクス"
+        },
+        {
+            "name": "Ziai - 梓愛"
+        },
+        {
+            "name": "Zangetsu(残月)"
+        },
+        {
+            "name": "Zanka - 斬華"
+        },
+        {
+            "name": "Zanrai - 斬雷"
+        },
+        {
+            "name": "Zantei - 残庭"
+        },
+        {
+            "name": "Zazen - 座禅"
+        },
+        {
+            "name": "Zechou - 是朝"
+        },
+        {
+            "name": "Zefi - ゼフィ"
+        },
+        {
+            "name": "Zehi - 是非"
+        },
+        {
+            "name": "Zenbu - 全部"
+        },
+        {
+            "name": "Zencho - 善長"
+        },
+        {
+            "name": "Zendai - 善大"
+        },
+        {
+            "name": "Zendo - 禅道"
+        },
+        {
+            "name": "Zenjou - 善丈"
+        },
+        {
+            "name": "Zenki - 前期"
+        },
+        {
+            "name": "Zenko - 善子"
+        },
+        {
+            "name": "Zenmai - 善舞"
+        },
+        {
+            "name": "Zenmei - 善明"
+        },
+        {
+            "name": "Zennin - 善人"
+        },
+        {
+            "name": "Zenshin - 前進"
+        },
+        {
+            "name": "Zentai - 全体"
+        },
+        {
+            "name": "Zento - 前途"
+        },
+        {
+            "name": "Zenya - 前夜"
+        },
+        {
+            "name": "Zeruda - ゼルダ"
+        },
+        {
+            "name": "Zeshin - 是真"
+        },
+        {
+            "name": "Zetsumei - 絶命"
+        },
+        {
+            "name": "Zetsurin - 絶倫"
+        },
+        {
+            "name": "Zettai - 絶対"
+        },
+        {
+            "name": "Zetto - ゼット"
+        },
+        {
+            "name": "Zeze - ゼゼ"
+        },
+        {
+            "name": "Zhihao - 志豪"
+        },
+        {
+            "name": "Zhiyu - 志佑"
+        },
+        {
+            "name": "Zho - 士鵬"
+        },
+        {
+            "name": "Zikaru - 耳"
+        },
+        {
+            "name": "Zikkan - 漆器"
+        },
+        {
+            "name": "Zikou - 紫紅"
+        },
+        {
+            "name": "Zinan - 自南"
+        },
+        {
+            "name": "Zinji - 神治"
+        },
+        {
+            "name": "Zinpu - 神風"
+        },
+        {
+            "name": "Zinsei - 人生"
+        },
+        {
+            "name": "Zisshin - 自信"
+        },
+        {
+            "name": "Zitai - 自体"
+        },
+        {
+            "name": "Zitsuru - ジツル"
+        },
+        {
+            "name": "Zittai - 実体"
+        }
+    ]
+}

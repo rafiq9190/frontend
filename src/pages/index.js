@@ -13,16 +13,14 @@ import FeatureBlog from '../components/featureBlog'
 
 const Home = ({ articles, homepage, category }) => {
 
-  
+
   return (
     <Layout>
       <Seo seo={homepage.attributes.seo} />
-      <div className="">
-        <div className="">
-          <Banner homepage={homepage} />
-          <RelatedTools articles={articles} />
-        </div>
-      </div>
+
+      <Banner homepage={homepage} articles={articles} />
+      {/* <RelatedTools articles={articles} /> */}
+
     </Layout>
   );
 };

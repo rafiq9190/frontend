@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import NextImage from 'next/legacy/image'
+import Dropdown from 'react-bootstrap/Dropdown';
 // import Image from 'next/image'
 
-import logo from '../../public/logo.png'
+import logo from '../../public/PetLogo.png'
 
 const Nav = () => {
 
@@ -16,13 +17,14 @@ const Nav = () => {
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
                     <Link href='/' className="navbar-brand">
+                        {/* <p className="fs-4 fw-bold base-color my-auto">Pet Names Generators</p> */}
                         <div className="">
                             <NextImage
                                 src={logo}
                                 className="img-fluid"
                                 // placeholder="blur"
-                                width={100}
-                                height={75}
+                                width={200}
+                                height={80}
                                 alt="Pet Name generator logo"
                             />
 
@@ -40,18 +42,16 @@ const Nav = () => {
                     >
                         <span className="navbar-toggler-icon" />
                     </button>
-                    <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                        <ul className="navbar-nav links-color">
-
-                            <li className="nav-item mx-2 my-auto font-weight-600">
+                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul className="navbar-nav links-color ms-auto">
+                          
+                            <li className="nav-item mx-2 my-auto font-weight-600 fontSize-18">
                                 <Link className="nav-link base-color" href="/">Home</Link>
                             </li>
-                            <li className="nav-item mx-2 my-auto">
+                            <li className="nav-item mx-2 my-auto  font-weight-600 fontSize-18">
                                 <Link className="nav-link" href="/blog" title="">Articles</Link>
                             </li>
-                            <li className="nav-item mx-2 my-auto">
-                                <Link className="nav-link" href="/DogAgeCalculator" >Generators</Link>
-                            </li>
+
                             {/* <div className="float-end d-block d-lg-none">
                                 <button className=" btn fw-bold border-warning bg-warning text-white">Buy me a Coffee</button>
                             </div> */}
