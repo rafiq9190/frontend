@@ -7,16 +7,15 @@ import Link from 'next/link';
 import Seo from '../components/seo';
 
 function ChinesePetName() {
-    const fileName = "Pet-Name-list"
+    const fileName = "Chinese-Pet-Names-List"
 
-    const [petGender, setPetGender] = useState('');
     const [getCharacter, setGetCharacter] = useState('');
     const [filterData, setFilterData] = useState(petList)
     const [data, setData] = useState()
     const [downloadData, setDownloadData] = useState([])
     const [textGen, setTextGen] = useState()
 
-    console.log('getCharacter', getCharacter)
+
     const getPetInfo = (e) => {
         e.preventDefault()
 
@@ -27,12 +26,12 @@ function ChinesePetName() {
             ...filterData.j, ...filterData.k, ...filterData.l, ...filterData.m, ...filterData.n,
             ...filterData.o, ...filterData.p, ...filterData.q, ...filterData.r, ...filterData.s, ...filterData.t,
             ...filterData.u, ...filterData.v, ...filterData.w, ...filterData.x, ...filterData.y, ...filterData.z]
-                .filter((record) => record.gender === petGender)
+                .filter((record) => record.name)
 
             const randomData = mergeAll.sort(() => Math.random() - 0.5).slice(0, 10);
             setData(randomData);
             setTextGen(true)
-            console.log('getCharacter', getCharacter)
+          
 
         } else {
 
@@ -91,7 +90,7 @@ function ChinesePetName() {
 
                                             {data && data.map((record, index) => (
                                                 <div className='col' key={index}>
-                                                    <div className='fw-bold text-truncate cursor user-select-none fs-5'><span onClick={(e) => getvalue(e)}>{record.name}<i className="fa fa-files-o base-color mx-2" aria-hidden="true"></i></span></div>
+                                                    <div className='fw-bold text-truncate cursor user-select-none fs-5 my-2'><span onClick={(e) => getvalue(e)}>{record.name}<i className="fa fa-files-o base-color mx-2" aria-hidden="true"></i></span></div>
 
                                                 </div>
                                             ))}
@@ -177,6 +176,20 @@ function ChinesePetName() {
                             </ul>
                         </div>
                         <p className='fs-4 font-weight-500 base-color'>Trending Products</p>
+                        <ul className='fs-5 font-weight-500 language '>
+                            <li>
+                                <Link className='language-list' href="">Washable beds under 70$</Link>
+                            </li>
+                            <li>
+                                <Link className='language-list' href="/chinese">Top Dog Collurs</Link>
+                            </li>
+                            <li>
+                                <Link className='language-list' href="/japanese">Pets Competition</Link></li>
+
+
+                        </ul>
+
+                        <div className='large-screen-ad position-sticky my-3' style={{ top: "10px" }}></div>
                     </div>
                 </div>
 

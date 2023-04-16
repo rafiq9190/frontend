@@ -6,9 +6,9 @@ module.exports = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'lobster-app-bustv.ondigitalocean.app',
+                hostname: 'res.cloudinary.com',
                 port: '',
-                pathname: '/**',
+                // pathname: 'image/upload/**',
             },
         ],
     },

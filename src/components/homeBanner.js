@@ -74,11 +74,11 @@ function Banner({ homepage, articles }) {
 
                 <div className='row'>
                     <div className='col-2'>
-                        <div className='large-screen-ad position-sticky' style={{top:"10px"}}></div>
+                        <div className='large-screen-ad position-sticky' style={{ top: "10px" }}></div>
                     </div>
                     <div className='col-12 col-lg-7'>
                         <h1 className='text-center my-2 mt-md-5 fw-bold'>Pet Names <span className='base-color'>Generator</span></h1>
-                        <p className='text-center py-2 fontSize-18'>Create a Unique name for love of you!You need to called with Sweet pet name</p>
+                        <p className='text-center py-2 fontSize-18'>Discover the perfect name for your furry friend with our comprehensive pet name generator tool. From cute and unique to traditional and popular, we've got you covered!</p>
                         <div>
                             <div className='row'>
                                 <div className='row'>
@@ -104,11 +104,11 @@ function Banner({ homepage, articles }) {
 
 
                                 </div>
-                                <div className='col-10 my-3 m-auto'>
+                                <div className='col-12 col-lg-10 my-3 m-auto'>
 
 
                                     <Form onSubmit={getPetInfo} >
-                                        <div className='d-flex justify-content-between my-2'>
+                                        <div className='d-flex justify-content-between flex-wrap my-2'>
                                             <span className='f6 mb-1 fw-bold fontSize-18'>Pet Gender :</span>
 
                                             <div class="form-check fontSize-18">
@@ -182,24 +182,16 @@ function Banner({ homepage, articles }) {
                         <h1 className='my-3'>About Our <span className='base-color'>Pet Names Generator!</span></h1>
                         <div className='col-12'>
                             <div className='about-container fontSize-18 container custom-shadow p-3 mb-5 rounded'>
-                                <h3 className='my-3 base-color'>How Its Works?</h3>
-                                <p>Our Pet Names Generator works with the following conditions:</p>
-                                <ol>
-                                    <li>Select the Pet type from the options (e.g., Cat or Dog).</li>
-                                    <li>Select the Pet gender like Male or Female.</li>
-                                    <li>Press the button <span className='fw-bold'>"Generate Pet Names"</span></li>
-                                </ol>
-                                <p> Then you will see many names showing on your screen. You can select any name from the list. These pet names are downloadable. If you are not able to get your favorite pet names on the first generate, then you can also press the button "Regenerate". It will bring new pet names for you. </p>
+                                <p> Welcome to Pet Names Generators, the ultimate destination for generating unique and creative names for your beloved pets. Our pet names generator tool offers many ideas for dogs, cats, birds, fish, and other pets.</p>
 
-                                <h3 className='my-3 base-color'>How to get Alphabetically Pet Names?</h3>
-                                <p>If you want to get Alphabetically pet names, then make sure that you do the following:</p>
-                                <ol>
-                                    <li>Select the Pet type from the options (e.g., Cat or Dog). </li>
-                                    <li>Select the Pet gender like Male or Female.</li>
-                                    <li> Select the Alphabet from dropdown menu (e.g., A).</li>
-                                    <li>And then press the button <span className='fw-bold'>"Generate Pet Names"</span></li>
-                                </ol>
-                                <p>Similarly, random pet names generator gives you pet names randomly. But if you choose Alphabet, then it will bring the pet names that start with that alphabetically.</p>
+                                <p>  With our pet names generator tool, you can quickly generate cute, funny, and creative pet names for your pet. Our tool offers a variety of categories to choose from, including gender-specific pet names, breed-specific pet names, character-inspired pet names, and animal-inspired pet names.
+                                    Our pet names generator tool uses advanced algorithms to generate unique and creative pet names. Enter your pet's information, such as gender and breed, and our tool will generate a list of potential pet names for you to choose from.
+                                    In addition, our pet names generator blog provides pet name ideas, trends, and inspiration for pet owners.</p>
+                                <p> Our blog is updated regularly with new and exciting pet name ideas for all types of pets.
+                                    Choosing the perfect name for your pet is essential, so we're here to help. Our pet names generator tool and blog are designed to make finding the perfect pet name fun and easy.</p>
+                                <p className='fw-bold'>Try our pet names generator tool today and give your pet the perfect name they deserve!</p>
+                                <p className='fw-bold base-color'>Conclusion:</p>
+                                <p>Pet Names Generators is your one-stop destination for generating unique and creative pet names. With our pet names generator tool and blog, you can quickly generate pet name ideas and stay up-to-date on the latest pet name trends. Try our pet names generator tool today and give your pet the perfect name they deserve!</p>
 
                             </div>
                             <h1 className='my-3'>Dog Related Articles</h1>
@@ -244,7 +236,7 @@ function Banner({ homepage, articles }) {
                     </div>
                     <div className='col-12 col-lg-3'>
                         <div className="side-ad my-3"></div>
-                        
+
                         <div >
                             <p className='fs-4 font-weight-500'>Find Pet Names in Other <span className='base-color'>Languages</span></p>
                             <ul className='fs-5 font-weight-500 language '>
@@ -263,6 +255,19 @@ function Banner({ homepage, articles }) {
                             </ul>
                         </div>
                         <p className='fs-4 font-weight-500 base-color'>Trending Products</p>
+                        <ul className='fs-5 font-weight-500 language '>
+                            <li>
+                                <Link className='language-list' href="">Washable beds under 70$</Link>
+                            </li>
+                            <li>
+                                <Link className='language-list' href="/chinese">Top Dog Collurs</Link>
+                            </li>
+                            <li>
+                                <Link className='language-list' href="/japanese">Pets Competition</Link></li>
+                          
+
+                        </ul>
+                        <div className='large-screen-ad position-sticky my-3' style={{ top: "10px" }}></div>
                     </div>
                 </div>
 

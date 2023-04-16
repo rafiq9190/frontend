@@ -39,17 +39,19 @@ body {
     font-weight: 500;
 }
 
-.f-links li:hover {
-    color: #F10466
+.f-links li {
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 3px solid black;
+}
+.f-links li:hover{
+    border-bottom: 3px solid #F10466;
+}
+.f-social:hover{
+    color:#F10466;
 }
 
-.f-icon {
-    color: #F10466
-}
 
-.f-icon:hover {
-    color: White
-}
 
 .language-list:hover {
     color: #F10466!important;

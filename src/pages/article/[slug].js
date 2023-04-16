@@ -1,5 +1,6 @@
 import Moment from "react-moment";
 import ReactMarkdown from "react-markdown";
+import ReactHtmlParser from "react-html-parser";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Seo from "../../components/seo";
@@ -11,8 +12,7 @@ import { getStrapiMedia } from "../../../lib/media";
 import NextImage from 'next/legacy/image'
 
 const Article = ({ article, categories, allArticles }) => {
-  const [feature, setFeature] = useState('')
-  const [latest, setLatest] = useState('')
+  console.log('article', article)
 
   const imageUrl = getStrapiMedia(article.attributes.image);
 
@@ -27,6 +27,12 @@ const Article = ({ article, categories, allArticles }) => {
     }
 
   })
+  const contentImages = ReactHtmlParser(article.attributes.content).filter(
+    (node) => node.type === "figure"
+  );
+  const nodes = ReactHtmlParser(article.attributes.content);
+  console.log('nodes', contentImages);
+
 
 
 
@@ -38,62 +44,105 @@ const Article = ({ article, categories, allArticles }) => {
     shareImage: article.attributes.image,
     article: true,
   };
-
+  let { width, height, alternativeText } = article.attributes.image.data.attributes
   return (
     <Layout categories={categories.data}>
       <Seo seo={seo} />
       <div className="container">
         <div className='row'>
-          <div className='col-12 col-lg-2 my-3'>
-            <div className='large-screen-ad'></div>
+          <div className='col-12 col-lg-2 my-3 d-none d-lg-block'>
+            <div className='large-screen-ad position-sticky' style={{ top: "10px" }}></div>
           </div>
-          <div className="col-12 col-lg-8">
-            <h1 className="text-center my-3 base-color">Blog</h1>
+          <div className="col-12 col-lg-7">
+            <h1 className="text-center my-3 base-color" style={{ fontSize: "4rem" }}>Blog</h1>
             <div className="my-4">
               <NextImage
                 // loader={myLoader}
                 src={imageUrl}
-                width={800}
-                height={400}
+                width={width}
+                height={height}
                 layout='responsive'
                 className="img-fluid rounded-start"
                 placeholder="blurDataURL"
-                alt="" />
+                alt={alternativeText} />
+            </div>
+            <h1 className="text-center text-lg-start my-3 base-color">{article.attributes.title}</h1>
+
+            <div className="fontSize-18">{ReactHtmlParser(article.attributes.content)}
             </div>
 
           </div>
-          <div className='col-12 col-lg-2 my-3'>
-            <div className='large-screen-ad'></div>
-          </div>
-        </div>
-        <div className="my-5">
-          <div className="row">
+          <div className='col-12 col-lg-3 my-3'>
+            <div className="side-ad my-3"></div>
 
-            <div className="col-12 col-lg-8 shadow p-2">
-              <h1 className="text-center text-lg-start my-3 base-color">{article.attributes.title}</h1>
-              <ReactMarkdown>{article.attributes.content}</ReactMarkdown>
-              <div>
-                {article.attributes.author.data.attributes.picture && (
-                  <NextImage
-                    src={getStrapiMedia(
-                      article.attributes.author.data.attributes.picture
-                    )}
-                    alt={
-                      article.attributes.author.data.attributes.picture.data
-                        .attributes.alternativeText
-                    }
-                    width={100}
-                    height={100}
-                    style={{
-                      position: "static",
-                      borderRadius: "20%",
-                      height: 60,
-                    }}
-                  />
-                )}
+            <div >
+              <p className='fs-4 font-weight-500'>Find Pet Names in Other <span className='base-color'>Languages</span></p>
+              <ul className='fs-5 font-weight-500 language '>
+                <li>
+                  <Link className='language-list' href="/">Common</Link>
+                </li>
+                <li>
+                  <Link className='language-list' href="/chinese">Chinese</Link>
+                </li>
+                <li>
+                  <Link className='language-list' href="/japanese">Japanese</Link></li>
+                <li>
+                  <Link className='language-list' href="/french">French</Link>
+                </li>
+
+              </ul>
+            </div>
+
+            <p className='fs-4 font-weight-500 base-color'>Trending Products</p>
+
+            <div className="col-12">
+              <div className='latest-post my-4'>
+                <h2>Latest Post</h2>
+                <div className='row'>
+                  {
+                    latestPosts && latestPosts.map((latestPost, index) => {
+
+
+                      const getLatestPostImage = latestPost.attributes.image
+                      const { width, height, alternativeText } = getLatestPostImage.data.attributes
+                      return (
+                        <div className='col-12 col-md-6 col-lg-12 my-2' key={index}>
+                          <Link href={`/article/${latestPost.attributes.slug}`}>
+                            <div className="card rounded border-0 shadow p-2">
+                              <div className="row g-0 align-items-center">
+                                <div className="col-md-4">
+                                  <NextImage
+                                    src={getStrapiMedia(getLatestPostImage)}
+                                    className="img-fluid rounded-start"
+                                    alt={alternativeText}
+                                    width={width}
+                                    height={height}
+                                  />
+
+                                </div>
+                                <div className="col-md-8 overflow-hidden">
+                                  <div className="card-body p-1">
+
+                                    <p className="card-text text-truncate font-weight-600">{latestPost.attributes.description}</p>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </Link>
+                        </div>
+                      )
+                    })
+                  }
+                </div>
               </div>
             </div>
-            <div className="col-12 col-lg-4">
+            <div className='large-screen-ad position-sticky' style={{ top: "10px" }}></div>
+          </div>
+
+        </div>
+      </div>
+      {/* <div className="col-12 col-lg-4">
               <div className='latest-post my-4'>
                 <h2>Latest Post</h2>
                 <div className='row'>
@@ -178,15 +227,10 @@ const Article = ({ article, categories, allArticles }) => {
 
                 </div>
               </div>
-              {/* <div className='side-ad my-3'></div> */}
+              <div className='side-ad my-3'></div>
 
 
-            </div>
-
-          </div>
-        </div>
-      </div>
-
+            </div> */}
       {/* <div className="uk-section">
         <div className="uk-container uk-container-small">
           <ReactMarkdown children={article.attributes.content} />
@@ -229,7 +273,7 @@ const Article = ({ article, categories, allArticles }) => {
 
 export async function getStaticPaths() {
   const articlesRes = await fetchAPI("/articles", { fields: ["slug"] });
-  
+
   return {
     paths: articlesRes.data.map((article) => ({
       params: {

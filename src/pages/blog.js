@@ -28,10 +28,10 @@ function blog({ articles, blog }) {
             <Seo seo={blog.attributes.seo} />
             <div className='container'>
                 <div className='row'>
-                    <div className='col-2'>
-                        <div className='large-screen-ad'></div>
+                    <div className='col-2 d-none d-lg-block'>
+                        <div className='large-screen-ad position-sticky' style={{top:'10px'}}></div>
                     </div>
-                    <div className='col-12 col-lg-8'>
+                    <div className='col-12 col-lg-7'>
                         <div className="row">
                             <div className='col-12  my-3'>
                                 <h1 className='base-color'>Features</h1>
@@ -68,7 +68,7 @@ function blog({ articles, blog }) {
                                 })
                             }
                         </div>
-                        <h1 className='text-center my-5'>Related <span className='backgroundColor base-color rounded px-2'>Atricles</span></h1>
+                        <h1 className='text-center my-5'>Related <span className=' base-color rounded px-2'>Atricles</span></h1>
                         <div className='row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3'>
                             {
                                 articles.map((article, index) => {
@@ -91,7 +91,7 @@ function blog({ articles, blog }) {
 
 
                                                     <Card.Body>
-                                                        <Card.Title className='text-truncate'>{article.attributes.title}</Card.Title>
+                                                        <Card.Title className='text-truncate' title={article.attributes.title}>{article.attributes.title}</Card.Title>
                                                         <Card.Text className='text-truncate'>
                                                             {article.attributes.description}
                                                         </Card.Text>
@@ -105,9 +105,30 @@ function blog({ articles, blog }) {
                             }
                         </div>
                     </div>
-                    <div className='col-2'><div className='large-screen-ad'></div></div>
+                    <div className='col-12 col-lg-3'>
+                        <div className="side-ad my-3"></div>
+
+                        <div >
+                            <p className='fs-4 font-weight-500'>Find Pet Names in Other <span className='base-color'>Languages</span></p>
+                            <ul className='fs-5 font-weight-500 language '>
+                                <li>
+                                    <Link className='language-list' href="/">Common</Link>
+                                </li>
+                                <li>
+                                    <Link className='language-list' href="/chinese">Chinese</Link>
+                                </li>
+                                <li>
+                                    <Link className='language-list' href="/japanese">Japanese</Link></li>
+                                <li>
+                                    <Link className='language-list' href="/french">French</Link>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <p className='fs-4 font-weight-500 base-color'>Trending Products</p>
+                    </div>
                 </div>
-                
+
 
             </div>
 
