@@ -76,11 +76,11 @@ function Banner({ homepage, articles }) {
                     <div className='col-12 col-lg-9 m-auto'>
                         <h1 className='text-center my-2 mt-md-5 fw-bold'>Pet Names <span className='base-color'>Generator</span></h1>
                         <p className='text-center py-2 fontSize-18'>Discover the perfect name for your furry friend with our comprehensive pet name generator tool. From cute and unique to traditional and popular, we've got you covered!</p>
-                        <div>
-                            <div className='row'>
+                        <div className='row'>
+                            <div className='col-12'>
                                 <div className='row'>
 
-                                    <div className='col-10 text-end'>
+                                    <div className='m-auto col text-end p-0' style={{maxWidth:"612px"}}>
                                         <ExportToExcel apiData={downloadData} fileName={fileName} />
                                     </div>
                                 </div>
