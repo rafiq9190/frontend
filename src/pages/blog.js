@@ -12,7 +12,7 @@ import Link from 'next/link'
 function blog({ articles, blog }) {
 
     let filtered = articles.filter((article, index) => {
-        if (article.attributes.category.data?.attributes.name == 'feature') {
+        if (article.attributes.category.data?.attributes.name == 'Feature') {
             return article
         }
     })
@@ -28,10 +28,8 @@ function blog({ articles, blog }) {
             <Seo seo={blog.attributes.seo} />
             <div className='container'>
                 <div className='row'>
-                    <div className='col-2 d-none d-lg-block'>
-                        <div className='large-screen-ad position-sticky' style={{top:'10px'}}></div>
-                    </div>
-                    <div className='col-12 col-lg-7'>
+
+                    <div className='col-12 col-lg-9'>
                         <div className="row">
                             <div className='col-12  my-3'>
                                 <h1 className='base-color'>Features</h1>
@@ -39,6 +37,7 @@ function blog({ articles, blog }) {
                             {
                                 filtered.map((featureArticle, index) => {
                                     const getFeaturePostImage = featureArticle.attributes.image
+                                    const {width, height,alternativeText}=featureArticle.attributes.image.data.attributes
                                     return (
                                         <div className='col-12 col-md-6 col-lg-4 mb-3' key={index} >
                                             <Link href={`/article/${featureArticle.attributes.slug}`}>
@@ -46,16 +45,16 @@ function blog({ articles, blog }) {
                                                     <NextImage
                                                         // loader={myLoader}
                                                         src={getStrapiMedia(getFeaturePostImage)}
-                                                        width={200}
-                                                        height={150}
+                                                        width={width}
+                                                        height={height}
                                                         layout='responsive'
                                                         className="rounded"
                                                         placeholder="blurDataURL"
-                                                        alt="" />
+                                                        alt={alternativeText} />
 
 
                                                     <Card.Body>
-                                                        <Card.Title className=' text-truncate'>{featureArticle.attributes.title}</Card.Title>
+                                                        <Card.Title className=' text-truncate ' >{featureArticle.attributes.title}</Card.Title>
                                                         <Card.Text className=' text-truncate'>
                                                             {featureArticle.attributes.description}
                                                         </Card.Text>
@@ -68,36 +67,36 @@ function blog({ articles, blog }) {
                                 })
                             }
                         </div>
-                        <h1 className='text-center my-5'>Related <span className=' base-color rounded px-2'>Atricles</span></h1>
+                        <h1 className='my-5'>Related <span className=' base-color rounded px-2'>Atricles</span></h1>
                         <div className='row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3'>
                             {
-                                articles.map((article, index) => {
-                                    const getFeaturePostImage = article.attributes.image
+                                articles && articles.map((article, index) => {
+                                    const getLatestPostImage = article.attributes.image
+                                    const {width, height}=article.attributes.image.data.attributes
                                     return (
-                                        <div className='col' key={index}>
-                                            <Link href={`/article/${article.attributes.slug}`}>
-                                                <Card className='rounded border-0 custom-shadow'>
+                                        <div className='col-12 col-md-6 col-lg-12 my-2' key={index}>
+                                            <Link href={`/article/${article.attributes.slug}`}  >
+                                                <div className="card rounded border-0 custom-shadow">
+                                                    <div className="row g-0">
+                                                        <div className="col-md-4">
+                                                            <NextImage
+                                                                src={getStrapiMedia(getLatestPostImage)}
+                                                                width={width}
+                                                                height={height}
+                                                                className="img-fluid rounded-start"
+                                                                alt={getLatestPostImage.data.attributes.alternativeText
+                                                                }
+                                                            />
+                                                        </div>
+                                                        <div className="col-md-8 overflow-hidden">
+                                                            <div className="card-body">
+                                                                <p className="card-text text-truncate fw-bold base-color fs-5">{article.attributes.title}</p>
+                                                                <p className="card-text">{article.attributes.description}</p>
 
-
-                                                    <NextImage
-                                                        // loader={myLoader}
-                                                        src={getStrapiMedia(getFeaturePostImage)}
-                                                        width={200}
-                                                        height={150}
-                                                        layout='responsive'
-                                                        className="rounded"
-                                                        placeholder="blurDataURL"
-                                                        alt="" />
-
-
-                                                    <Card.Body>
-                                                        <Card.Title className='text-truncate' title={article.attributes.title}>{article.attributes.title}</Card.Title>
-                                                        <Card.Text className='text-truncate'>
-                                                            {article.attributes.description}
-                                                        </Card.Text>
-
-                                                    </Card.Body>
-                                                </Card>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </Link>
                                         </div>
                                     )
@@ -106,26 +105,27 @@ function blog({ articles, blog }) {
                         </div>
                     </div>
                     <div className='col-12 col-lg-3'>
-                        <div className="side-ad my-3"></div>
+                        <div className='position-sticky' style={{ top: "10px" }}>
+                            <div className="side-ad my-3"></div>
 
-                        <div >
-                            <p className='fs-4 font-weight-500'>Find Pet Names in Other <span className='base-color'>Languages</span></p>
-                            <ul className='fs-5 font-weight-500 language '>
-                                <li>
-                                    <Link className='language-list' href="/">Common</Link>
-                                </li>
-                                <li>
-                                    <Link className='language-list' href="/chinese">Chinese</Link>
-                                </li>
-                                <li>
-                                    <Link className='language-list' href="/japanese">Japanese</Link></li>
-                                <li>
-                                    <Link className='language-list' href="/french">French</Link>
-                                </li>
+                            <div >
+                                <p className='fs-3 font-weight-500 base-color'>Popular Categories</p>
+                                <ul className='fs-5 font-weight-500 language '>
+                                    <li>
+                                        <Link className='language-list' href="/">Dog Training</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='language-list' href="/chinese">Supplies</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='language-list' href="/japanese">Pet Safety</Link></li>
+                                    <li>
+                                        <Link className='language-list' href="/french">Home Cleaning</Link>
+                                    </li>
 
-                            </ul>
+                                </ul>
+                            </div>
                         </div>
-                        <p className='fs-4 font-weight-500 base-color'>Trending Products</p>
                     </div>
                 </div>
 

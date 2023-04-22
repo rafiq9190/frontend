@@ -6,21 +6,19 @@ import { createContext, useState, useEffect } from "react";
 import { fetchAPI } from "../../lib/api";
 import { getStrapiMedia } from "../../lib/media";
 import Preloader from "../components/preloader";
-
+import { StoreProvider } from "../../store";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Store Strapi Global object in context
 export const GlobalContext = createContext({});
-// export function reportWebVitals(metric) {
-//   console.log("metric", metric)
-// }
+
 
 const MyApp = ({ Component, pageProps }) => {
   const { global } = pageProps;
-  console.log('global',global)
+
   const [showChild, setShowChild] = useState(false);
   const [loading, setLoading] = useState(false);
- 
+
   useEffect(() => {
     setShowChild(true);
 
@@ -43,12 +41,11 @@ const MyApp = ({ Component, pageProps }) => {
             href={getStrapiMedia(global?.attributes.favicon)}
           />
         </Head>
-
-        <GlobalContext.Provider value={global.attributes}>
-
-        <Component {...pageProps} />
-
-        </GlobalContext.Provider>
+        <StoreProvider>
+          <GlobalContext.Provider value={global.attributes}>
+            <Component {...pageProps} />
+          </GlobalContext.Provider>
+        </StoreProvider>
       </>
     );
   }

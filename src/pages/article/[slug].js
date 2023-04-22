@@ -12,7 +12,7 @@ import { getStrapiMedia } from "../../../lib/media";
 import NextImage from 'next/legacy/image'
 
 const Article = ({ article, categories, allArticles }) => {
-  console.log('article', article)
+ 
 
   const imageUrl = getStrapiMedia(article.attributes.image);
 
@@ -27,11 +27,7 @@ const Article = ({ article, categories, allArticles }) => {
     }
 
   })
-  const contentImages = ReactHtmlParser(article.attributes.content).filter(
-    (node) => node.type === "figure"
-  );
-  const nodes = ReactHtmlParser(article.attributes.content);
-  console.log('nodes', contentImages);
+ 
 
 
 
@@ -50,10 +46,8 @@ const Article = ({ article, categories, allArticles }) => {
       <Seo seo={seo} />
       <div className="container">
         <div className='row'>
-          <div className='col-12 col-lg-2 my-3 d-none d-lg-block'>
-            <div className='large-screen-ad position-sticky' style={{ top: "10px" }}></div>
-          </div>
-          <div className="col-12 col-lg-7">
+
+          <div className="col-12 col-lg-9">
             <h1 className="text-center my-3 base-color" style={{ fontSize: "4rem" }}>Blog</h1>
             <div className="my-4">
               <NextImage
@@ -70,74 +64,103 @@ const Article = ({ article, categories, allArticles }) => {
 
             <div className="fontSize-18">{ReactHtmlParser(article.attributes.content)}
             </div>
+            <h1 className='text-center my-5'>Related <span className=' base-color rounded px-2'>Atricles</span></h1>
+            <div className='row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3'>
+              {
+                allArticles.data.map((article, index) => {
+                  const getFeaturePostImage = article.attributes.image
+                  const {width, height,alternativeText}=article.attributes.image.data.attributes
+                  return (
+                    <div className='col' key={index}>
+                      <Link href={`/article/${article.attributes.slug}`}>
+                        <Card className='rounded border-0 custom-shadow'>
+
+
+                          <NextImage
+                            // loader={myLoader}
+                            src={getStrapiMedia(getFeaturePostImage)}
+                            width={width}
+                            height={height}
+                            layout='responsive'
+                            className="rounded"
+                            placeholder="blurDataURL"
+                            alt={alternativeText} />
+
+
+                          <Card.Body>
+                            <Card.Title className='text-truncate' title={article.attributes.title}>{article.attributes.title}</Card.Title>
+                            <Card.Text className='text-truncate'>
+                              {article.attributes.description}
+                            </Card.Text>
+
+                          </Card.Body>
+                        </Card>
+                      </Link>
+                    </div>
+                  )
+                })
+              }
+            </div>
 
           </div>
           <div className='col-12 col-lg-3 my-3'>
-            <div className="side-ad my-3"></div>
+            <div className="position-sticky" style={{ top: "10px" }}>
+              <div className="side-ad my-3"></div>
 
-            <div >
-              <p className='fs-4 font-weight-500'>Find Pet Names in Other <span className='base-color'>Languages</span></p>
-              <ul className='fs-5 font-weight-500 language '>
-                <li>
-                  <Link className='language-list' href="/">Common</Link>
-                </li>
-                <li>
-                  <Link className='language-list' href="/chinese">Chinese</Link>
-                </li>
-                <li>
-                  <Link className='language-list' href="/japanese">Japanese</Link></li>
-                <li>
-                  <Link className='language-list' href="/french">French</Link>
-                </li>
+              {/* <div >
+                <p className='fs-3 font-weight-500 base-color'>Popular Categories</p>
+                <ul className='fs-5 font-weight-500 language '>
+                  <li>
+                    <Link className='language-list' href="/">Dog Training</Link>
+                  </li>
+                  <li>
+                    <Link className='language-list' href="/chinese">Supplies</Link>
+                  </li>
+                  <li>
+                    <Link className='language-list' href="/japanese">Pet Safety</Link></li>
+                  <li>
+                    <Link className='language-list' href="/french">Home Cleaning</Link>
+                  </li>
 
-              </ul>
-            </div>
-
-            <p className='fs-4 font-weight-500 base-color'>Trending Products</p>
-
-            <div className="col-12">
-              <div className='latest-post my-4'>
-                <h2>Latest Post</h2>
-                <div className='row'>
-                  {
-                    latestPosts && latestPosts.map((latestPost, index) => {
+                </ul>
+              </div> */}
+              <h1 className='my-3 base-color'>Latest Posts</h1>
+              {
+                allArticles && allArticles.data.map((article, index) => {
 
 
-                      const getLatestPostImage = latestPost.attributes.image
-                      const { width, height, alternativeText } = getLatestPostImage.data.attributes
-                      return (
-                        <div className='col-12 col-md-6 col-lg-12 my-2' key={index}>
-                          <Link href={`/article/${latestPost.attributes.slug}`}>
-                            <div className="card rounded border-0 shadow p-2">
-                              <div className="row g-0 align-items-center">
-                                <div className="col-md-4">
-                                  <NextImage
-                                    src={getStrapiMedia(getLatestPostImage)}
-                                    className="img-fluid rounded-start"
-                                    alt={alternativeText}
-                                    width={width}
-                                    height={height}
-                                  />
+                  const getLatestPostImage = article.attributes.image
 
-                                </div>
-                                <div className="col-md-8 overflow-hidden">
-                                  <div className="card-body p-1">
+                  return (
+                    <div className='col-12 col-md-6 col-lg-12 my-2' key={index}>
+                      <Link href={`/article/${article.attributes.slug}`}  >
+                        <div className="card rounded border-0 custom-shadow">
+                          <div className="row g-0">
+                            <div className="col-md-4">
+                              <NextImage
+                                src={getStrapiMedia(getLatestPostImage)}
+                                width={getLatestPostImage.data.attributes.width}
+                                height={getLatestPostImage.data.attributes.height}
+                                className="img-fluid rounded-start"
+                                alt={getLatestPostImage.data.attributes.alternativeText
+                                }
+                              />
+                            </div>
+                            <div className="col-md-8 overflow-hidden">
+                              <div className="card-body">
+                                <p className="card-text text-truncate fontWeight-500 base-color">{article.attributes.title}</p>
+                                
 
-                                    <p className="card-text text-truncate font-weight-600">{latestPost.attributes.description}</p>
-
-                                  </div>
-                                </div>
                               </div>
                             </div>
-                          </Link>
+                          </div>
                         </div>
-                      )
-                    })
-                  }
-                </div>
-              </div>
+                      </Link>
+                    </div>
+                  )
+                })
+              }
             </div>
-            <div className='large-screen-ad position-sticky' style={{ top: "10px" }}></div>
           </div>
 
         </div>

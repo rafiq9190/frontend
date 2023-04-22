@@ -1,15 +1,17 @@
 import Nav from "./nav";
 import Footer from './footer'
+import CookieBanner from "./cookieBanner";
 
 
 
-const Layout = ({ children, logo }) => (
+const Layout = ({ children, category, articles }) => (
 
 
   <>
-    <Nav />
+    <Nav articles={articles} />
 
     {children}
+    <CookieBanner />
     <Footer />
   </>
 

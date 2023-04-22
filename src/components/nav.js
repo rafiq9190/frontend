@@ -1,18 +1,43 @@
-import React from "react";
+import React, { useState, useEffect, useContext } from "react";
+import { useRouter } from 'next/router';
 import Link from "next/link";
 import NextImage from 'next/legacy/image'
-import Dropdown from 'react-bootstrap/Dropdown';
-// import Image from 'next/image'
+import logo from '../../public/headerLogo.png'
+import { StoreContext } from "../../store";
+const Nav = ({ }) => {
+    const { state, dispatch } = useContext(StoreContext);
+    const router = useRouter();
+    const [searchQuery, setSearchQuery] = useState('');
+    const [filteredArticles, setFilteredArticles] = useState()
+    
+console.log('state nav',state)
 
-import logo from '../../public/PetLogo.png'
-
-const Nav = () => {
 
 
+    const handleSearchQueryChange = (event) => {
+        const { value } = event.target;
+        setSearchQuery(value);
+        if (value.length > 0) {
+            const storedArticles = JSON.parse(localStorage.getItem('articles'));
+            const filtered = storedArticles && storedArticles.filter((article) =>
+                article.attributes.title.toLowerCase().includes(value.toLowerCase())
+            );
+            setFilteredArticles(filtered);
+        }
 
+    };
 
+    const handleRedirect = (slug) => {
+        // reset the search query and filtered articles
+        setSearchQuery('');
+        // dispatch({ type: "SET_ARTICLES", payload: state.articles });
+        // setFilteredArticles(state.articles);
+        // redirect to related article
+        router.push(`/article/${slug}`);
+    };
 
     return (
+
         <div>
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
@@ -42,25 +67,92 @@ const Nav = () => {
                     >
                         <span className="navbar-toggler-icon" />
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul className="navbar-nav links-color ms-auto">
-                          
-                            <li className="nav-item mx-2 my-auto font-weight-600 fontSize-18">
+                    <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                        <ul className="navbar-nav links-color">
+
+                            <li className="nav-item mx-2 my-auto font-weight-600">
                                 <Link className="nav-link base-color" href="/">Home</Link>
                             </li>
-                            <li className="nav-item mx-2 my-auto  font-weight-600 fontSize-18">
-                                <Link className="nav-link" href="/blog" title="">Articles</Link>
+                            <li className="nav-item mx-2 my-auto  font-weight-600">
+                                <Link className="nav-link" href="/blog" title="">Pet Blog</Link>
+                            </li>
+                            <li className="nav-item mx-2 my-auto font-weight-600">
+                                <Link className="nav-link" href="/" title="">Pet Names</Link>
+                            </li>
+                            <li className="nav-item mx-2 my-auto  font-weight-600">
+                                <div className="dropdown">
+                                    <Link className=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Lifestyle
+                                    </Link>
+
+                                    <ul class="dropdown-menu shadow list-styled">
+
+                                        <li className="my-auto fw-bold"><Link className="dropdown-item" href="/dogTraining">Pet Training</Link></li>
+
+                                        <li className="my-auto fw-bold"><Link className="dropdown-item" href="/supplies">Supplies</Link></li>
+                                        <li className="my-auto fw-bold"><Link className="dropdown-item" href="/petSafety">Pet Safety</Link></li>
+                                        <li className="my-auto fw-bold"><Link className="dropdown-item" href="/homeCleaning">Home Cleaning</Link></li>
+
+                                    </ul>
+                                </div>
                             </li>
 
-                            {/* <div className="float-end d-block d-lg-none">
-                                <button className=" btn fw-bold border-warning bg-warning text-white">Buy me a Coffee</button>
-                            </div> */}
+
+
 
                         </ul>
                     </div>
-                    {/* <div className="float-end d-none d-lg-block">
-                        <button className=" tool-name-btn base-color font-weight-500 my-2 background-color text-truncate m-auto">Buy me a Coffee</button>
-                    </div> */}
+
+                    <div id="tools_search">
+                        <div className="input-group">
+                            <input
+                                type="text"
+                                value={searchQuery}
+                                onChange={handleSearchQueryChange}
+                                id="search_tools_field"
+                                className="form-control border-0 cursorShow"
+                                placeholder="Search"
+                                autocomplete="off"
+                            />
+                            <button id="h_search_btn" className="btn btn-background ms-0 border-0" type="button">
+                                <i class="fa fa-search text-white" aria-hidden="true"></i>
+                                <i class="fa fa-times text-white d-none" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div className="input-search-field-items">
+                            <div className="box_loading_container">
+                                <div className="box_loading">
+                                    <div />
+                                    <div />
+                                    <div />
+                                </div>
+                            </div>
+                        </div>
+                        {
+                            searchQuery && filteredArticles && filteredArticles.length > 0 ? (
+                                <div id="searched_results">
+                                    <span className="fontSize-14 p-1">Related Searches</span>
+                                    <ul id="searched_results_ul" className="list-unstyled p-2">
+                                        {filteredArticles && filteredArticles.map((article) => (
+                                            <li key={article.attributes.slug} onClick={() => handleRedirect(article.attributes.slug)}>
+
+<span dangerouslySetInnerHTML={{ __html: article.attributes.title.replace(new RegExp(searchQuery, "gi"), "<b>$&</b>") }} />
+
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            ) : searchQuery && (!filteredArticles || filteredArticles.length === 0) ? (
+                                <div id="searched_results">
+                                    <span className="fw-bold p-1">Related Searches</span>
+                                    <p className="text-dark">No records found</p>
+                                </div>
+                            ) : null
+
+                        }
+
+                    </div>
+
                 </div>
             </nav >
             <div className="border-divider"></div>

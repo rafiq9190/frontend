@@ -3,7 +3,7 @@
 import React from "react"
 import Link from "next/link";
 import Image from "next/image"
-import logoBlack from "../../public/PetLogo.png"
+import logoWhite from "../../public/footerLogo.png"
 function footer() {
 
     return (
@@ -18,7 +18,7 @@ function footer() {
                                     <div className="my-3">
                                         <Link href="/">
                                             <Image
-                                                src={logoBlack}
+                                                src={logoWhite}
                                                 className="img-fluid"
                                                 width={200}
                                                 height={100}
