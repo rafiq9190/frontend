@@ -8,7 +8,8 @@ import { getStrapiMedia } from "../../lib/media";
 import Preloader from "../components/preloader";
 import { StoreProvider } from "../../store";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { Analytics } from '@vercel/analytics/react'
+  ;
 // Store Strapi Global object in context
 export const GlobalContext = createContext({});
 
@@ -46,6 +47,7 @@ const MyApp = ({ Component, pageProps }) => {
             <Component {...pageProps} />
           </GlobalContext.Provider>
         </StoreProvider>
+        <Analytics/>
       </>
     );
   }
