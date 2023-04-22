@@ -80,7 +80,7 @@ function Banner({ homepage, articles }) {
                             <div className='col-12'>
                                 <div className='row'>
 
-                                    <div className='m-auto col text-end p-0' style={{maxWidth:"612px"}}>
+                                    <div className='col m-auto text-end p-0' style={{maxWidth:"612px"}}>
                                         <ExportToExcel apiData={downloadData} fileName={fileName} />
                                     </div>
                                 </div>
