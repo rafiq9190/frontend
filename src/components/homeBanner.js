@@ -80,7 +80,7 @@ function Banner({ homepage, articles }) {
                             <div className='col-12'>
                                 <div className='row'>
 
-                                    <div className='col m-auto text-end p-0' style={{maxWidth:"612px"}}>
+                                    <div className='col-10 col-md-12 m-auto text-end p-0' style={{maxWidth:"612px"}}>
                                         <ExportToExcel apiData={downloadData} fileName={fileName} />
                                     </div>
                                 </div>
@@ -205,7 +205,7 @@ function Banner({ homepage, articles }) {
                                 const getLatestPostImage = article.attributes.image
                                 const {width,height}=article.attributes.image.data.attributes
                                 return (
-                                    <div className='col-12 col-md-6 col-lg-12 my-2' key={index}>
+                                    <div className='col-12 my-2' key={index}>
                                         <Link href={`/article/${article.attributes.slug}`}  >
                                             <div className="card rounded border-0 custom-shadow">
                                                 <div className="row g-0">

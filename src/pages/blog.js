@@ -68,7 +68,7 @@ function blog({ articles, blog }) {
                             }
                         </div>
                         <h1 className='my-5'>Related <span className=' base-color rounded px-2'>Atricles</span></h1>
-                        <div className='row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3'>
+                        <div className='row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3'>
                             {
                                 articles && articles.map((article, index) => {
                                     const getLatestPostImage = article.attributes.image
@@ -77,8 +77,8 @@ function blog({ articles, blog }) {
                                         <div className='col-12 col-md-6 col-lg-12 my-2' key={index}>
                                             <Link href={`/article/${article.attributes.slug}`}  >
                                                 <div className="card rounded border-0 custom-shadow">
-                                                    <div className="row g-0">
-                                                        <div className="col-md-4">
+                                                    <div className="row g-0"> 
+                                                        <div className="col-md-12 col-lg-4">
                                                             <NextImage
                                                                 src={getStrapiMedia(getLatestPostImage)}
                                                                 width={width}
@@ -91,7 +91,7 @@ function blog({ articles, blog }) {
                                                         <div className="col-md-8 overflow-hidden">
                                                             <div className="card-body">
                                                                 <p className="card-text text-truncate fw-bold base-color fs-5">{article.attributes.title}</p>
-                                                                <p className="card-text">{article.attributes.description}</p>
+                                                                <p className="card-text text-truncate">{article.attributes.description}</p>
 
                                                             </div>
                                                         </div>
