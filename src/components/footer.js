@@ -48,17 +48,17 @@ function footer() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="my-2">
-                                        <span><Link href=""><i className="fa fa-facebook-official text-white fs-4 px-2" aria-hidden="true"></i></Link></span>
-                                        <span><Link href=""><i className="fa fa-instagram text-white fs-4 px-2" aria-hidden="true"></i></Link></span>
-                                        <span><Link href=""><i className="fa fa-pinterest text-white fs-4 px-2" aria-hidden="true"></i></Link></span>
+                                    <div>
+                                        <p className="text-white">This tool is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com</p>
+                                    </div>
+                                    <div className="mt-4">
+                                        <span><Link href=""><i className="icon icon-medium icon-facebook icon-white-bg px-3" aria-hidden="true"></i></Link></span>
+                                        <span><Link href=""><i className="icon icon-medium icon-instagram icon-white-bg px-3" aria-hidden="true"></i></Link></span>
+                                        <span><Link href=""><i className="icon icon-medium icon-pinterest icon-white-bg px-3" aria-hidden="true"></i></Link></span>
                                     </div>
 
                                 </div>
                             </div>
-
-
-
 
                         </div>
 
@@ -69,7 +69,7 @@ function footer() {
 
             </div>
             <hr className="border-color opcaity-50" />
-            <div className="row text-center  g-0">
+            <div className="row text-center g-0">
                 <div className="col-12">
                     <p className="text-white">Developed by Coderix Technologies </p>
                 </div>

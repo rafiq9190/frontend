@@ -33,7 +33,7 @@ function Banner({ homepage, articles }) {
 
             const randomData = mergeAll.sort(() => Math.random() - 0.5).slice(0, 18);
             setData(randomData);
-            setTextGen(true)
+           
 
 
         } else {
@@ -44,7 +44,7 @@ function Banner({ homepage, articles }) {
                     let allAlphabetRecords = filterData[key]
                     const randomDataAlphabet = allAlphabetRecords.sort(() => Math.random() - 0.5).slice(0, 18);
                     setData(randomDataAlphabet)
-                    setTextGen(true)
+                    
                 }
             }
 
@@ -91,7 +91,7 @@ function Banner({ homepage, articles }) {
 
                                             {data && data.map((record, index) => (
                                                 <div className='col' key={index}>
-                                                    <div className='fw-bold text-truncate cursor user-select-none fs-5'><span onClick={(e) => getvalue(e)}>{record.name}<i className="fa fa-files-o base-color mx-2" aria-hidden="true"></i></span></div>
+                                                    <div className='fw-bold text-truncate cursor user-select-none fs-5'><span onClick={(e) => getvalue(e)}>{record.name}<i className="icon icon-medium icon-copy icon-base-bg mx-2" aria-hidden="true"></i></span></div>
 
                                                 </div>
                                             ))}

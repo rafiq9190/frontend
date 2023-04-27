@@ -18,10 +18,10 @@ const CookieBanner = () => {
         <div className="cookie-banner text-white text-center p-2">
             <div className='container'>
                 <div className='row'>
-                    <div className='col-12 col-lg-8 text-center'>
+                    <div className='col-12 text-center'>
                         <p className='d-inline-block pt-2 mb-0'>By clicking "Accept" or continuing to use our site, you agree to our Website's <Link className="base-color" href="/Privacy">Privacy Policy</Link>.</p>
                     </div>
-                    <div className='col-12 col-lg-4 text-center'>
+                    <div className='col-12 my-2 text-center'>
                         <button className='base-background text-white border-0 rounded p-2 my-auto' onClick={handleAccept}>Accept</button>
                     </div>
                 </div>
