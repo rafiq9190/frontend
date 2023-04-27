@@ -376,6 +376,7 @@ a {
 .icon-base-bg {
     background-color: #309ccd;
 }
+
 .icon-white-bg {
     background-color: #ffff;
 }
@@ -384,10 +385,12 @@ a {
     mask-image: url(../images/download.svg);
     -webkit-mask-image: url(../images/download.svg);
 }
- .icon-copy {
+
+.icon-copy {
     -webkit-mask-image: url(../images/copy.svg);
     mask-image: url(../images/copy.svg);
 }
+
 .icon-facebook {
     -webkit-mask-image: url(../images/facebook.svg);
     mask-image: url(../images/facebook.svg);
@@ -403,6 +406,11 @@ a {
 .icon-instagram {
     -webkit-mask-image: url(../images/instagram.svg);
     mask-image: url(../images/instagram.svg);
+}
+
+.icon-search {
+    -webkit-mask-image: url(../images/search.svg);
+    mask-image: url(../images/search.svg);
 }
 
 /*  */

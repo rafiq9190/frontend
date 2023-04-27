@@ -115,8 +115,8 @@ const Nav = ({ }) => {
                                     autocomplete="off"
                                 />
                                 <button id="h_search_btn" className="btn btn-background ms-0 border-0" type="button">
-                                    <i class="fa fa-search text-white" aria-hidden="true"></i>
-                                    <i class="fa fa-times text-white d-none" aria-hidden="true"></i>
+                                    <i className="icon icon-medium icon-search icon-white-bg px-3" aria-hidden="true"></i>
+                                    {/* <i className="fa fa-times text-white d-none" aria-hidden="true"></i> */}
                                 </button>
                             </div>
                             <div className="input-search-field-items">
