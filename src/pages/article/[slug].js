@@ -79,8 +79,8 @@ const Article = ({ article, categories, allArticles }) => {
                           <NextImage
                             // loader={myLoader}
                             src={getStrapiMedia(getFeaturePostImage)}
-                            width={width}
-                            height={height}
+                            width={400}
+                            height={800}
                             layout='responsive'
                             className="rounded"
                             placeholder="blurDataURL"
@@ -129,8 +129,8 @@ const Article = ({ article, categories, allArticles }) => {
                 allArticles && allArticles.data.map((article, index) => {
 
 
-                  const getLatestPostImage = article.attributes.image
-
+                  const getLatestPostImage = article.attributes.image;
+                  const {width,height}=article.attributes.image.data.attributes
                   return (
                     <div className='col-12 col-md-6 col-lg-12 my-2' key={index}>
                       <Link href={`/article/${article.attributes.slug}`}  >
@@ -139,8 +139,8 @@ const Article = ({ article, categories, allArticles }) => {
                             <div className="col-md-4">
                               <NextImage
                                 src={getStrapiMedia(getLatestPostImage)}
-                                width={getLatestPostImage.data.attributes.width}
-                                height={getLatestPostImage.data.attributes.height}
+                                width={width}
+                                height={height}
                                 className="img-fluid rounded-start"
                                 alt={getLatestPostImage.data.attributes.alternativeText
                                 }
