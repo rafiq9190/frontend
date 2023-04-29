@@ -79,8 +79,8 @@ const Article = ({ article, categories, allArticles }) => {
                           <NextImage
                             // loader={myLoader}
                             src={getStrapiMedia(getFeaturePostImage)}
-                            width={400}
-                            height={800}
+                            width={100}
+                            height={75}
                             layout='responsive'
                             className="rounded"
                             placeholder="blurDataURL"
