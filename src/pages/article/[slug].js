@@ -75,16 +75,16 @@ const Article = ({ article, categories, allArticles }) => {
                       <Link href={`/article/${article.attributes.slug}`}>
                         <Card className='rounded border-0 custom-shadow'>
 
-
-                          <NextImage
-                            // loader={myLoader}
+                        <Card.Img variant="top" src={getStrapiMedia(getFeaturePostImage)} className="img-fluid" alt={alternativeText} data-src={getStrapiMedia(getFeaturePostImage)} />
+                          {/* <NextImage
+                            loader={myLoader}
                             src={getStrapiMedia(getFeaturePostImage)}
                             width={100}
                             height={75}
                             layout='responsive'
                             className="rounded"
                             placeholder="blurDataURL"
-                            alt={alternativeText} />
+                            alt={alternativeText} /> */}
 
 
                           <Card.Body>
