@@ -52,9 +52,9 @@ function footer() {
                                         <p className="text-white">This tool is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com</p>
                                     </div>
                                     <div className="mt-4">
-                                        <span><Link href=""><i className="icon icon-medium icon-facebook icon-white-bg px-3" role="image" aria-label="facebook page petnamesgenerators"></i></Link></span>
-                                        <span><Link href=""><i className="icon icon-medium icon-instagram icon-white-bg px-3" aria-label="instragram page petnamesgenerators" role="image"></i></Link></span>
-                                        <span><Link href=""><i className="icon icon-medium icon-pinterest icon-white-bg px-3" aria-label="pinterest page petnamesgenerators" role="image"></i></Link></span>
+                                        <span><Link href=""><i className="icon icon-medium icon-facebook icon-white-bg px-3" aria-hidden="true"></i></Link></span>
+                                        <span><Link href=""><i className="icon icon-medium icon-instagram icon-white-bg px-3" aria-hidden="true"></i></Link></span>
+                                        <span><Link href=""><i className="icon icon-medium icon-pinterest icon-white-bg px-3" aria-hidden="true"></i></Link></span>
                                     </div>
 
                                 </div>
